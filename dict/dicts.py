@@ -155,24 +155,40 @@
 #     return dict(zip(obj1.keys(),main))
 # print(two_val_sum(x,y))
 # ладно это было сложно признаю но я сделал :) и я лучше самого себя вчерашнего, поетому смог
-# ............task20
 
-# x = [{"V":"S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII":"S005"}, {"V":"S009"},{"VIII":"S007"}]
-# def no_repeats(arr):
-#     result = []
-#     for i in arr:
-#         if i not in result:
-#             result.append(i)
+# ............task24
+# x = "w3resource"
+# def search_letter(word:str,letter:str):
+#     return sum([len(i) for i in word if i == letter])
+# def number_characters_in_value(word:str):
+#     result = {}
+#     for i in word:
+#         result[i] = search_letter(word,i)
 #     return result
+# print(number_characters_in_value(x)) # {'w': 1, '3': 1, 'r': 2, 'e': 2, 's': 1, 'o': 1, 'u': 1, 'c': 1}
+# ............task22
+# ............task22
+# x = {'a':123,'b':5678,'c':765,'d':908,'e':89,'f':898,'g':1098,'s':9000}
+# def highest_three_value(obj):
+#     result = []
+#     for i in obj.items():
+#         result.append(i[1])
+#     return sorted(result)[-3:len(result)]
+# print(highest_three_value(x))
+# ............task30
 
-# def no_repetitions_dict(dic):
-#     obj = {}
-#     for i in dic:
-#         for key,val in i.items():
-#             obj[key] = val
-#     x = no_repeats(list(obj.values()))
-#     y = no_repeats(list(obj.keys()))
-#     return dict(zip(y,x))
-# print(no_repetitions_dict(x))
+# x = {'item1': 45.50, 'item2':35, 'item3': 41.30, 'item4':55, 'item5': 24}
 
-#Алишер ака это задание ещё не готово я вам потом скину до конца шас у меня времени не хватило 
+
+# def sort_of_values(obj):
+#     arr = list(obj.items())
+#     for n in range(len(arr) - 1, 0, -1):
+#         for i in range(n):
+#             if arr[i][1] > arr[i + 1][1]:
+#                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
+#     return arr[-3:len(arr)]
+
+
+# print(sort_of_values(x))
+
+# ............task31
