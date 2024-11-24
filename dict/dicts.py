@@ -190,5 +190,165 @@
 
 
 # print(sort_of_values(x))
+# ............task38
+# x = {'key1': 1, 'key2': 3, 'key3': 2, 'key9': 9}
+# y = {'key1': 1, 'key2': 2, 'key9': 9}
 
-# ............task31
+
+# def search_identical_objects(obj1, obj2):
+#     result = {}
+#     for key1, val1 in obj1.items():
+#         for key2, val2 in obj2.items():
+#             if key1 == key2 and val1 == val2:
+#                 result[key1] = val1
+#     return result
+
+
+# print(search_identical_objects(x, y))
+
+
+# ............task41
+# x = {'c1': 'Red', 'c2': 'Green', 'c3': None}
+# def del_falses_in_dict(obj):
+#     result = {}
+#     for key,val in obj.items():
+#         if val and key:
+#             result[key] = val
+#     return result
+# print(del_falses_in_dict(x))
+
+# ............task42
+# x = {'Cierra Vega': 175, 'Alden Cantrell': 180, 'Kierra Gentry': 165, 'Pierre Cox': 190}
+
+
+# def allow_from_rating(obj, number):
+#     result = {key: val for key, val in obj.items() if val >= number}
+#     return result
+
+
+# print(allow_from_rating(x, 170))
+
+# ............task43
+# x = ['S001', 'S002', 'S003', 'S004']
+# y = ['Adina Park', 'Leyton Marsh', 'Duncan Boyle', 'Saim Richards']
+# z = [85, 98, 89, 92]
+
+
+# def combine_information_by_details(tags, names, ratings):
+#     result = {}
+#     counter = 0
+#     for key, val in dict(zip(names, ratings)).items():
+#         result[tags[counter]] = {key: val}
+#         counter += 1
+#     return result
+
+# print(combine_information_by_details(x, y, z))
+
+# ............task44
+# x = {'Cierra Vega': (6.2, 70), 'Alden Cantrell': (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)}
+# def filtration_for_physique(students,height,weight):
+#     result = {}
+#     for key,val in students.items():
+#         if val[0] >= height and val[1] >= weight:
+#             result[key] = val
+#     return result
+# print(filtration_for_physique(x,6,70))
+# ............task45
+# x = {'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12}
+# def all_value_same(obj):
+#     return len(set([val for key,val in obj.items()])) == 1
+# print(all_value_same(x))
+# ............task46
+# x = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1),('red', 7)]
+# def group_identical_elements(dic):
+#     obj = {i[0]: []    for i in dic}
+#     for i in x:
+#         for key,val in obj.items():
+#             if key == i[0]:
+#                 val.append(i[1])
+#     return obj
+# print(group_identical_elements(x))
+# ............task47
+# x = {'Science': [88, 89, 62, 95], 'Language': [77, 78, 84, 80]}
+# def split_dict(obj):
+#     obj_keys = [i for i in obj.keys()]
+#     obj_vals = [i for i in obj.values()]
+#     result = []
+#     for i in range(len(obj_vals[1])):
+#         result.append({obj_keys[0]:obj_vals[0][i],obj_keys[1]:obj_vals[1][i]})
+#     return result
+# print(split_dict(x))
+# ............task48
+# x = [{'id': '#FF0000', 'color': 'Red'}, {'id': '#800000', 'color': 'Maroon'}, {'id': '#FFFF00', 'color': 'Yellow'}, {'id': '#808000', 'color': 'Olive'}]
+# def del_element_in_dict(obj,element):
+#     result = []
+#     for i in x:
+#         if i['id'] != element:
+#             result.append(i)
+#     return result
+# print(del_element_in_dict(x,'#800000'))
+# ............task49
+# x = [{'x': '10.12', 'y': '20.23', 'z': '30'}, {'p': '40.00', 'q': '50.19', 'r': '60.99','l':'50'}]
+# def str_to_int_in_dict(obj):
+#     for y in x:
+#         for key, val in y.items():
+#             try:
+#                 y[key] = int(val)
+#             except ValueError:
+#                 y[key] = float(val)
+#     return obj
+
+
+# print(str_to_int_in_dict(x))
+
+# ............task50
+# x = {'C1': [10, 20, 30], 'C2': [20, 30, 40], 'C3': [12, 34]}
+# def clear_values(obj):
+#     return {key:[] for key,_ in obj.items()}
+# print(clear_values(x))
+# ............task51
+# x = {'Math': [88, 89, 90], 'Physics': [92, 94, 89], 'Chemistry': [90, 87, 93],'hello World': [943,3,123]}
+# x.update({'Math': [89, 90, 91], 'Physics': [90, 92, 87], 'Chemistry': [90, 87, 93]})
+# print(x)
+# ............task52
+# x = [{'Math': 90, 'Science': 92}, {'Math': 89, 'Science': 94}, {'Math': 92, 'Science': 88}]
+# def find_value_by_keys(obj,find_key):
+#     result = []
+#     {result.append(i) for i in obj}
+#     return result
+# print(find_value_by_keys(x,'Science'))
+# ............task53
+# my_dict = {1: 'red', 2: 'green', 3: 'black', 4: 'white', 5: 'black'}
+# def value_len(obj):
+#     return {val:len(val) for key,val in obj.items()}
+# print(value_len(my_dict))
+# ............task56
+# x = {1: 'red', 2: 'green', 3: 'black', 4: 'white', 5: 'black'}
+# def dict_to_list(obj):
+#     return [[key,val] for key,val in obj.items()]
+# print(dict_to_list(x))
+# ............task57
+# x = {'V': [1, 4, 6, 10], 'VI': [1, 4, 12], 'VII': [1, 3, 8]}
+# def even_values_in_dict(obj):
+#     result = {}
+#     for key,val in obj.items():
+#         result[key] = [i for i in val if i % 2 == 0]
+#     return result
+# print(even_values_in_dict(x))
+# ............task59
+# x = {'a': 5, 'b': 14, 'c': 32, 'd': 35, 'e': 24,
+#      'f': 100, 'g': 57, 'h': 8, 'i': 100}
+
+
+# def sort_of_values(obj, number):
+#     arr = list(obj.items())
+#     for n in range(len(arr) - 1, 0, -1):
+#         for i in range(n):
+#             if arr[i][1] > arr[i + 1][1]:
+#                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
+#     return [i[0] for i in arr[-number:len(arr)]]
+
+
+# print(sort_of_values(x, 5))
+
+# ............task60
