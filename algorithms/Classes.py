@@ -114,6 +114,47 @@ class MoveZeroes:
                 nums[non_zero], nums[i] = nums[i], nums[non_zero]
                 non_zero += 1
 
+# Решение Longest Common Prefix
+class LongestCommonPrefix:
+    def longestCommonPrefix(self, strs):
+        if not strs:
+            return ""
+        shortest = min(strs, key=len)
+        for i, char in enumerate(shortest):
+            for other in strs:
+                if other[i] != char:
+                    return shortest[:i]
+        return shortest
+
+# Решение Valid Anagram
+class ValidAnagram:
+    def isAnagram(self, s, t):
+        if len(s) != len(t):
+            return False
+        return sorted(s) == sorted(t)
+
+# Решение First Unique Character
+class FirstUniqueCharacter:
+    def firstUniqChar(self, s):
+        count = {}
+        for char in s:
+            count[char] = count.get(char, 0) + 1
+        for i, char in enumerate(s):
+            if count[char] == 1:
+                return i
+        return -1
+
+# Решение Rotate Array
+class RotateArray:
+    def rotate(self, nums, k):
+        k = k % len(nums)
+        nums[:] = nums[-k:] + nums[:-k]
+
+# Решение Contains Duplicate
+class ContainsDuplicate:
+    def containsDuplicate(self, nums):
+        return len(nums) != len(set(nums))
+
 # Примеры использования:
 if __name__ == "__main__":
     # Two Sum
@@ -135,3 +176,25 @@ if __name__ == "__main__":
     # Valid Palindrome
     palindrome = ValidPalindrome()
     print(palindrome.isPalindrome("A man, a plan, a canal: Panama"))  # True
+
+    # Longest Common Prefix
+    prefix = LongestCommonPrefix()
+    print(prefix.longestCommonPrefix(["flower", "flow", "flight"]))  # "fl"
+
+    # Valid Anagram
+    anagram = ValidAnagram()
+    print(anagram.isAnagram("anagram", "nagaram"))  # True
+
+    # First Unique Character
+    unique = FirstUniqueCharacter()
+    print(unique.firstUniqChar("leetcode"))  # 0
+
+    # Rotate Array
+    rotate = RotateArray()
+    nums = [1, 2, 3, 4, 5, 6, 7]
+    rotate.rotate(nums, 3)
+    print(nums)  # [5, 6, 7, 1, 2, 3, 4]
+
+    # Contains Duplicate
+    duplicate = ContainsDuplicate()
+    print(duplicate.containsDuplicate([1, 2, 3, 1]))  # True
