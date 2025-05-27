@@ -126,3 +126,78 @@ class LongestCommonPrefix:
                     return shortest[:i]
         return shortest
 
+# Решение Longest Palindromic Substring
+class LongestPalindromicSubstring:
+    def longestPalindrome(self, s):
+        if not s:
+            return ""
+        
+        start = 0
+        max_length = 1
+        
+        def expand_around_center(left, right):
+            nonlocal start, max_length
+            while left >= 0 and right < len(s) and s[left] == s[right]:
+                if right - left + 1 > max_length:
+                    start = left
+                    max_length = right - left + 1
+                left -= 1
+                right += 1
+        
+        for i in range(len(s)):
+            expand_around_center(i, i)  # для нечетной длины
+            expand_around_center(i, i + 1)  # для четной длины
+            
+        return s[start:start + max_length]
+
+# Решение Merge K Sorted Lists
+class MergeKSortedLists:
+    def mergeKLists(self, lists):
+        if not lists:
+            return None
+            
+        import heapq
+        
+        # Создаем минимальную кучу
+        heap = []
+        for i, l in enumerate(lists):
+            if l:
+                heapq.heappush(heap, (l.val, i, l))
+                
+        dummy = ListNode(0)
+        current = dummy
+        
+        while heap:
+            val, i, node = heapq.heappop(heap)
+            current.next = node
+            current = current.next
+            
+            if node.next:
+                heapq.heappush(heap, (node.next.val, i, node.next))
+                
+        return dummy.next
+
+# Решение Word Ladder
+class WordLadder:
+    def ladderLength(self, beginWord, endWord, wordList):
+        if endWord not in wordList:
+            return 0
+            
+        wordList = set(wordList)
+        queue = [(beginWord, 1)]
+        visited = {beginWord}
+        
+        while queue:
+            word, length = queue.pop(0)
+            if word == endWord:
+                return length
+                
+            for i in range(len(word)):
+                for c in 'abcdefghijklmnopqrstuvwxyz':
+                    next_word = word[:i] + c + word[i+1:]
+                    if next_word in wordList and next_word not in visited:
+                        queue.append((next_word, length + 1))
+                        visited.add(next_word)
+                        
+        return 0
+
