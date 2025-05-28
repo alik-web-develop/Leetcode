@@ -1,4 +1,3 @@
-
 # # 151. Reverse Words in a String
 # # Given an input string s, reverse the order of the words.
 # # A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.
@@ -140,20 +139,105 @@
 #     # Contains Duplicate
 #     duplicate = ContainsDuplicate()
 #     print(duplicate.containsDuplicate([1, 2, 3, 1]))  # True
-#     # Valid Anagram
-#     anagram = ValidAnagram()
-#     print(anagram.isAnagram("anagram", "nagaram"))  # True
 
-#     # First Unique Character
-#     unique = FirstUniqueCharacter()
-#     print(unique.firstUniqChar("leetcode"))  # 0
+# Решение Word Break (Разбиение строки на слова)
+class WordBreak:
+    def wordBreak(self, s, wordDict):
+        word_set = set(wordDict)
+        dp = [False] * (len(s) + 1)
+        dp[0] = True
+        
+        for i in range(1, len(s) + 1):
+            for j in range(i):
+                if dp[j] and s[j:i] in word_set:
+                    dp[i] = True
+                    break
+        return dp[len(s)]
 
-#     # Rotate Array
-#     rotate = RotateArray()
-#     nums = [1, 2, 3, 4, 5, 6, 7]
-#     rotate.rotate(nums, 3)
-#     print(nums)  # [5, 6, 7, 1, 2, 3, 4]
+# Решение Longest Consecutive Sequence
+class LongestConsecutiveSequence:
+    def longestConsecutive(self, nums):
+        num_set = set(nums)
+        max_length = 0
+        
+        for num in num_set:
+            if num - 1 not in num_set:  # Находим начало последовательности
+                current_num = num
+                current_length = 1
+                
+                while current_num + 1 in num_set:
+                    current_num += 1
+                    current_length += 1
+                    
+                max_length = max(max_length, current_length)
+                
+        return max_length
 
-#     # Contains Duplicate
-#     duplicate = ContainsDuplicate()
-#     print(duplicate.containsDuplicate([1, 2, 3, 1]))  # True
+# Решение Minimum Window Substring
+class MinimumWindowSubstring:
+    def minWindow(self, s, t):
+        if not t or not s:
+            return ""
+            
+        from collections import Counter
+        target = Counter(t)
+        required = len(target)
+        window = {}
+        formed = 0
+        left = 0
+        min_length = float('inf')
+        result = ""
+        
+        for right, char in enumerate(s):
+            window[char] = window.get(char, 0) + 1
+            
+            if char in target and window[char] == target[char]:
+                formed += 1
+                
+            while left <= right and formed == required:
+                if right - left + 1 < min_length:
+                    min_length = right - left + 1
+                    result = s[left:right + 1]
+                    
+                window[s[left]] -= 1
+                if s[left] in target and window[s[left]] < target[s[left]]:
+                    formed -= 1
+                left += 1
+                
+        return result
+
+# Решение Decode Ways
+class DecodeWays:
+    def numDecodings(self, s):
+        if not s or s[0] == '0':
+            return 0
+            
+        dp = [0] * (len(s) + 1)
+        dp[0] = 1
+        dp[1] = 1
+        
+        for i in range(2, len(s) + 1):
+            if s[i-1] != '0':
+                dp[i] += dp[i-1]
+            if 10 <= int(s[i-2:i]) <= 26:
+                dp[i] += dp[i-2]
+                
+        return dp[len(s)]
+
+# Примеры использования новых классов
+if __name__ == "__main__":
+    # Word Break
+    word_break = WordBreak()
+    print(word_break.wordBreak("leetcode", ["leet", "code"]))  # True
+    
+    # Longest Consecutive Sequence
+    sequence = LongestConsecutiveSequence()
+    print(sequence.longestConsecutive([100, 4, 200, 1, 3, 2]))  # 4
+    
+    # Minimum Window Substring
+    window = MinimumWindowSubstring()
+    print(window.minWindow("ADOBECODEBANC", "ABC"))  # "BANC"
+    
+    # Decode Ways
+    decode = DecodeWays()
+    print(decode.numDecodings("12"))  # 2
