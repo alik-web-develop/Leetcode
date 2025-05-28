@@ -232,3 +232,108 @@
 #                     dp[i] = max(dp[i], dp[j] + 1)
 #         return max(dp)
 
+# Решение Course Schedule (Проверка возможности прохождения курсов)
+class CourseSchedule:
+    def canFinish(self, numCourses, prerequisites):
+        # Создаем граф
+        graph = [[] for _ in range(numCourses)]
+        visited = [0] * numCourses  # 0: не посещен, 1: в процессе, 2: посещен
+        
+        # Строим граф
+        for course, prereq in prerequisites:
+            graph[course].append(prereq)
+            
+        def hasCycle(course):
+            if visited[course] == 1:  # Обнаружен цикл
+                return True
+            if visited[course] == 2:  # Уже посещен
+                return False
+                
+            visited[course] = 1  # Помечаем как "в процессе"
+            
+            for prereq in graph[course]:
+                if hasCycle(prereq):
+                    return True
+                    
+            visited[course] = 2  # Помечаем как "посещен"
+            return False
+            
+        # Проверяем каждый курс на наличие циклов
+        for course in range(numCourses):
+            if hasCycle(course):
+                return False
+        return True
+
+# Решение Edit Distance (Расстояние Левенштейна)
+class EditDistance:
+    def minDistance(self, word1, word2):
+        m, n = len(word1), len(word2)
+        dp = [[0] * (n + 1) for _ in range(m + 1)]
+        
+        # Инициализация первой строки и столбца
+        for i in range(m + 1):
+            dp[i][0] = i
+        for j in range(n + 1):
+            dp[0][j] = j
+            
+        # Заполняем таблицу
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                if word1[i-1] == word2[j-1]:
+                    dp[i][j] = dp[i-1][j-1]
+                else:
+                    dp[i][j] = min(dp[i-1][j],    # удаление
+                                 dp[i][j-1],    # вставка
+                                 dp[i-1][j-1]) + 1  # замена
+        return dp[m][n]
+
+# Решение Sliding Window Maximum
+class SlidingWindowMaximum:
+    def maxSlidingWindow(self, nums, k):
+        if not nums:
+            return []
+            
+        from collections import deque
+        d = deque()
+        result = []
+        
+        for i, num in enumerate(nums):
+            # Удаляем элементы, которые вышли за пределы окна
+            while d and d[0] <= i - k:
+                d.popleft()
+                
+            # Удаляем элементы, меньшие текущего
+            while d and nums[d[-1]] < num:
+                d.pop()
+                
+            d.append(i)
+            
+            # Добавляем максимум в результат
+            if i >= k - 1:
+                result.append(nums[d[0]])
+                
+        return result
+
+# Решение Regular Expression Matching
+class RegularExpressionMatching:
+    def isMatch(self, s, p):
+        m, n = len(s), len(p)
+        dp = [[False] * (n + 1) for _ in range(m + 1)]
+        dp[0][0] = True
+        
+        # Обработка паттернов вида a*
+        for j in range(1, n + 1):
+            if p[j-1] == '*':
+                dp[0][j] = dp[0][j-2]
+                
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                if p[j-1] == '.' or p[j-1] == s[i-1]:
+                    dp[i][j] = dp[i-1][j-1]
+                elif p[j-1] == '*':
+                    dp[i][j] = dp[i][j-2]  # пропускаем *
+                    if p[j-2] == '.' or p[j-2] == s[i-1]:
+                        dp[i][j] = dp[i][j] or dp[i-1][j]
+                        
+        return dp[m][n]
+
