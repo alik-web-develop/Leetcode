@@ -352,3 +352,71 @@
 # print(sort_of_values(x, 5))
 
 # ............task60
+
+# Задача: Найти все возможные комбинации ключей и значений
+def find_key_value_combinations(dict1, dict2):
+    result = []
+    for k1, v1 in dict1.items():
+        for k2, v2 in dict2.items():
+            result.append({k1: v1, k2: v2})
+    return result
+
+# Задача: Создать вложенный словарь из плоского
+def create_nested_dict(flat_dict, separator='_'):
+    result = {}
+    for key, value in flat_dict.items():
+        parts = key.split(separator)
+        current = result
+        for part in parts[:-1]:
+            if part not in current:
+                current[part] = {}
+            current = current[part]
+        current[parts[-1]] = value
+    return result
+
+# Задача: Найти все пути в словаре
+def find_all_paths(dict_obj, path=None):
+    if path is None:
+        path = []
+    result = []
+    for key, value in dict_obj.items():
+        current_path = path + [key]
+        if isinstance(value, dict):
+            result.extend(find_all_paths(value, current_path))
+        else:
+            result.append(current_path)
+    return result
+
+# Задача: Объединить словари с учетом вложенности
+def deep_merge_dicts(dict1, dict2):
+    result = dict1.copy()
+    for key, value in dict2.items():
+        if key in result and isinstance(result[key], dict) and isinstance(value, dict):
+            result[key] = deep_merge_dicts(result[key], value)
+        else:
+            result[key] = value
+    return result
+
+# Примеры использования:
+if __name__ == "__main__":
+    # Пример для find_key_value_combinations
+    dict1 = {'a': 1, 'b': 2}
+    dict2 = {'x': 10, 'y': 20}
+    print("Комбинации ключей и значений:")
+    print(find_key_value_combinations(dict1, dict2))
+    
+    # Пример для create_nested_dict
+    flat_dict = {'a_b_c': 1, 'a_b_d': 2, 'x_y': 3}
+    print("\nВложенный словарь:")
+    print(create_nested_dict(flat_dict))
+    
+    # Пример для find_all_paths
+    nested_dict = {'a': {'b': {'c': 1}, 'd': 2}, 'x': {'y': 3}}
+    print("\nВсе пути в словаре:")
+    print(find_all_paths(nested_dict))
+    
+    # Пример для deep_merge_dicts
+    dict1 = {'a': 1, 'b': {'c': 2, 'd': 3}}
+    dict2 = {'b': {'e': 4}, 'f': 5}
+    print("\nОбъединение словарей:")
+    print(deep_merge_dicts(dict1, dict2))
