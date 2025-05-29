@@ -398,26 +398,6 @@ def deep_merge_dicts(dict1, dict2):
     return result
 
 # ............task61
-def find_most_common_values(dictionary):
-    """
-    Находит наиболее часто встречающиеся значения в словаре и сортирует их по частоте.
-    
-    Args:
-        dictionary (dict): Входной словарь
-        
-    Returns:
-        list: Список кортежей (значение, частота), отсортированный по частоте
-    """
-    # Создаем словарь для подсчета частоты значений
-    value_counts = {}
-    for value in dictionary.values():
-        value_counts[value] = value_counts.get(value, 0) + 1
-    
-    # Сортируем значения по частоте (по убыванию)
-    sorted_values = sorted(value_counts.items(), key=lambda x: x[1], reverse=True)
-    return sorted_values
-
-# ............task62
 def find_duplicate_values(dictionary):
     """
     Находит все дубликаты значений в словаре и группирует их ключи.
