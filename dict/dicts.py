@@ -396,30 +396,6 @@ def deep_merge_dicts(dict1, dict2):
         else:
             result[key] = value
     return result
-
-# ............task61
-def find_duplicate_values(dictionary):
-    """
-    Находит все дубликаты значений в словаре и группирует их ключи.
-    
-    Args:
-        dictionary (dict): Входной словарь
-        
-    Returns:
-        dict: Словарь, где ключи - это значения из исходного словаря,
-              а значения - списки ключей, которым соответствуют эти значения
-    """
-    # Создаем словарь для группировки ключей по значениям
-    value_groups = {}
-    for key, value in dictionary.items():
-        if value not in value_groups:
-            value_groups[value] = []
-        value_groups[value].append(key)
-    
-    # Фильтруем только те значения, которые встречаются более одного раза
-    duplicates = {value: keys for value, keys in value_groups.items() if len(keys) > 1}
-    return duplicates
-
 # ............task63
 def find_dict_intersections(dict1, dict2):
     """
