@@ -417,6 +417,29 @@ def find_most_common_values(dictionary):
     sorted_values = sorted(value_counts.items(), key=lambda x: x[1], reverse=True)
     return sorted_values
 
+# ............task62
+def find_duplicate_values(dictionary):
+    """
+    Находит все дубликаты значений в словаре и группирует их ключи.
+    
+    Args:
+        dictionary (dict): Входной словарь
+        
+    Returns:
+        dict: Словарь, где ключи - это значения из исходного словаря,
+              а значения - списки ключей, которым соответствуют эти значения
+    """
+    # Создаем словарь для группировки ключей по значениям
+    value_groups = {}
+    for key, value in dictionary.items():
+        if value not in value_groups:
+            value_groups[value] = []
+        value_groups[value].append(key)
+    
+    # Фильтруем только те значения, которые встречаются более одного раза
+    duplicates = {value: keys for value, keys in value_groups.items() if len(keys) > 1}
+    return duplicates
+
 # Примеры использования:
 if __name__ == "__main__":
     # Пример для find_key_value_combinations
@@ -453,3 +476,16 @@ if __name__ == "__main__":
     }
     print("\nНаиболее часто встречающиеся значения:")
     print(find_most_common_values(test_dict))
+
+    # Пример для find_duplicate_values
+    test_dict_duplicates = {
+        'a': 1,
+        'b': 2,
+        'c': 1,
+        'd': 3,
+        'e': 2,
+        'f': 1,
+        'g': 4
+    }
+    print("\nДубликаты значений и их ключи:")
+    print(find_duplicate_values(test_dict_duplicates))
