@@ -440,6 +440,36 @@ def find_duplicate_values(dictionary):
     duplicates = {value: keys for value, keys in value_groups.items() if len(keys) > 1}
     return duplicates
 
+# ............task63
+def find_dict_intersections(dict1, dict2):
+    """
+    Находит пересечения между двумя словарями по ключам и значениям.
+    
+    Args:
+        dict1 (dict): Первый словарь
+        dict2 (dict): Второй словарь
+        
+    Returns:
+        dict: Словарь с результатами пересечений, содержащий:
+            - common_keys: список общих ключей
+            - common_values: список общих значений
+            - common_key_value_pairs: список пар (ключ, значение), которые совпадают в обоих словарях
+    """
+    # Находим общие ключи
+    common_keys = list(set(dict1.keys()) & set(dict2.keys()))
+    
+    # Находим общие значения
+    common_values = list(set(dict1.values()) & set(dict2.values()))
+    
+    # Находим пары ключ-значение, которые совпадают в обоих словарях
+    common_pairs = [(key, dict1[key]) for key in common_keys if dict1[key] == dict2[key]]
+    
+    return {
+        'common_keys': common_keys,
+        'common_values': common_values,
+        'common_key_value_pairs': common_pairs
+    }
+
 # Примеры использования:
 if __name__ == "__main__":
     # Пример для find_key_value_combinations
@@ -489,3 +519,19 @@ if __name__ == "__main__":
     }
     print("\nДубликаты значений и их ключи:")
     print(find_duplicate_values(test_dict_duplicates))
+
+    # Пример для find_dict_intersections
+    dict1 = {
+        'a': 1,
+        'b': 2,
+        'c': 3,
+        'd': 4
+    }
+    dict2 = {
+        'b': 2,
+        'c': 5,
+        'd': 4,
+        'e': 6
+    }
+    print("\nПересечения между словарями:")
+    print(find_dict_intersections(dict1, dict2))
