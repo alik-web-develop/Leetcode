@@ -231,7 +231,13 @@
 #                 if nums[i] > nums[j]:
 #                     dp[i] = max(dp[i], dp[j] + 1)
 #         return max(dp)
-
+# объединение двух отсортированных массивов
+# class MergeSortedArrays:
+#     def merge(self, nums1, m, nums2, n):
+#         p1, p2, p = m - 1, n - 1, m + n - 1
+#         while p1 >= 0 and p2 >= 0:
+#             if nums1[p1] > nums2[p2]:
+#                 nums1[p] = nums1[p1]
 # Решение Course Schedule (Проверка возможности прохождения курсов)
 class CourseSchedule:
     def canFinish(self, numCourses, prerequisites):
