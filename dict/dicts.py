@@ -457,8 +457,6 @@ if __name__ == "__main__":
         'c': 1,
         'd': 3,
         'e': 2,
-        'f': 1,
-        'g': 4
     }
     print("\nНаиболее часто встречающиеся значения:")
     print(find_most_common_values(test_dict))
