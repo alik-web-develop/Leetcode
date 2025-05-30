@@ -483,11 +483,5 @@ if __name__ == "__main__":
         'c': 3,
         'd': 4
     }
-    dict2 = {
-        'b': 2,
-        'c': 5,
-        'd': 4,
-        'e': 6
-    }
     print("\nПересечения между словарями:")
     print(find_dict_intersections(dict1, dict2))
