@@ -173,39 +173,3 @@ class LongestConsecutiveSequence:
                 
         return max_length
 
-# Решение Minimum Window Substring
-class MinimumWindowSubstring:
-    def minWindow(self, s, t):
-        if not t or not s:
-            return ""
-            
-        from collections import Counter
-        target = Counter(t)
-        required = len(target)
-        window = {}
-        formed = 0
-        left = 0
-        min_length = float('inf')
-        result = ""
-        
-        for right, char in enumerate(s):
-            window[char] = window.get(char, 0) + 1
-            
-            if char in target and window[char] == target[char]:
-                formed += 1
-                
-            while left <= right and formed == required:
-                if right - left + 1 < min_length:
-                    min_length = right - left + 1
-                    result = s[left:right + 1]
-                    
-                window[s[left]] -= 1
-                if s[left] in target and window[s[left]] < target[s[left]]:
-                    formed -= 1
-                left += 1
-                
-        return result
-
-# Решение Decode Ways
-
-
