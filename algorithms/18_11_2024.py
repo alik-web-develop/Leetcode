@@ -225,19 +225,4 @@ class DecodeWays:
         return dp[len(s)]
 
 # Примеры использования новых классов
-if __name__ == "__main__":
-    # Word Break
-    word_break = WordBreak()
-    print(word_break.wordBreak("leetcode", ["leet", "code"]))  # True
-    
-    # Longest Consecutive Sequence
-    sequence = LongestConsecutiveSequence()
-    print(sequence.longestConsecutive([100, 4, 200, 1, 3, 2]))  # 4
-    
-    # Minimum Window Substring
-    window = MinimumWindowSubstring()
-    print(window.minWindow("ADOBECODEBANC", "ABC"))  # "BANC"
-    
-    # Decode Ways
-    decode = DecodeWays()
-    print(decode.numDecodings("12"))  # 2
+
