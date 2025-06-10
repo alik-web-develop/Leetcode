@@ -319,5 +319,12 @@
 #         self.right = right
 
 # class BinaryTreeLevelOrderTraversal:
-
+#     def levelOrder(self, root):
+#         if not root:
+#             return []
+#         result = []
+#         queue = deque([root])
+#         while queue:
+#             level_size = len(queue)
+#             current_level = []
 
