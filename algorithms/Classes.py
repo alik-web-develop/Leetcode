@@ -295,5 +295,25 @@
 #             # Добавляем максимум в результат
 #             if i >= k - 1:
 #                 result.append(nums[d[0]])
-#2323
+
+# Решение Container With Most Water
+class ContainerWithMostWater:
+    def maxArea(self, height):
+        left, right = 0, len(height) - 1
+        max_area = 0
+        
+        while left < right:
+            # Вычисляем текущую площадь
+            current_area = min(height[left], height[right]) * (right - left)
+            max_area = max(max_area, current_area)
+            
+            # Перемещаем указатель с меньшей высотой
+            if height[left] < height[right]:
+                left += 1
+            else:
+                right -= 1
+                
+        return max_area
+
+
 
