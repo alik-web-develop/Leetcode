@@ -347,5 +347,28 @@ class ThreeSum:
                     
         return result
 
-
+# Решение Remove Nth Node From End of List
+class RemoveNthNodeFromEnd:
+    def removeNthFromEnd(self, head, n):
+        # Создаем фиктивный узел для обработки случая удаления первого элемента
+        dummy = ListNode(0)
+        dummy.next = head
+        
+        # Используем два указателя
+        first = dummy
+        second = dummy
+        
+        # Перемещаем first на n узлов вперед
+        for _ in range(n + 1):
+            first = first.next
+            
+        # Перемещаем оба указателя, пока first не достигнет конца
+        while first:
+            first = first.next
+            second = second.next
+            
+        # Удаляем n-й узел с конца
+        second.next = second.next.next
+        
+        return dummy.next
 
