@@ -367,7 +367,6 @@
 #             first = first.next
 #             second = second.next
             
-#         # Удаляем n-й узел с конца
         
 
 
