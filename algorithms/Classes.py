@@ -365,7 +365,6 @@
 #         # Перемещаем оба указателя, пока first не достигнет конца
 #         while first:
 #             first = first.next
-#             second = second.next
             
         
 
