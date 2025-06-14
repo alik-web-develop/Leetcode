@@ -370,7 +370,7 @@
 #         # Удаляем n-й узел с конца
 #         second.next = second.next.next
         
-#         return dummy.next
+
 
 
 
