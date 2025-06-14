@@ -368,7 +368,6 @@
 #             second = second.next
             
 #         # Удаляем n-й узел с конца
-#         second.next = second.next.next
         
 
 
