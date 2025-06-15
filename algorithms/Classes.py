@@ -421,11 +421,32 @@ class ValidSudoku:
                 
         return True
 
-
-
-
-
-
-
-
-
+# Решение Maze Path Finder
+class MazePathFinder:
+    def findPath(self, maze, start, end):
+        if not maze or not maze[0]:
+            return []
+            
+        rows, cols = len(maze), len(maze[0])
+        visited = set()
+        path = []
+        
+        def dfs(x, y):
+            if (x, y) == end:
+                return True
+                
+            if (0 <= x < rows and 0 <= y < cols and 
+                maze[x][y] == 0 and (x, y) not in visited):
+                visited.add((x, y))
+                path.append((x, y))
+                
+                for dx, dy in [(0, 1), (1, 0), (0, -1), (-1, 0)]:
+                    if dfs(x + dx, y + dy):
+                        return True
+                        
+                path.pop()
+                return False
+                
+        if dfs(start[0], start[1]):
+            return path
+        return []
