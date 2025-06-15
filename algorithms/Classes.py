@@ -367,6 +367,60 @@
             
         
 
+# Решение Find All Anagrams in String
+class FindAllAnagrams:
+    def findAnagrams(self, s, p):
+        if len(s) < len(p):
+            return []
+            
+        p_count = [0] * 26
+        s_count = [0] * 26
+        result = []
+        
+        # Заполняем начальные счетчики
+        for i in range(len(p)):
+            p_count[ord(p[i]) - ord('a')] += 1
+            s_count[ord(s[i]) - ord('a')] += 1
+            
+        if p_count == s_count:
+            result.append(0)
+            
+        # Скользящее окно
+        for i in range(len(p), len(s)):
+            s_count[ord(s[i]) - ord('a')] += 1
+            s_count[ord(s[i - len(p)]) - ord('a')] -= 1
+            
+            if p_count == s_count:
+                result.append(i - len(p) + 1)
+                
+        return result
+
+# Решение Valid Sudoku
+class ValidSudoku:
+    def isValidSudoku(self, board):
+        rows = [set() for _ in range(9)]
+        cols = [set() for _ in range(9)]
+        boxes = [set() for _ in range(9)]
+        
+        for i in range(9):
+            for j in range(9):
+                num = board[i][j]
+                if num == '.':
+                    continue
+                    
+                box_idx = (i // 3) * 3 + j // 3
+                
+                if (num in rows[i] or 
+                    num in cols[j] or 
+                    num in boxes[box_idx]):
+                    return False
+                    
+                rows[i].add(num)
+                cols[j].add(num)
+                boxes[box_idx].add(num)
+                
+        return True
+
 
 
 
