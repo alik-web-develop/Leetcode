@@ -517,11 +517,6 @@ class CombinationSum:
         backtrack(target, [], 0)
         return result
 
-               
-            return (validate(node.left, low, node.val) and 
-                    validate(node.right, node.val, high))
-                    
-        return validate(root)
 # Решение Validate Binary Search Tree
 class ValidateBST:
     def isValidBST(self, root):
@@ -531,7 +526,12 @@ class ValidateBST:
                 
             if node.val <= low or node.val >= high:
                 return False
- 
+                
+            return (validate(node.left, low, node.val) and 
+                    validate(node.right, node.val, high))
+                    
+        return validate(root)
+
 
 
 
