@@ -497,7 +497,42 @@
 #             return root
 #         return left if left else right
 
-#
+# Решение Combination Sum
+class CombinationSum:
+    def combinationSum(self, candidates, target):
+        result = []
+        
+        def backtrack(remain, combo, start):
+            if remain == 0:
+                result.append(list(combo))
+                return
+            elif remain < 0:
+                return
+                
+            for i in range(start, len(candidates)):
+                combo.append(candidates[i])
+                backtrack(remain - candidates[i], combo, i)
+                combo.pop()
+                
+        backtrack(target, [], 0)
+        return result
+
+               
+            return (validate(node.left, low, node.val) and 
+                    validate(node.right, node.val, high))
+                    
+        return validate(root)
+# Решение Validate Binary Search Tree
+class ValidateBST:
+    def isValidBST(self, root):
+        def validate(node, low=float('-inf'), high=float('inf')):
+            if not node:
+                return True
+                
+            if node.val <= low or node.val >= high:
+                return False
+ 
+
 
 
 
