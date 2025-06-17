@@ -39,5 +39,18 @@
 # # print(is_prime(17))  # Выведет: True
 # # print(is_prime(20))  # Выведет: False
 
+# def fibonacci(n):
+#     if n <= 0:
+#         return []
+#     elif n == 1:
+#         return [0]
+#     fib = [0, 1]
+#     for i in range(2, n):
+#         fib.append(fib[i-1] + fib[i-2])
+#     return fib
+
+# # Пример использования:
+# # print(fibonacci(10))  # Выведет: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
 
         
