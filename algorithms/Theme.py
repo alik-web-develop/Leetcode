@@ -38,6 +38,9 @@ def remove_duplicates(nums):
             nums[i] = nums[j]
     return i + 1
 
+def is_power_of_two(n):
+    return n > 0 and (n & (n - 1)) == 0
+
 # Пример использования:
 # print(reverse_string("leetcode"))  # Выведет: "edocteel"
 # print(max_subarray([-2,1,-3,4,-1,2,1,-5,4]))  # Выведет: 6
@@ -49,4 +52,7 @@ def remove_duplicates(nums):
 # print(first_uniq_char("loveleetcode"))  # Выведет: 2
 # arr = [1,1,2]
 # k = remove_duplicates(arr)
-# print(arr[:k])  # Выведет: [1, 2] 
+# print(arr[:k])  # Выведет: [1, 2]
+# print(is_power_of_two(1))  # Выведет: True
+# print(is_power_of_two(16))  # Выведет: True
+# print(is_power_of_two(3))  # Выведет: False 
