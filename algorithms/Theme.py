@@ -35,3 +35,9 @@
 #             return False
 #     return True
 
+# # Пример использования:
+# # print(is_prime(17))  # Выведет: True
+# # print(is_prime(20))  # Выведет: False
+
+
+        
