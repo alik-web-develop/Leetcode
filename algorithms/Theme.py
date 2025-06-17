@@ -52,5 +52,10 @@
 # # Пример использования:
 # # print(fibonacci(10))  # Выведет: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
+# def is_palindrome(s):
+#     # Удаляем пробелы и приводим к нижнему регистру
+#     s = ''.join(c.lower() for c in s if c.isalnum())
+#     return s == s[::-1]
+
 
         
