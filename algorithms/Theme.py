@@ -18,3 +18,12 @@
 # #     else:
 # #         return ""
 # # pyr(10)
+
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     return n * factorial(n-1)
+
+# # Пример использования:
+# # print(factorial(5))  # Выведет: 120
+
