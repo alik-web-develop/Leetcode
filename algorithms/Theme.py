@@ -18,8 +18,55 @@
 #     else:
 #         return ""
 # pyr(10)
-def prime_nums(num,result=[],numbers=[])
-    if len(numbers) == 0:
-        return prime_nums(num,result,numbers=range(num))
-    else:
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n-1)
+
+# Пример использования:
+# print(factorial(5))  # Выведет: 120
+
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+# Пример использования:
+# print(is_prime(17))  # Выведет: True
+# print(is_prime(20))  # Выведет: False
+
+def fibonacci(n):
+    if n <= 0:
+        return []
+    elif n == 1:
+        return [0]
+    fib = [0, 1]
+    for i in range(2, n):
+        fib.append(fib[i-1] + fib[i-2])
+    return fib
+
+# Пример использования:
+# print(fibonacci(10))  # Выведет: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+def is_palindrome(s):
+    # Удаляем пробелы и приводим к нижнему регистру
+    s = ''.join(c.lower() for c in s if c.isalnum())
+    return s == s[::-1]
+
+# Пример использования:
+# print(is_palindrome("A man, a plan, a canal: Panama"))  # Выведет: True
+# print(is_palindrome("hello"))  # Выведет: False
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+# Пример использования:
+# print(gcd(48, 18))  # Выведет: 6
+# print(gcd(54, 24))  # Выведет: 6
         
