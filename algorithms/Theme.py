@@ -70,6 +70,12 @@
 # # print(gcd(48, 18))  # Выведет: 6
 # # print(gcd(54, 24))  # Выведет: 6
 
-
+# def two_sum(nums, target):
+#     lookup = {}
+#     for i, num in enumerate(nums):
+#         if target - num in lookup:
+#             return [lookup[target - num], i]
+#         lookup[num] = i
+#     return []
 
         
