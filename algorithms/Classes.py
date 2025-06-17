@@ -632,7 +632,43 @@ class TreeNode:
         self.left = None
         self.right = None
 
- 
+class BinarySearchTree:
+    def __init__(self):
+        self.root = None
+        
+    def insert(self, val):
+        if not self.root:
+            self.root = TreeNode(val)
+            return
+            
+        def _insert(node, val):
+            if val < node.val:
+                if node.left:
+                    _insert(node.left, val)
+                else:
+                    node.left = TreeNode(val)
+            else:
+                if node.right:
+                    _insert(node.right, val)
+                else:
+                    node.right = TreeNode(val)
+                    
+        _insert(self.root, val)
+        
+    def search(self, val):
+        def _search(node, val):
+            if not node:
+                return False
+            if node.val == val:
+                return True
+            if val < node.val:
+                return _search(node.left, val)
+            return _search(node.right, val)
+            
+        return _search(self.root, val)
+
+
+    
 
 
 
