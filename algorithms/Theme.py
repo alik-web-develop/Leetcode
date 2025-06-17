@@ -41,6 +41,11 @@ def remove_duplicates(nums):
 def is_power_of_two(n):
     return n > 0 and (n & (n - 1)) == 0
 
+def is_palindrome_number(x):
+    if x < 0:
+        return False
+    return str(x) == str(x)[::-1]
+
 # Пример использования:
 # print(reverse_string("leetcode"))  # Выведет: "edocteel"
 # print(max_subarray([-2,1,-3,4,-1,2,1,-5,4]))  # Выведет: 6
@@ -55,4 +60,7 @@ def is_power_of_two(n):
 # print(arr[:k])  # Выведет: [1, 2]
 # print(is_power_of_two(1))  # Выведет: True
 # print(is_power_of_two(16))  # Выведет: True
-# print(is_power_of_two(3))  # Выведет: False 
+# print(is_power_of_two(3))  # Выведет: False
+# print(is_palindrome_number(121))  # Выведет: True
+# print(is_palindrome_number(-121))  # Выведет: False
+# print(is_palindrome_number(10))  # Выведет: False 
