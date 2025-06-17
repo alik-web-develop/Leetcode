@@ -703,6 +703,35 @@ class Knapsack:
                     
         return dp[n][capacity]
 
+# Решение Topological Sort
+class TopologicalSort:
+    def topologicalSort(self, graph):
+        visited = set()
+        temp = set()
+        order = []
+        
+        def visit(node):
+            if node in temp:
+                raise ValueError("Graph contains a cycle")
+            if node in visited:
+                return
+                
+            temp.add(node)
+            
+            for neighbor in graph.get(node, []):
+                visit(neighbor)
+                
+            temp.remove(node)
+            visited.add(node)
+            order.append(node)
+            
+        for node in graph:
+            if node not in visited:
+                visit(node)
+                
+        return order[::-1]
+
+
 
     
 
