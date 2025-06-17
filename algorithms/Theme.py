@@ -61,6 +61,15 @@
 # # print(is_palindrome("A man, a plan, a canal: Panama"))  # Выведет: True
 # # print(is_palindrome("hello"))  # Выведет: False
 
+# def gcd(a, b):
+#     while b:
+#         a, b = b, a % b
+#     return a
+
+# # Пример использования:
+# # print(gcd(48, 18))  # Выведет: 6
+# # print(gcd(54, 24))  # Выведет: 6
+
 
 
         
