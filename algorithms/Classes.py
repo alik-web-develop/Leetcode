@@ -667,6 +667,27 @@ class BinarySearchTree:
             
         return _search(self.root, val)
 
+# Решение Dijkstra's Algorithm
+class Dijkstra:
+    def dijkstra(self, graph, start):
+        distances = {node: float('infinity') for node in graph}
+        distances[start] = 0
+        unvisited = set(graph.keys())
+        
+        while unvisited:
+            current = min(unvisited, key=lambda node: distances[node])
+            if distances[current] == float('infinity'):
+                break
+                
+            unvisited.remove(current)
+            
+            for neighbor, weight in graph[current].items():
+                distance = distances[current] + weight
+                if distance < distances[neighbor]:
+                    distances[neighbor] = distance
+                    
+        return distances
+
 
     
 
