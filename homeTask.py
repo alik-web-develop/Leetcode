@@ -125,8 +125,28 @@
 
 
 
-from functools import reduce 
-l = [1,2,3,4,5,6,7,8,9,10]
-evens = list(filter(lambda item:True if item % 2 == 0 else False,l))
-result = reduce(lambda acc,next: acc + next, evens)
-print(result)
+# from functools import reduce 
+# l = [1,2,3,4,5,6,7,8,9,10]
+# evens = list(filter(lambda item:True if item % 2 == 0 else False,l))
+# result = reduce(lambda acc,next: acc + next, evens)
+# print(result)
+
+
+from functools import reduce
+# numbers = [1,5,"43",7,"90","a","f"]
+# def func(acc,next):
+#     if str(next).isnumeric():
+#         return acc + int(next)
+#     else:
+#         return acc
+# sum_list = reduce(func,numbers) 
+# print(sum_list)
+
+text = "hello world this is new text"
+def func(acc,next):
+    
+symbols_in_text = reduce(func,text,{'':0,"original_text":text})
+print(symbols_in_text)
+
+
+    
