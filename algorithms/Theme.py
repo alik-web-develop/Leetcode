@@ -17,9 +17,13 @@ def single_number(nums):
 def is_anagram(s, t):
     return sorted(s) == sorted(t)
 
+def intersection(nums1, nums2):
+    return list(set(nums1) & set(nums2))
+
 # Пример использования:
 # print(reverse_string("leetcode"))  # Выведет: "edocteel"
 # print(max_subarray([-2,1,-3,4,-1,2,1,-5,4]))  # Выведет: 6
 # print(single_number([4,1,2,1,2]))  # Выведет: 4
 # print(is_anagram("anagram", "nagaram"))  # Выведет: True
-# print(is_anagram("rat", "car"))  # Выведет: False 
+# print(is_anagram("rat", "car"))  # Выведет: False
+# print(intersection([1,2,2,1], [2,2]))  # Выведет: [2] 
