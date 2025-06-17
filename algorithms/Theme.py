@@ -57,5 +57,10 @@
 #     s = ''.join(c.lower() for c in s if c.isalnum())
 #     return s == s[::-1]
 
+# # Пример использования:
+# # print(is_palindrome("A man, a plan, a canal: Panama"))  # Выведет: True
+# # print(is_palindrome("hello"))  # Выведет: False
+
+
 
         
