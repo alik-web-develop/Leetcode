@@ -28,6 +28,16 @@ def first_uniq_char(s):
             return i
     return -1
 
+def remove_duplicates(nums):
+    if not nums:
+        return 0
+    i = 0
+    for j in range(1, len(nums)):
+        if nums[j] != nums[i]:
+            i += 1
+            nums[i] = nums[j]
+    return i + 1
+
 # Пример использования:
 # print(reverse_string("leetcode"))  # Выведет: "edocteel"
 # print(max_subarray([-2,1,-3,4,-1,2,1,-5,4]))  # Выведет: 6
@@ -36,4 +46,7 @@ def first_uniq_char(s):
 # print(is_anagram("rat", "car"))  # Выведет: False
 # print(intersection([1,2,2,1], [2,2]))  # Выведет: [2]
 # print(first_uniq_char("leetcode"))  # Выведет: 0
-# print(first_uniq_char("loveleetcode"))  # Выведет: 2 
+# print(first_uniq_char("loveleetcode"))  # Выведет: 2
+# arr = [1,1,2]
+# k = remove_duplicates(arr)
+# print(arr[:k])  # Выведет: [1, 2] 
