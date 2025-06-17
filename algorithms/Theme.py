@@ -14,7 +14,12 @@ def single_number(nums):
         result ^= num
     return result
 
+def is_anagram(s, t):
+    return sorted(s) == sorted(t)
+
 # Пример использования:
 # print(reverse_string("leetcode"))  # Выведет: "edocteel"
 # print(max_subarray([-2,1,-3,4,-1,2,1,-5,4]))  # Выведет: 6
-# print(single_number([4,1,2,1,2]))  # Выведет: 4 
+# print(single_number([4,1,2,1,2]))  # Выведет: 4
+# print(is_anagram("anagram", "nagaram"))  # Выведет: True
+# print(is_anagram("rat", "car"))  # Выведет: False 
