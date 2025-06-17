@@ -20,10 +20,20 @@ def is_anagram(s, t):
 def intersection(nums1, nums2):
     return list(set(nums1) & set(nums2))
 
+def first_uniq_char(s):
+    from collections import Counter
+    count = Counter(s)
+    for i, c in enumerate(s):
+        if count[c] == 1:
+            return i
+    return -1
+
 # Пример использования:
 # print(reverse_string("leetcode"))  # Выведет: "edocteel"
 # print(max_subarray([-2,1,-3,4,-1,2,1,-5,4]))  # Выведет: 6
 # print(single_number([4,1,2,1,2]))  # Выведет: 4
 # print(is_anagram("anagram", "nagaram"))  # Выведет: True
 # print(is_anagram("rat", "car"))  # Выведет: False
-# print(intersection([1,2,2,1], [2,2]))  # Выведет: [2] 
+# print(intersection([1,2,2,1], [2,2]))  # Выведет: [2]
+# print(first_uniq_char("leetcode"))  # Выведет: 0
+# print(first_uniq_char("loveleetcode"))  # Выведет: 2 
