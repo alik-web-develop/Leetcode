@@ -69,4 +69,15 @@ def gcd(a, b):
 # Пример использования:
 # print(gcd(48, 18))  # Выведет: 6
 # print(gcd(54, 24))  # Выведет: 6
+
+def two_sum(nums, target):
+    lookup = {}
+    for i, num in enumerate(nums):
+        if target - num in lookup:
+            return [lookup[target - num], i]
+        lookup[num] = i
+    return []
+
+# Пример использования:
+# print(two_sum([2, 7, 11, 15], 9))  # Выведет: [0, 1]
         
