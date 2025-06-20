@@ -124,8 +124,3 @@
 # class HamkorBank(Bank):
 #     def __init__(self, bank_name: str, account_id: int, pin: int, location: str):
 #         super().__init__(bank_name, account_id, pin)
-#         self.location = location
-
-
-
-
