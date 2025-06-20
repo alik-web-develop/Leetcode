@@ -128,6 +128,5 @@
 
 
 # account_id = 123908  # int!
-# pin = 123123         # int!
 
 
