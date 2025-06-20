@@ -129,6 +129,5 @@
 
 # account_id = 123908  # int!
 # pin = 123123         # int!
-# bank_balance = HamkorBank("Hamkor bank", account_id, pin, "Amir temur 30 st: Registan")
 
 
