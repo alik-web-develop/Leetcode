@@ -127,6 +127,5 @@
 #         self.location = location
 
 
-# account_id = 123908  # int!
 
 
