@@ -188,3 +188,21 @@ def merge(left, right):
         j += 1
     return merged
 
+# BFS (Breadth-First Search) for a graph (represented as an adjacency list)
+from collections import deque
+
+def bfs(graph, start_node):
+    visited = set()
+    queue = deque([start_node])
+    visited.add(start_node)
+
+    result = []
+    while queue:
+        node = queue.popleft()
+        result.append(node)
+        for neighbor in graph.get(node, []):
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append(neighbor)
+    return result
+
