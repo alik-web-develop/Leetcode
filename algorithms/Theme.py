@@ -133,3 +133,4 @@ bank_balance = HamkorBank("Hamkor bank", account_id, pin, "Amir temur 30 st: Reg
 print(bank_balance)
 
 bank_balance.invest(30000.00, account_id, pin)
+
