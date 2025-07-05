@@ -216,3 +216,4 @@
 #     visited.add(start_node)
 #     result.append(start_node)
 
+# Dijkstra's Algorithm (для нахождения кратчайшего пути в графе)
