@@ -289,4 +289,14 @@ def topological_sort(graph):
     else:
         return [] # Граф содержит цикл
 
+# Пример использования:
+# graph = {
+#     'A': ['C'],
+#     'B': ['C', 'D'],
+#     'C': ['E'],
+#     'D': ['E'],
+#     'E': []
+# }
+# print(topological_sort(graph)) # Выведет: ['A', 'B', 'C', 'D', 'E'] или ['B', 'A', 'C', 'D', 'E']
+
 
