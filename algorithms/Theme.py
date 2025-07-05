@@ -240,3 +240,28 @@ def dijkstra(graph, start):
                 heapq.heappush(priority_queue, (distance, neighbor))
     return distances
 
+# Пример использования:
+# graph = {
+#     'A': {'B': 1, 'C': 4},
+#     'B': {'A': 1, 'C': 2, 'D': 5},
+#     'C': {'A': 4, 'B': 2, 'D': 1},
+#     'D': {'B': 5, 'C': 1}
+# }
+# print(dijkstra(graph, 'A')) # Выведет: {'A': 0, 'B': 1, 'C': 3, 'D': 4}
+
+# Kadane's Algorithm (для нахождения максимальной суммы подмассива)
+def kadane(arr):
+    max_so_far = arr[0]
+    current_max = arr[0]
+
+    for i in range(1, len(arr)):
+        current_max = max(arr[i], current_max + arr[i])
+        max_so_far = max(max_so_far, current_max)
+
+    return max_so_far
+
+# Пример использования:
+# print(kadane([-2, 1, -3, 4, -1, 2, 1, -5, 4]))  # Выведет: 6 (подмассив [4, -1, 2, 1])
+
+# Topological Sort (для ориентированных ациклических графов)
+from collections import defaultdict, deque
