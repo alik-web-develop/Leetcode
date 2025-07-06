@@ -462,3 +462,48 @@
 # # start_node = 0
 # # print(bellman_ford(edges, num_vertices, start_node)) # Выведет: {0: 0, 1: -1, 2: 2, 3: -2, 4: 1}
 
+
+# # Longest Increasing Subsequence (LIS) (для нахождения самой длинной возрастающей подпоследовательности)
+# def longest_increasing_subsequence(arr):
+#     if not arr:
+#         return 0
+
+#     tails = []
+#     for num in arr:
+#         i = 0
+#         j = len(tails)
+#         while i < j:
+#             m = (i + j) // 2
+#             if tails[m] < num:
+#                 i = m + 1
+#             else:
+#                 j = m
+#         if i == len(tails):
+#             tails.append(num)
+#         else:
+#             tails[i] = num
+#     return len(tails)
+
+# # Пример использования:
+# # print(longest_increasing_subsequence([10, 9, 2, 5, 3, 7, 101, 18])) # Выведет: 4 (например, [2, 3, 7, 18] или [2, 5, 7, 18])
+
+
+# # Knapsack Problem (0/1 Knapsack) (решение задачи о рюкзаке)
+# def knapsack(values, weights, capacity):
+#     n = len(values)
+#     dp = [[0 for _ in range(capacity + 1)] for _ in range(n + 1)]
+
+#     for i in range(1, n + 1):
+#         for w in range(1, capacity + 1):
+#             if weights[i-1] <= w:
+#                 dp[i][w] = max(values[i-1] + dp[i-1][w - weights[i-1]], dp[i-1][w])
+#             else:
+#                 dp[i][w] = dp[i-1][w]
+#     return dp[n][capacity]
+
+# # Пример использования:
+# # values = [60, 100, 120]
+# # weights = [10, 20, 30]
+# # capacity = 50
+# # print(knapsack(values, weights, capacity)) # Выведет: 220 (взяты предметы со стоимостью 100 и 120)
+
