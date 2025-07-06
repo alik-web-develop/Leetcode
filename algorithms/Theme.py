@@ -507,3 +507,93 @@
 # # capacity = 50
 # # print(knapsack(values, weights, capacity)) # Выведет: 220 (взяты предметы со стоимостью 100 и 120)
 
+
+# Aho-Corasick Algorithm (для поиска множества шаблонов в тексте)
+from collections import deque
+
+class AhoCorasick:
+    def __init__(self, patterns):
+        self.trie = {'__children__': {}, '__output__': [], '__fail__': None}
+        self._build_trie(patterns)
+        self._build_failure_links()
+
+    def _build_trie(self, patterns):
+        for pattern in patterns:
+            node = self.trie
+            for char in pattern:
+                if char not in node['__children__']:
+                    node['__children__'][char] = {'__children__': {}, '__output__': [], '__fail__': None}
+                node = node['__children__'][char]
+            node['__output__'].append(pattern)
+
+    def _build_failure_links(self):
+        queue = deque()
+        # Корень имеет failure link на себя, но для удобства установим на None
+        # Его потомки имеют failure link на корень
+        for char, child in self.trie['__children__'].items():
+            child['__fail__'] = self.trie
+            queue.append(child)
+
+        while queue:
+            current_node = queue.popleft()
+            for char, next_node in current_node['__children__'].items():
+                failure_node = current_node['__fail__']
+                while failure_node and char not in failure_node['__children__']:
+                    failure_node = failure_node['__fail__']
+                
+                if failure_node and char in failure_node['__children__']:
+                    next_node['__fail__'] = failure_node['__children__'][char]
+                else:
+                    next_node['__fail__'] = self.trie # Если нет совпадения, то на корень
+
+                # Добавляем output из failure link
+                next_node['__output__'].extend(next_node['__fail__']['__output__'])
+                queue.append(next_node)
+
+    def search(self, text):
+        results = []
+        node = self.trie
+        for i, char in enumerate(text):
+            while node and char not in node['__children__']:
+                node = node['__fail__']
+            
+            if node and char in node['__children__']:
+                node = node['__children__'][char]
+            else:
+                node = self.trie # Если нет совпадения, то на корень
+
+            for pattern in node['__output__']:
+                results.append((i - len(pattern) + 1, pattern))
+        return results
+
+# Пример использования:
+# patterns = ["he", "she", "his", "hers"]
+# text = "ahishers"
+# ac_automaton = AhoCorasick(patterns)
+# print(ac_automaton.search(text)) # Выведет: [(1, 'his'), (3, 'he'), (4, 'she'), (4, 'hers')]
+
+
+# Z-Algorithm (для поиска всех вхождений шаблона в текст)
+def z_algorithm(s):
+    n = len(s)
+    z = [0] * n
+    l, r = 0, 0
+    for i in range(1, n):
+        if i <= r:
+            z[i] = min(r - i + 1, z[i - l])
+        while i + z[i] < n and s[z[i]] == s[i + z[i]]:
+            z[i] += 1
+        if i + z[i] - 1 > r:
+            l, r = i, i + z[i] - 1
+    return z
+
+# Пример использования:
+# text = "aabxaabxcaabxaabx"
+# pattern = "aabx"
+# combined = pattern + "$" + text # Используем уникальный разделитель
+# z_values = z_algorithm(combined)
+# occurrences = []
+# for i in range(len(pattern) + 1, len(combined)):
+#     if z_values[i] == len(pattern):
+#         occurrences.append(i - (len(pattern) + 1))
+# print(occurrences) # Выведет: [0, 4, 11]
