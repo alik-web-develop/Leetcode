@@ -664,3 +664,59 @@ def build_suffix_array(text):
 # suffix_arr = build_suffix_array(text)
 # print(suffix_arr) # Выведет: [5, 3, 1, 0, 4, 2] (индексы: a, ana, anana, banana, na, nana)
 
+
+# Segment Tree (Дерево отрезков) для запросов суммы диапазона
+class SegmentTree:
+    def __init__(self, arr):
+        self.n = len(arr)
+        self.tree = [0] * (4 * self.n) # Примерный размер дерева: 4*N
+        self._build(arr, 0, 0, self.n - 1)
+
+    def _build(self, arr, tree_index, lo, hi):
+        if lo == hi:
+            self.tree[tree_index] = arr[lo]
+            return
+        mid = (lo + hi) // 2
+        self._build(arr, 2 * tree_index + 1, lo, mid)
+        self._build(arr, 2 * tree_index + 2, mid + 1, hi)
+        self.tree[tree_index] = self.tree[2 * tree_index + 1] + self.tree[2 * tree_index + 2]
+
+    def query(self, query_lo, query_hi):
+        return self._query(0, 0, self.n - 1, query_lo, query_hi)
+
+    def _query(self, tree_index, lo, hi, query_lo, query_hi):
+        # Полное перекрытие
+        if query_lo <= lo and hi <= query_hi:
+            return self.tree[tree_index]
+        
+        # Нет перекрытия
+        if hi < query_lo or lo > query_hi:
+            return 0
+        
+        # Частичное перекрытие
+        mid = (lo + hi) // 2
+        left_sum = self._query(2 * tree_index + 1, lo, mid, query_lo, query_hi)
+        right_sum = self._query(2 * tree_index + 2, mid + 1, hi, query_lo, query_hi)
+        return left_sum + right_sum
+
+    def update(self, index, new_value):
+        self._update(0, 0, self.n - 1, index, new_value)
+
+    def _update(self, tree_index, lo, hi, index, new_value):
+        if lo == hi:
+            self.tree[tree_index] = new_value
+            return
+        mid = (lo + hi) // 2
+        if lo <= index <= mid:
+            self._update(2 * tree_index + 1, lo, mid, index, new_value)
+        else:
+            self._update(2 * tree_index + 2, mid + 1, hi, index, new_value)
+        self.tree[tree_index] = self.tree[2 * tree_index + 1] + self.tree[2 * tree_index + 2]
+
+# Пример использования:
+# arr = [1, 3, 5, 7, 9, 11]
+# st = SegmentTree(arr)
+# print(st.query(1, 4)) # Выведет: 24 (3 + 5 + 7 + 9)
+# st.update(2, 10)
+# print(st.query(1, 4)) # Выведет: 29 (3 + 10 + 7 + 9)
+
