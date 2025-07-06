@@ -433,3 +433,22 @@
 # # }
 # # print(prim(graph, 'A')) # Выведет: [('A', 'B', 1), ('B', 'C', 2), ('C', 'D', 1)]
 
+
+# # Bellman-Ford Algorithm (для поиска кратчайшего пути с отрицательными весами)
+# def bellman_ford(edges, num_vertices, start_node):
+#     distances = {i: float('inf') for i in range(num_vertices)}
+#     distances[start_node] = 0
+
+#     for _ in range(num_vertices - 1):
+#         for u, v, weight in edges:
+#             if distances[u] != float('inf') and distances[u] + weight < distances[v]:
+#                 distances[v] = distances[u] + weight
+
+#     # Проверка на отрицательные циклы
+#     for u, v, weight in edges:
+#         if distances[u] != float('inf') and distances[u] + weight < distances[v]:
+#             return {} # Обнаружен отрицательный цикл
+
+#     return distances
+
+# # Пример использования:
