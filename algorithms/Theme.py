@@ -597,3 +597,70 @@ def z_algorithm(s):
 #     if z_values[i] == len(pattern):
 #         occurrences.append(i - (len(pattern) + 1))
 # print(occurrences) # Выведет: [0, 4, 11]
+
+
+# Manacher's Algorithm (для нахождения самой длинной палиндромной подстроки)
+def manacher(text):
+    # Преобразуем строку для обработки четных и нечетных палиндромов
+    # Например, "aba" -> "#a#b#a#", "abba" -> "#a#b#b#a#"
+    processed_text = '#' + '#'.join(text) + '#'
+    n = len(processed_text)
+    P = [0] * n  # P[i] хранит радиус палиндрома с центром в i
+    C = 0        # Центр текущего самого правого палиндрома
+    R = 0        # Правая граница текущего самого правого палиндрома
+
+    for i in range(n):
+        # Находим зеркальное отражение i относительно C
+        mirror_i = 2 * C - i
+
+        # Если i внутри R, используем P[mirror_i]
+        if i < R:
+            P[i] = min(R - i, P[mirror_i])
+
+        # Расширяем палиндром с центром в i
+        a = i + (1 + P[i])
+        b = i - (1 + P[i])
+        while a < n and b >= 0 and processed_text[a] == processed_text[b]:
+            P[i] += 1
+            a += 1
+            b -= 1
+
+        # Обновляем C и R, если палиндром с центром в i расширяется дальше R
+        if i + P[i] > R:
+            C = i
+            R = i + P[i]
+    
+    # Находим максимальный радиус и его центр
+    max_len = 0
+    center_index = 0
+    for i in range(n):
+        if P[i] > max_len:
+            max_len = P[i]
+            center_index = i
+    
+    # Восстанавливаем самую длинную палиндромную подстроку
+    start_index = (center_index - max_len) // 2
+    return text[start_index : start_index + max_len]
+
+# Пример использования:
+# print(manacher("babad")) # Выведет: "bab" или "aba"
+# print(manacher("cbbd"))  # Выведет: "bb"
+
+
+# Suffix Array (для эффективного поиска подстрок)
+def build_suffix_array(text):
+    n = len(text)
+    suffixes = []
+    for i in range(n):
+        suffixes.append((text[i:], i))
+    
+    suffixes.sort() # Сортируем суффиксы лексикографически
+
+    suffix_array = [s[1] for s in suffixes]
+    return suffix_array
+
+# Пример использования:
+# text = "banana"
+# suffix_arr = build_suffix_array(text)
+# print(suffix_arr) # Выведет: [5, 3, 1, 0, 4, 2] (индексы: a, ana, anana, banana, na, nana)
+
