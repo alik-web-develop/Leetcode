@@ -761,3 +761,43 @@ def max_bipartite_matching(graph):
 
 
 # Tarjan's Algorithm (для нахождения сильно связных компонент (SCC))
+from collections import defaultdict
+
+class TarjanSCC:
+    def __init__(self, graph):
+        self.graph = graph
+        self.index = 0
+        self.stack = []
+        self.on_stack = defaultdict(bool)
+        self.ids = defaultdict(lambda: -1)
+        self.low_link = defaultdict(lambda: -1)
+        self.sccs = []
+        
+        for node in graph:
+            if self.ids[node] == -1:
+                self._dfs(node)
+
+    def _dfs(self, u):
+        self.ids[u] = self.index
+        self.low_link[u] = self.index
+        self.index += 1
+        self.stack.append(u)
+        self.on_stack[u] = True
+
+        for v in self.graph[u]:
+            if self.ids[v] == -1:
+                self._dfs(v)
+                self.low_link[u] = min(self.low_link[u], self.low_link[v])
+            elif self.on_stack[v]:
+                self.low_link[u] = min(self.low_link[u], self.ids[v])
+        
+        if self.ids[u] == self.low_link[u]:
+            current_scc = []
+            while True:
+                node = self.stack.pop()
+                self.on_stack[node] = False
+                current_scc.append(node)
+                if node == u:
+                    break
+            self.sccs.append(current_scc)
+
