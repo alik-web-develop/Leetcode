@@ -861,3 +861,16 @@ def kmp_search(text, pattern):
 # pattern = "ABABCABAB"
 # print(kmp_search(text, pattern)) # Выведет: [10]
 
+
+# Euclidean Algorithm (Алгоритм Евклида для нахождения НОД)
+def gcd_euclidean(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+# Пример использования:
+# print(gcd_euclidean(48, 18)) # Выведет: 6
+# print(gcd_euclidean(101, 103)) # Выведет: 1
+
+
+# Shell Sort (Сортировка Шелла)
