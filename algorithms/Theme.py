@@ -830,3 +830,34 @@ def compute_lps_array(pattern):
                 lps[i] = 0
                 i += 1
     return lps
+
+def kmp_search(text, pattern):
+    n = len(text)
+    m = len(pattern)
+
+    lps = compute_lps_array(pattern)
+
+    i = 0 # индекс для text
+    j = 0 # индекс для pattern
+    occurrences = []
+
+    while i < n:
+        if pattern[j] == text[i]:
+            i += 1
+            j += 1
+        
+        if j == m:
+            occurrences.append(i - j) # Найден шаблон
+            j = lps[j - 1]
+        elif i < n and pattern[j] != text[i]:
+            if j != 0:
+                j = lps[j - 1]
+            else:
+                i += 1
+    return occurrences
+
+# Пример использования:
+# text = "ABABDABACDABABCABAB"
+# pattern = "ABABCABAB"
+# print(kmp_search(text, pattern)) # Выведет: [10]
+
