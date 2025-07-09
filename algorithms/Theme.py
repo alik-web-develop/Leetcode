@@ -801,3 +801,14 @@ class TarjanSCC:
                     break
             self.sccs.append(current_scc)
 
+# Пример использования:
+# graph = {
+#     0: [1],
+#     1: [2],
+#     2: [0],
+#     3: [1, 4],
+#     4: [3]
+# }
+# tarjan = TarjanSCC(graph)
+# print(tarjan.sccs) # Выведет: [[2, 1, 0], [4, 3]] (порядок может отличаться)
+
