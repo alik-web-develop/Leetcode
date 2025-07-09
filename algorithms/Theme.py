@@ -812,3 +812,21 @@ class TarjanSCC:
 # tarjan = TarjanSCC(graph)
 # print(tarjan.sccs) # Выведет: [[2, 1, 0], [4, 3]] (порядок может отличаться)
 
+
+# KMP Algorithm (Кнут-Моррис-Пратт) для поиска подстроки
+def compute_lps_array(pattern):
+    length = 0 # Длина предыдущего самого длинного префикса-суффикса
+    lps = [0] * len(pattern)
+    i = 1
+    while i < len(pattern):
+        if pattern[i] == pattern[length]:
+            length += 1
+            lps[i] = length
+            i += 1
+        else:
+            if length != 0:
+                length = lps[length - 1]
+            else:
+                lps[i] = 0
+                i += 1
+    return lps
