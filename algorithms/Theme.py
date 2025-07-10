@@ -894,4 +894,21 @@ def shell_sort(arr):
 # print(shell_sort(arr)) # Выведет: [2, 3, 12, 34, 54]
 
 
+# =================
+
+# Selection Sort (Сортировка выбором)
+def selection_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        min_idx = i
+        for j in range(i + 1, n):
+            if arr[j] < arr[min_idx]:
+                min_idx = j
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+    return arr
+
+# Пример использования:
+# arr = [64, 25, 12, 22, 11]
+# print(selection_sort(arr)) # Выведет: [11, 12, 22, 25, 64]
+
 
