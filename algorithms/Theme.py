@@ -990,5 +990,38 @@ def radix_sort(arr):
 # arr = [170, 45, 75, 90, 802, 24, 2, 66]
 # print(radix_sort(arr)) # Выведет: [2, 24, 45, 66, 75, 90, 170, 802]
 
+# =================
 
+# Heap Sort (Пирамидальная сортировка)
+def heapify(arr, n, i):
+    largest = i
+    l = 2 * i + 1
+    r = 2 * i + 2
+
+    if l < n and arr[l] > arr[largest]:
+        largest = l
+    
+    if r < n and arr[r] > arr[largest]:
+        largest = r
+    
+    if largest != i:
+        arr[i], arr[largest] = arr[largest], arr[i]
+        heapify(arr, n, largest)
+
+def heap_sort(arr):
+    n = len(arr)
+
+    # Построение max-кучи
+    for i in range(n // 2 - 1, -1, -1):
+        heapify(arr, n, i)
+    
+    # Извлечение элементов по одному
+    for i in range(n - 1, 0, -1):
+        arr[i], arr[0] = arr[0], arr[i] # Перемещаем текущий корень в конец
+        heapify(arr, i, 0)
+    return arr
+
+# Пример использования:
+# arr = [12, 11, 13, 5, 6, 7]
+# print(heap_sort(arr)) # Выведет: [5, 6, 7, 11, 12, 13]
 
