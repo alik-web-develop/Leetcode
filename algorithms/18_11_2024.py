@@ -159,4 +159,28 @@ class MergeSortedLists:
         current.next = list1 if list1 else list2
         return dummy.next
 
+# ===============================================
+# 3. Best Time to Buy and Sell Stock
+# You are given an array prices where prices[i] is the price of a given stock on the ith day.
+# You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+class BestTimeToBuySell:
+    def maxProfit(self, prices):
+        if not prices:
+            return 0
+        
+        min_price = prices[0]
+        max_profit = 0
+        
+        for price in prices[1:]:
+            min_price = min(min_price, price)
+            max_profit = max(max_profit, price - min_price)
+        
+        return max_profit
+
+# Пример использования:
+# profit = BestTimeToBuySell()
+# print(profit.maxProfit([7,1,5,3,6,4]))  # 5
+
+
+
 
