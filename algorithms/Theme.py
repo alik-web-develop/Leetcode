@@ -1070,3 +1070,49 @@ def boyer_moore_search(text, pattern):
 # pattern = "AABA"
 # print(boyer_moore_search(text, pattern)) # Выведет: [0, 9, 12]
 
+
+# =================
+
+# Rabin-Karp Algorithm (Алгоритм Рабина-Карпа для поиска подстроки)
+def rabin_karp_search(text, pattern, prime=101):
+    """Поиск подстроки с помощью алгоритма Рабина-Карпа"""
+    if not pattern or not text:
+        return []
+    
+    n, m = len(text), len(pattern)
+    occurrences = []
+    
+    # Вычисляем хеш паттерна
+    pattern_hash = 0
+    text_hash = 0
+    h = 1
+    
+    # Вычисляем h = pow(prime, m-1) % prime
+    for i in range(m - 1):
+        h = (h * 256) % prime
+    
+    # Вычисляем хеш для паттерна и первого окна текста
+    for i in range(m):
+        pattern_hash = (256 * pattern_hash + ord(pattern[i])) % prime
+        text_hash = (256 * text_hash + ord(text[i])) % prime
+    
+    # Скользим окно по тексту
+    for i in range(n - m + 1):
+        if pattern_hash == text_hash:
+            # Проверяем символы, если хеши совпадают
+            if text[i:i+m] == pattern:
+                occurrences.append(i)
+        
+        if i < n - m:
+            # Вычисляем хеш для следующего окна
+            text_hash = (256 * (text_hash - ord(text[i]) * h) + ord(text[i + m])) % prime
+            if text_hash < 0:
+                text_hash += prime
+    
+    return occurrences
+
+# Пример использования:
+# text = "AABAACAADAABAABA"
+# pattern = "AABA"
+# print(rabin_karp_search(text, pattern)) # Выведет: [0, 9, 12]
+
