@@ -1245,4 +1245,80 @@ class Trie:
 # print(trie.get_all_words_with_prefix("app"))  # ['app', 'apple', 'application']
 
 
+# =================
+
+# Union-Find (Disjoint Set Union) с ранжированием и сжатием путей
+class UnionFind:
+    """Структура данных Union-Find с оптимизациями"""
+    
+    def __init__(self, n):
+        """Инициализация с n элементами"""
+        self.parent = list(range(n))
+        self.rank = [0] * n
+        self.size = [1] * n  # Размер каждого множества
+        self.count = n       # Количество множеств
+    
+    def find(self, x):
+        """Поиск корня элемента с сжатием путей"""
+        if self.parent[x] != x:
+            self.parent[x] = self.find(self.parent[x])
+        return self.parent[x]
+    
+    def union(self, x, y):
+        """Объединение множеств с ранжированием"""
+        root_x = self.find(x)
+        root_y = self.find(y)
+        
+        if root_x == root_y:
+            return False  # Уже в одном множестве
+        
+        # Объединяем по рангу
+        if self.rank[root_x] < self.rank[root_y]:
+            root_x, root_y = root_y, root_x
+        
+        self.parent[root_y] = root_x
+        self.size[root_x] += self.size[root_y]
+        
+        if self.rank[root_x] == self.rank[root_y]:
+            self.rank[root_x] += 1
+        
+        self.count -= 1
+        return True
+    
+    def connected(self, x, y):
+        """Проверка, находятся ли элементы в одном множестве"""
+        return self.find(x) == self.find(y)
+    
+    def get_size(self, x):
+        """Получение размера множества, содержащего элемент x"""
+        root = self.find(x)
+        return self.size[root]
+    
+    def get_count(self):
+        """Получение количества множеств"""
+        return self.count
+    
+    def get_components(self):
+        """Получение всех компонент"""
+        components = {}
+        for i in range(len(self.parent)):
+            root = self.find(i)
+            if root not in components:
+                components[root] = []
+            components[root].append(i)
+        return list(components.values())
+
+# Пример использования:
+# uf = UnionFind(10)
+# uf.union(1, 2)
+# uf.union(2, 5)
+# uf.union(5, 6)
+# uf.union(3, 4)
+# uf.union(4, 7)
+# 
+# print(uf.connected(1, 6))  # True
+# print(uf.connected(1, 3))  # False
+# print(uf.get_size(1))      # 4 (размер множества {1, 2, 5, 6})
+# print(uf.get_count())      # 6 (количество множеств)
+# print(uf.get_components()) # [[0], [1, 2, 5, 6], [3, 4, 7], [8], [9]]
 
