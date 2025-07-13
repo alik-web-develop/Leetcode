@@ -1025,3 +1025,48 @@
 # # arr = [12, 11, 13, 5, 6, 7]
 # # print(heap_sort(arr)) # Выведет: [5, 6, 7, 11, 12, 13]
 
+
+# =================
+
+# Boyer-Moore Algorithm (Алгоритм Бойера-Мура для поиска подстроки)
+def build_bad_char_table(pattern):
+    """Строит таблицу плохих символов для алгоритма Бойера-Мура"""
+    table = {}
+    for i in range(len(pattern) - 1):
+        table[pattern[i]] = len(pattern) - 1 - i
+    return table
+
+def boyer_moore_search(text, pattern):
+    """Поиск подстроки с помощью алгоритма Бойера-Мура"""
+    if not pattern or not text:
+        return []
+    
+    n, m = len(text), len(pattern)
+    bad_char_table = build_bad_char_table(pattern)
+    occurrences = []
+    
+    i = m - 1  # Индекс в тексте
+    while i < n:
+        j = m - 1  # Индекс в паттерне
+        k = i      # Позиция в тексте для сравнения
+        
+        # Сравниваем паттерн справа налево
+        while j >= 0 and text[k] == pattern[j]:
+            k -= 1
+            j -= 1
+        
+        if j == -1:  # Найден паттерн
+            occurrences.append(k + 1)
+            i += 1
+        else:
+            # Сдвиг на основе таблицы плохих символов
+            bad_char_shift = bad_char_table.get(text[k], m)
+            i += max(1, bad_char_shift - (m - 1 - j))
+    
+    return occurrences
+
+# Пример использования:
+# text = "AABAACAADAABAABA"
+# pattern = "AABA"
+# print(boyer_moore_search(text, pattern)) # Выведет: [0, 9, 12]
+
