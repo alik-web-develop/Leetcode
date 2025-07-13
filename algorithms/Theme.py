@@ -1165,3 +1165,84 @@ class FenwickTree:
 # print(ft.range_query(1, 4))  # Выведет: 34 (3 + 15 + 7 + 9)
 
 
+# =================
+
+# Trie (Префиксное дерево) для эффективного поиска строк
+class TrieNode:
+    """Узел префиксного дерева"""
+    def __init__(self):
+        self.children = {}
+        self.is_end_of_word = False
+        self.word_count = 0
+
+class Trie:
+    """Префиксное дерево для эффективного поиска строк"""
+    
+    def __init__(self):
+        self.root = TrieNode()
+    
+    def insert(self, word):
+        """Вставка слова в дерево"""
+        node = self.root
+        for char in word:
+            if char not in node.children:
+                node.children[char] = TrieNode()
+            node = node.children[char]
+            node.word_count += 1
+        node.is_end_of_word = True
+    
+    def search(self, word):
+        """Поиск точного совпадения слова"""
+        node = self._get_node(word)
+        return node is not None and node.is_end_of_word
+    
+    def starts_with(self, prefix):
+        """Проверка, есть ли слова с данным префиксом"""
+        return self._get_node(prefix) is not None
+    
+    def _get_node(self, word):
+        """Получение узла для заданного слова"""
+        node = self.root
+        for char in word:
+            if char not in node.children:
+                return None
+            node = node.children[char]
+        return node
+    
+    def count_words_with_prefix(self, prefix):
+        """Подсчет слов с заданным префиксом"""
+        node = self._get_node(prefix)
+        return node.word_count if node else 0
+    
+    def get_all_words_with_prefix(self, prefix):
+        """Получение всех слов с заданным префиксом"""
+        node = self._get_node(prefix)
+        if not node:
+            return []
+        
+        words = []
+        self._dfs_collect_words(node, prefix, words)
+        return words
+    
+    def _dfs_collect_words(self, node, current_word, words):
+        """DFS для сбора всех слов из поддерева"""
+        if node.is_end_of_word:
+            words.append(current_word)
+        
+        for char, child in node.children.items():
+            self._dfs_collect_words(child, current_word + char, words)
+
+# Пример использования:
+# trie = Trie()
+# words = ["apple", "app", "application", "banana", "band"]
+# for word in words:
+#     trie.insert(word)
+# 
+# print(trie.search("apple"))  # True
+# print(trie.search("appl"))   # False
+# print(trie.starts_with("app"))  # True
+# print(trie.count_words_with_prefix("app"))  # 3
+# print(trie.get_all_words_with_prefix("app"))  # ['app', 'apple', 'application']
+
+
+
