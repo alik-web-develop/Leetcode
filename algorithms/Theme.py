@@ -1116,3 +1116,52 @@ def rabin_karp_search(text, pattern, prime=101):
 # pattern = "AABA"
 # print(rabin_karp_search(text, pattern)) # Выведет: [0, 9, 12]
 
+
+# =================
+
+# Fenwick Tree (Binary Indexed Tree) для запросов суммы диапазона
+class FenwickTree:
+    """Дерево Фенвика для эффективных запросов суммы диапазона"""
+    
+    def __init__(self, arr):
+        self.n = len(arr)
+        self.tree = [0] * (self.n + 1)
+        self._build(arr)
+    
+    def _build(self, arr):
+        """Построение дерева Фенвика"""
+        for i in range(self.n):
+            self.update(i, arr[i])
+    
+    def _get_lsb(self, x):
+        """Получение младшего значащего бита"""
+        return x & (-x)
+    
+    def update(self, index, value):
+        """Обновление элемента по индексу"""
+        index += 1  # Индексация с 1
+        while index <= self.n:
+            self.tree[index] += value
+            index += self._get_lsb(index)
+    
+    def query(self, index):
+        """Запрос суммы от 0 до index (включительно)"""
+        index += 1  # Индексация с 1
+        result = 0
+        while index > 0:
+            result += self.tree[index]
+            index -= self._get_lsb(index)
+        return result
+    
+    def range_query(self, left, right):
+        """Запрос суммы в диапазоне [left, right]"""
+        return self.query(right) - self.query(left - 1)
+
+# Пример использования:
+# arr = [1, 3, 5, 7, 9, 11]
+# ft = FenwickTree(arr)
+# print(ft.range_query(1, 4))  # Выведет: 24 (3 + 5 + 7 + 9)
+# ft.update(2, 10)  # Увеличиваем элемент с индексом 2 на 10
+# print(ft.range_query(1, 4))  # Выведет: 34 (3 + 15 + 7 + 9)
+
+
