@@ -1319,5 +1319,4 @@
 # # print(uf.connected(1, 6))  # True
 # # print(uf.connected(1, 3))  # False
 # # print(uf.get_size(1))      # 4 (размер множества {1, 2, 5, 6})
-# # print(uf.get_count())      # 6 (количество множеств)
 
