@@ -1307,5 +1307,3 @@
 #                 components[root] = []
 #             components[root].append(i)
 #         return list(components.values())
-
-# # Пример использования:
