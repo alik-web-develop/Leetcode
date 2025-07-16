@@ -1315,7 +1315,3 @@
 # # uf.union(5, 6)
 # # uf.union(3, 4)
 # # uf.union(4, 7)
-# # 
-# # print(uf.connected(1, 6))  # True
-# # print(uf.connected(1, 3))  # False
-
