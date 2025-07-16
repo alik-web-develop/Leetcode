@@ -1309,4 +1309,3 @@
 #         return list(components.values())
 
 # # Пример использования:
-# # uf = UnionFind(10)
