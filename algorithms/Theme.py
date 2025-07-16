@@ -1314,4 +1314,3 @@
 # # uf.union(2, 5)
 # # uf.union(5, 6)
 # # uf.union(3, 4)
-# # uf.union(4, 7)
