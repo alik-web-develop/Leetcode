@@ -1306,3 +1306,4 @@
 #             if root not in components:
 #                 components[root] = []
 #             components[root].append(i)
+#         return list(components.values())
