@@ -1462,3 +1462,45 @@ def edmonds_karp(capacity, source, sink):
 
 # =================
 
+# 5. Минимальное покрытие вершин в двудольном графе через максимальное паросочетание
+# (König's theorem)
+def min_vertex_cover_bipartite(graph, left_size):
+    """Минимальное покрытие вершин в двудольном графе через максимальное паросочетание"""
+    # graph: {u: [v, ...]} где u из левой доли, v из правой (номера)
+    match_to = [-1] * (max(max(vs) for vs in graph.values()) + 1)
+    def bpm(u, visited):
+        for v in graph[u]:
+            if not visited[v]:
+                visited[v] = True
+                if match_to[v] == -1 or bpm(match_to[v], visited):
+                    match_to[v] = u
+                    return True
+        return False
+    for u in range(left_size):
+        visited = [False] * len(match_to)
+        bpm(u, visited)
+    # Теперь строим минимальное покрытие
+    from collections import deque
+    vis_left = [False] * left_size
+    vis_right = [False] * len(match_to)
+    queue = deque()
+    for u in range(left_size):
+        if all(match_to[v] != u for v in graph[u]):
+            queue.append(u)
+            vis_left[u] = True
+    while queue:
+        u = queue.popleft()
+        for v in graph[u]:
+            if not vis_right[v] and match_to[v] != -1 and match_to[v] != u:
+                vis_right[v] = True
+                if not vis_left[match_to[v]]:
+                    vis_left[match_to[v]] = True
+                    queue.append(match_to[v])
+    cover_left = [u for u in range(left_size) if not vis_left[u]]
+    cover_right = [v for v in range(len(match_to)) if vis_right[v]]
+    return cover_left, cover_right
+
+# Пример использования:
+# graph = {0: [0, 1], 1: [0], 2: [1]}
+# left_size = 3
+# print(min_vertex_cover_bipartite(graph, left_size)) # ([1, 2], [0])
