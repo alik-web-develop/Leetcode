@@ -1305,3 +1305,44 @@
 #             root = self.find(i)
 #             if root not in components:
 #                 components[root] = []
+
+# =================
+
+# 1. Дейкстра с восстановлением пути
+import heapq
+
+def dijkstra_with_path(graph, start):
+    """Дейкстра с восстановлением кратчайших путей"""
+    distances = {node: float('inf') for node in graph}
+    previous = {node: None for node in graph}
+    distances[start] = 0
+    queue = [(0, start)]
+    while queue:
+        dist, u = heapq.heappop(queue)
+        if dist > distances[u]:
+            continue
+        for v, weight in graph[u].items():
+            if distances[v] > distances[u] + weight:
+                distances[v] = distances[u] + weight
+                previous[v] = u
+                heapq.heappush(queue, (distances[v], v))
+    return distances, previous
+
+def restore_path(previous, start, end):
+    """Восстановление пути из previous"""
+    path = []
+    while end is not None:
+        path.append(end)
+        end = previous[end]
+    path.reverse()
+    if path and path[0] == start:
+        return path
+    return []
+
+# Пример использования:
+# graph = {'A': {'B': 1, 'C': 4}, 'B': {'A': 1, 'C': 2, 'D': 5}, 'C': {'A': 4, 'B': 2, 'D': 1}, 'D': {'B': 5, 'C': 1}}
+# dist, prev = dijkstra_with_path(graph, 'A')
+# print(dist)
+# print(restore_path(prev, 'A', 'D'))
+
+# =================
