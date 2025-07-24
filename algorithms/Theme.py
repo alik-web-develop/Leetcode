@@ -1346,3 +1346,74 @@ def restore_path(previous, start, end):
 # print(restore_path(prev, 'A', 'D'))
 
 # =================
+
+# 2. Поиск мостов (Tarjan's Bridge Algorithm)
+def find_bridges(graph):
+    """Поиск мостов в неориентированном графе"""
+    bridges = []
+    time = [0]
+    visited = set()
+    tin = {}
+    low = {}
+    def dfs(u, parent):
+        visited.add(u)
+        tin[u] = low[u] = time[0]
+        time[0] += 1
+        for v in graph[u]:
+            if v == parent:
+                continue
+            if v in visited:
+                low[u] = min(low[u], tin[v])
+            else:
+                dfs(v, u)
+                low[u] = min(low[u], low[v])
+                if low[v] > tin[u]:
+                    bridges.append((u, v))
+    for u in graph:
+        if u not in visited:
+            dfs(u, None)
+    return bridges
+
+# Пример использования:
+# graph = {0: [1, 2], 1: [0, 2], 2: [0, 1, 3], 3: [2, 4], 4: [3]}
+# print(find_bridges(graph)) # [(3, 4), (2, 3)]
+
+# =================
+
+# 3. Поиск точек сочленения (articulation points)
+def find_articulation_points(graph):
+    """Поиск точек сочленения в неориентированном графе"""
+    points = set()
+    time = [0]
+    visited = set()
+    tin = {}
+    low = {}
+    def dfs(u, parent=None):
+        visited.add(u)
+        tin[u] = low[u] = time[0]
+        time[0] += 1
+        children = 0
+        for v in graph[u]:
+            if v == parent:
+                continue
+            if v in visited:
+                low[u] = min(low[u], tin[v])
+            else:
+                dfs(v, u)
+                low[u] = min(low[u], low[v])
+                if parent is not None and low[v] >= tin[u]:
+                    points.add(u)
+                children += 1
+        if parent is None and children > 1:
+            points.add(u)
+    for u in graph:
+        if u not in visited:
+            dfs(u)
+    return points
+
+# Пример использования:
+# graph = {0: [1, 2], 1: [0, 2], 2: [0, 1, 3], 3: [2, 4], 4: [3]}
+# print(find_articulation_points(graph)) # {2, 3}
+
+# =================
+
