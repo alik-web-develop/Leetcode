@@ -1417,3 +1417,48 @@ def find_articulation_points(graph):
 
 # =================
 
+# 4. Edmonds-Karp (максимальный поток)
+from collections import deque, defaultdict
+
+def edmonds_karp(capacity, source, sink):
+    """Поиск максимального потока в графе (Edmonds-Karp)"""
+    n = len(capacity)
+    flow = 0
+    parent = {}
+    def bfs():
+        visited = set()
+        queue = deque([source])
+        visited.add(source)
+        parent.clear()
+        while queue:
+            u = queue.popleft()
+            for v in capacity[u]:
+                if v not in visited and capacity[u][v] > 0:
+                    visited.add(v)
+                    parent[v] = u
+                    if v == sink:
+                        return True
+                    queue.append(v)
+        return False
+    while bfs():
+        path_flow = float('inf')
+        s = sink
+        while s != source:
+            path_flow = min(path_flow, capacity[parent[s]][s])
+            s = parent[s]
+        v = sink
+        while v != source:
+            u = parent[v]
+            capacity[u][v] -= path_flow
+            capacity[v].setdefault(u, 0)
+            capacity[v][u] += path_flow
+            v = parent[v]
+        flow += path_flow
+    return flow
+
+# Пример использования:
+# capacity = {0: {1: 16, 2: 13}, 1: {2: 10, 3: 12}, 2: {1: 4, 4: 14}, 3: {2: 9, 5: 20}, 4: {3: 7, 5: 4}, 5: {}}
+# print(edmonds_karp(capacity, 0, 5)) # 23
+
+# =================
+
