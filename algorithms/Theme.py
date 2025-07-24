@@ -1304,4 +1304,3 @@
 #         for i in range(len(self.parent)):
 #             root = self.find(i)
 #             if root not in components:
-#                 components[root] = []
