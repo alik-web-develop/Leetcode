@@ -1503,4 +1503,3 @@
 # # Пример использования:
 # # graph = {0: [0, 1], 1: [0], 2: [1]}
 # # left_size = 3
-# # print(min_vertex_cover_bipartite(graph, left_size)) # ([1, 2], [0])
