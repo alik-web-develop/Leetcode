@@ -21,7 +21,6 @@
 # # # # # # # #                     return False
 # # # # # # # #             else:
 # # # # # # # #                 stack.append(char)
-# # # # # # # #         return not stack
 
 # # # # # # # # Решение Reverse Linked List
 # # # # # # # # class ListNode:
