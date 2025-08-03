@@ -13,8 +13,6 @@
 # #             if arr[i][1] > arr[i + 1][1]:
 # #                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
 # #     return arr
-
-
 # # print(sort_of_values(x))
 # # ............task2
 # # x = {0: 10, 1: 20}
