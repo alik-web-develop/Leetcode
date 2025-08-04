@@ -20,6 +20,7 @@
 # # # # # # # #                 if mapping[char] != top_element:
 # # # # # # # #                     return False
 # # # # # # # #             else:
+# # # # # # # #                 stack.append(char)
 
 # # # # # # # # Решение Reverse Linked List
 # # # # # # # # class ListNode:
