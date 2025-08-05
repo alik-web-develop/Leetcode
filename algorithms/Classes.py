@@ -14,7 +14,6 @@
 # # # # # # # #     def isValid(self, s):
 # # # # # # # #         stack = []
 # # # # # # # #         mapping = {')': '(', '}': '{', ']': '['}
-# # # # # # # #             else:
 
 # # # # # # # # Решение Reverse Linked List
 # # # # # # # # class ListNode:
