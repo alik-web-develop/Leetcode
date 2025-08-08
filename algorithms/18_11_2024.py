@@ -12,8 +12,6 @@
 # # #     return (" ".join(result))
 # # # print(reverse_words("  hello world  "))
 
-# # #todo================================================================
-# # # 92. Reverse Linked List II
 # # # Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
 # # # x = [1,2,3,4,5,6,7,8,9,10]
 # # # def reverse_linked(arr,left,right):
