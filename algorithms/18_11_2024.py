@@ -25,10 +25,6 @@
 # #         dummy = ListNode(0)
 # #         dummy.next = head
 # #         prev = dummy
-        
-# #         for _ in range(left - 1):
-# #             prev = prev.next
-        
 # #         current = prev.next
         
 # #         for _ in range(right - left):
