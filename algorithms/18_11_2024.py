@@ -18,6 +18,7 @@
 # # # x = [1,2,3,4,5,6,7,8,9,10]
 # # # def reverse_linked(arr,left,right):
 # # #     else:
+
 # # # вот тут литкод мой код не принял так как к нам оказывается приходит не просто list а ListNode это то ещё проблема так как там нету индексации типо вы не можете использовать element[left:right] из за этого пришлось голову морочить вот короче код который литкод принял
 # # class Solution:
 # #     def reverseBetween(self, head, left: int, right: int):
