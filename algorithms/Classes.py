@@ -12,6 +12,7 @@
 # # # # # # # # Решение Valid Parentheses
 # # # # # # # # class ValidParentheses:
 # # # # # # # #     def isValid(self, s):
+# # # # # # # # Решение Reverse Linked List
 # # # # # # # # class ListNode:
 # # # # # # # #     def __init__(self, val=0, next=None):
 # # # # # # # #         self.val = val
