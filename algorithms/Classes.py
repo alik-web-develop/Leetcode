@@ -21,7 +21,6 @@
 # # # # # # # # Решение Merge Two Sorted Lists
 # # # # # # # # class MergeSortedLists:
 # # # # # # # #     def mergeTwoLists(self, l1, l2):
-# # # # # # # #         dummy = ListNode(0)
 # # # # # # # #         current = dummy
 # # # # # # # #         while l1 and l2:
 # # # # # # # #                 current.next = l1
