@@ -11,8 +11,6 @@
 
 # # # # # # # # Решение Valid Parentheses
 # # # # # # # # class ValidParentheses:
-# # # # # # # #     def isValid(self, s):
-# # # # # # # #             next_temp = current.next
 # # # # # # # #             current.next = prev
 # # # # # # # #             prev = current
 # # # # # # # #             current = next_temp
