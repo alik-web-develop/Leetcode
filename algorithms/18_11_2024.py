@@ -16,9 +16,6 @@
 # # # x = [1,2,3,4,5,6,7,8,9,10]
 # # # def reverse_linked(arr,left,right):
 # # #     else:
-# # #         arr[left-1:right-1] = arr[left-1:right-1][::-1]
-# # #         return arr
-# # # print(reverse_linked(x,3,8))
 
 # # # вот тут литкод мой код не принял так как к нам оказывается приходит не просто list а ListNode это то ещё проблема так как там нету индексации типо вы не можете использовать element[left:right] из за этого пришлось голову морочить вот короче код который литкод принял
 # # class Solution:
@@ -26,10 +23,6 @@
 # #         dummy = ListNode(0)
 # #         dummy.next = head
 # #         prev = dummy
-        
-# #         for _ in range(left - 1):
-# #             prev = prev.next
-        
 # #         current = prev.next
         
 # #         for _ in range(right - left):

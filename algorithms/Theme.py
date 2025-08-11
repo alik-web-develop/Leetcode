@@ -1501,5 +1501,3 @@
 #     return cover_left, cover_right
 
 # # Пример использования:
-# # graph = {0: [0, 1], 1: [0], 2: [1]}
-# # left_size = 3
