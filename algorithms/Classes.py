@@ -19,6 +19,7 @@
 # # # # # # # #         return prev
 
 # # # # # # # # Решение Merge Two Sorted Lists
+# # # # # # # #         current = dummy
 # # # # # # # #         while l1 and l2:
 # # # # # # # #                 current.next = l1
 # # # # # # # #                 l1 = l1.next
