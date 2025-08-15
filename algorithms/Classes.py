@@ -9,20 +9,7 @@
 # # # # # # # #             hash_map[num] = i
 # # # # # # # #         return []
 
-# # # # # # # # Решение Valid Parentheses
-# # # # # # # # class ValidParentheses:
-# # # # # # # #     def isValid(self, s):
-# # # # # # # #             next_temp = current.next
-# # # # # # # #             current.next = prev
-# # # # # # # #             prev = current
-# # # # # # # #             current = next_temp
-# # # # # # # #         return prev
-
-# # # # # # # # Решение Merge Two Sorted Lists
-# # # # # # # #         current = dummy
-# # # # # # # #         while l1 and l2:
-# # # # # # # #                 current.next = l1
-# # # # # # # #                 l1 = l1.next
+# # # # #
 # # # # # # # #             else:
 # # # # # # # #                 current.next = l2
 # # # # # # # #                 l2 = l2.next
