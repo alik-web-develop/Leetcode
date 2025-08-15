@@ -20,12 +20,6 @@
 
 # # # # # # # # Решение Merge Two Sorted Lists
 # # # # # # # #         current = dummy
-# # # # # # # #         while l1 and l2:
-# # # # # # # #                 current.next = l1
-# # # # # # # #                 l1 = l1.next
-# # # # # # # #                 l2 = l2.next
-# # # # # # # #             current = current.next
-# # # # # # # #         current.next = l1 if l1 else l2
 # # # # # # # #         return dummy.next
 
 # # # # # # # # Решение Binary Search
