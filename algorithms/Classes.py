@@ -20,6 +20,7 @@
 
 # # # # # # # # Решение Merge Two Sorted Lists
 # # # # # # # #         current = dummy
+# # # # # # # #             current = current.next
 # # # # # # # #         current.next = l1 if l1 else l2
 # # # # # # # #         return dummy.next
 
