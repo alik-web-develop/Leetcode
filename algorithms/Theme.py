@@ -1495,4 +1495,3 @@
 #                 vis_right[v] = True
 #                 if not vis_left[match_to[v]]:
 #                     vis_left[match_to[v]] = True
-#                     queue.append(match_to[v])
