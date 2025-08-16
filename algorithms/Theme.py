@@ -1493,5 +1493,4 @@
 #         for v in graph[u]:
 #             if not vis_right[v] and match_to[v] != -1 and match_to[v] != u:
 #                 vis_right[v] = True
-#                 if not vis_left[match_to[v]]:
 #                     vis_left[match_to[v]] = True
