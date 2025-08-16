@@ -1497,4 +1497,3 @@
 #                     vis_left[match_to[v]] = True
 #                     queue.append(match_to[v])
 #     cover_left = [u for u in range(left_size) if not vis_left[u]]
-#     cover_right = [v for v in range(len(match_to)) if vis_right[v]]
