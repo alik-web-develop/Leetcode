@@ -1480,4 +1480,3 @@
 #         visited = [False] * len(match_to)
 #         bpm(u, visited)
 #     # Теперь строим минимальное покрытие
-#     from collections import deque
