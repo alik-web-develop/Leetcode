@@ -1477,4 +1477,3 @@
 #                     return True
 #         return False
 #     for u in range(left_size):
-#         visited = [False] * len(match_to)
