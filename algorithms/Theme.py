@@ -1485,5 +1485,3 @@
 #     vis_right = [False] * len(match_to)
 #     queue = deque()
 #     for u in range(left_size):
-#         if all(match_to[v] != u for v in graph[u]):
-#             queue.append(u)
