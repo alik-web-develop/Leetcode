@@ -1484,4 +1484,3 @@
 #     vis_left = [False] * left_size
 #     vis_right = [False] * len(match_to)
 #     queue = deque()
-#     for u in range(left_size):
