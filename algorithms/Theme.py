@@ -1482,5 +1482,3 @@
 #     # Теперь строим минимальное покрытие
 #     from collections import deque
 #     vis_left = [False] * left_size
-#     vis_right = [False] * len(match_to)
-#     queue = deque()
