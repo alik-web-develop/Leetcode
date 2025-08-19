@@ -1481,4 +1481,3 @@
 #         bpm(u, visited)
 #     # Теперь строим минимальное покрытие
 #     from collections import deque
-#     vis_left = [False] * left_size
