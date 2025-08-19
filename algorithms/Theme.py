@@ -1490,4 +1490,3 @@
 #             vis_left[u] = True
 #     while queue:
 #         u = queue.popleft()
-#         for v in graph[u]:
