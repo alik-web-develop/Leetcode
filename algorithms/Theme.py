@@ -1487,6 +1487,3 @@
 #     for u in range(left_size):
 #         if all(match_to[v] != u for v in graph[u]):
 #             queue.append(u)
-#             vis_left[u] = True
-#     while queue:
-#         u = queue.popleft()
