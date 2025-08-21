@@ -1467,5 +1467,3 @@
 # def min_vertex_cover_bipartite(graph, left_size):
 #     """Минимальное покрытие вершин в двудольном графе через максимальное паросочетание"""
 #     # graph: {u: [v, ...]} где u из левой доли, v из правой (номера)
-#     match_to = [-1] * (max(max(vs) for vs in graph.values()) + 1)
-#     def bpm(u, visited):
