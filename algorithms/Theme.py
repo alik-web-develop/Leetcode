@@ -1470,7 +1470,3 @@
 #     match_to = [-1] * (max(max(vs) for vs in graph.values()) + 1)
 #     def bpm(u, visited):
 #         for v in graph[u]:
-#             if not visited[v]:
-#                 visited[v] = True
-#                 if match_to[v] == -1 or bpm(match_to[v], visited):
-#                     match_to[v] = u
