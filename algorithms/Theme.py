@@ -1469,4 +1469,3 @@
 #     # graph: {u: [v, ...]} где u из левой доли, v из правой (номера)
 #     match_to = [-1] * (max(max(vs) for vs in graph.values()) + 1)
 #     def bpm(u, visited):
-#         for v in graph[u]:
