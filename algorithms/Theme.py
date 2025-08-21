@@ -1452,5 +1452,3 @@
 #             capacity[u][v] -= path_flow
 #             capacity[v].setdefault(u, 0)
 #             capacity[v][u] += path_flow
-#             v = parent[v]
-#         flow += path_flow
