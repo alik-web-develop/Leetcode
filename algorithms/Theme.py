@@ -1448,7 +1448,3 @@
 #             s = parent[s]
 #         v = sink
 #         while v != source:
-#             u = parent[v]
-#             capacity[u][v] -= path_flow
-#             capacity[v].setdefault(u, 0)
-#             capacity[v][u] += path_flow
