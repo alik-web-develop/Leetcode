@@ -1443,5 +1443,3 @@
 #     while bfs():
 #         path_flow = float('inf')
 #         s = sink
-#         while s != source:
-#             path_flow = min(path_flow, capacity[parent[s]][s])
