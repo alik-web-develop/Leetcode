@@ -1438,5 +1438,3 @@
 #                     parent[v] = u
 #                     if v == sink:
 #                         return True
-#                     queue.append(v)
-#         return False
