@@ -1445,5 +1445,3 @@
 #         s = sink
 #         while s != source:
 #             path_flow = min(path_flow, capacity[parent[s]][s])
-#             s = parent[s]
-#         v = sink
