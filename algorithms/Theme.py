@@ -1441,5 +1441,3 @@
 #                     queue.append(v)
 #         return False
 #     while bfs():
-#         path_flow = float('inf')
-#         s = sink
