@@ -24,8 +24,6 @@
 # # # # # # # #         current.next = l1 if l1 else l2
 # # # # # # # #         return dummy.next
 
-# # # # # # # # Решение Binary Search
-# # # # # # # #     def search(self, nums, target):
 # # # # # # # #         left, right = 0, len(nums) - 1
 # # # # # # # #         while left <= right:
 # # # # # # # #             mid = (left + right) // 2
