@@ -26,7 +26,6 @@
 
 # # # # # # # #             if nums[mid] == target:
 # # # # # # # #                 right = mid - 1
-# # # # # # # #         return -1
 
 # # # # # # # # Решение Climbing Stairs
 # # # # # # # # class ClimbingStairs:
