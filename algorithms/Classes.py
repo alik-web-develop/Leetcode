@@ -25,7 +25,6 @@
 # # # # # # # #         return dummy.next
 
 # # # # # # # # Решение Binary Search
-# # # # # # # # class BinarySearch:
 # # # # # # # #     def search(self, nums, target):
 # # # # # # # #         left, right = 0, len(nums) - 1
 # # # # # # # #         while left <= right:
