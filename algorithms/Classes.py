@@ -24,7 +24,6 @@
 # # # # # # # #         current.next = l1 if l1 else l2
 # # # # # # # #         return dummy.next
 
-# # # # # # # #         left, right = 0, len(nums) - 1
 # # # # # # # #             if nums[mid] == target:
 # # # # # # # #                 return mid
 # # # # # # # #             elif nums[mid] < target:
