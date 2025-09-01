@@ -25,7 +25,6 @@
 # # # # # # # #         return dummy.next
 
 # # # # # # # #             if nums[mid] == target:
-# # # # # # # #                 return mid
 # # # # # # # #             elif nums[mid] < target:
 # # # # # # # #             else:
 # # # # # # # #                 right = mid - 1
