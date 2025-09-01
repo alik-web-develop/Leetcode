@@ -29,7 +29,6 @@
 
 # # # # # # # # Решение Climbing Stairs
 # # # # # # # # class ClimbingStairs:
-# # # # # # # #     def climbStairs(self, n):
 # # # # # # # #         if n <= 2:
 # # # # # # # #             return n
 # # # # # # # #         dp = [0] * (n + 1)
