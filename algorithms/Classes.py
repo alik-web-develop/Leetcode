@@ -676,5 +676,3 @@
             
 #             for neighbor in graph.get(node, []):
 #                 visit(neighbor)
-                
-#             temp.remove(node)
