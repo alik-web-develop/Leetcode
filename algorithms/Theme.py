@@ -1429,8 +1429,3 @@
 #         visited = set()
 #         queue = deque([source])
 #         visited.add(source)
-#         parent.clear()
-#         while queue:
-#             u = queue.popleft()
-#             for v in capacity[u]:
-#                 if v not in visited and capacity[u][v] > 0:
