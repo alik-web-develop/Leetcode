@@ -674,5 +674,3 @@
                 
 #             temp.add(node)
             
-#             for neighbor in graph.get(node, []):
-#                 visit(neighbor)
