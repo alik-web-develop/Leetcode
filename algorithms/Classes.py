@@ -659,6 +659,4 @@
                     
 #         return dp[n][capacity]
 
-# # Решение Topological Sort
-# class TopologicalSort:
 #     def topologicalSort(self, graph):
