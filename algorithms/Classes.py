@@ -669,8 +669,3 @@
 #         def visit(node):
 #             if node in temp:
 #                 raise ValueError("Graph contains a cycle")
-#             if node in visited:
-#                 return
-                
-#             temp.add(node)
-            
