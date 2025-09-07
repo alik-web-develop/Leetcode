@@ -665,7 +665,3 @@
 #         visited = set()
 #         temp = set()
 #         order = []
-        
-#         def visit(node):
-#             if node in temp:
-#                 raise ValueError("Graph contains a cycle")
