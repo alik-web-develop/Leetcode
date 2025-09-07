@@ -662,5 +662,3 @@
 # # Решение Topological Sort
 # class TopologicalSort:
 #     def topologicalSort(self, graph):
-#         visited = set()
-#         temp = set()
