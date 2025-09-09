@@ -634,7 +634,5 @@
 #             current = min(unvisited, key=lambda node: distances[node])
 #             if distances[current] == float('infinity'):
 #                 break
-                
-#             unvisited.remove(current)
             
 #             for neighbor, weight in graph[current].items():
