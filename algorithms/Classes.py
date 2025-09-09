@@ -631,4 +631,3 @@
 #         unvisited = set(graph.keys())
         
 #         while unvisited:
-#             current = min(unvisited, key=lambda node: distances[node])
