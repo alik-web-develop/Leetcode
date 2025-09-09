@@ -641,5 +641,3 @@
 #                 distance = distances[current] + weight
 #                 if distance < distances[neighbor]:
 #                     distances[neighbor] = distance
-                    
-#         return distances
