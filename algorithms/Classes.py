@@ -635,4 +635,3 @@
 #             if distances[current] == float('infinity'):
 #                 break
             
-#             for neighbor, weight in graph[current].items():
