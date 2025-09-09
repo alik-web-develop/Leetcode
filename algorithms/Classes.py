@@ -633,5 +633,3 @@
 #         while unvisited:
 #             current = min(unvisited, key=lambda node: distances[node])
 #             if distances[current] == float('infinity'):
-#                 break
-            
