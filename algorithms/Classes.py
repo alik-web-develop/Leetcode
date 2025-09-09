@@ -643,5 +643,3 @@
 #                     distances[neighbor] = distance
                     
 #         return distances
-
-# # Решение Knapsack Problem
