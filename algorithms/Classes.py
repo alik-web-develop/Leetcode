@@ -645,6 +645,3 @@
 #         return distances
 
 # # Решение Knapsack Problem
-# class Knapsack:
-#     def knapsack(self, weights, values, capacity):
-#         n = len(weights)
