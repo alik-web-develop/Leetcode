@@ -618,5 +618,3 @@
 #             if node.val == val:
 #                 return True
 #             if val < node.val:
-#                 return _search(node.left, val)
-#             return _search(node.right, val)
