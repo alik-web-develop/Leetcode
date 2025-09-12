@@ -613,5 +613,3 @@
         
 #     def search(self, val):
 #         def _search(node, val):
-#             if not node:
-#                 return False
