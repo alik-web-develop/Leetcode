@@ -620,5 +620,3 @@
 #             if val < node.val:
 #                 return _search(node.left, val)
 #             return _search(node.right, val)
-            
-#         return _search(self.root, val)
