@@ -624,4 +624,3 @@
 #         return _search(self.root, val)
 
 # # Решение Dijkstra's Algorithm
-# class Dijkstra:
