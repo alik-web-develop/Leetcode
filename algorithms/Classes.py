@@ -629,5 +629,3 @@
 #         distances = {node: float('infinity') for node in graph}
 #         distances[start] = 0
 #         unvisited = set(graph.keys())
-        
-#         while unvisited:
