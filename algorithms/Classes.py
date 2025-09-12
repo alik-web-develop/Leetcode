@@ -622,5 +622,3 @@
 #             return _search(node.right, val)
             
 #         return _search(self.root, val)
-
-# # Решение Dijkstra's Algorithm
