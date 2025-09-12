@@ -625,5 +625,3 @@
 
 # # Решение Dijkstra's Algorithm
 # class Dijkstra:
-#     def dijkstra(self, graph, start):
-#         distances = {node: float('infinity') for node in graph}
