@@ -617,4 +617,3 @@
 #                 return False
 #             if node.val == val:
 #                 return True
-#             if val < node.val:
