@@ -615,5 +615,3 @@
 #         def _search(node, val):
 #             if not node:
 #                 return False
-#             if node.val == val:
-#                 return True
