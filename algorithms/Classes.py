@@ -600,5 +600,3 @@
 #         def _insert(node, val):
 #             if val < node.val:
 #                 if node.left:
-#                     _insert(node.left, val)
-#                 else:
