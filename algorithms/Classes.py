@@ -608,6 +608,3 @@
 #                     _insert(node.right, val)
 #                 else:
 #                     node.right = TreeNode(val)
-                    
-#         _insert(self.root, val)
-        
