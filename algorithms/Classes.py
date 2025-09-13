@@ -598,5 +598,3 @@
 #             return
             
 #         def _insert(node, val):
-#             if val < node.val:
-#                 if node.left:
