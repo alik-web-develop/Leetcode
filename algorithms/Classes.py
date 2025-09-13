@@ -606,5 +606,3 @@
 #             else:
 #                 if node.right:
 #                     _insert(node.right, val)
-#                 else:
-#                     node.right = TreeNode(val)
