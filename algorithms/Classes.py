@@ -611,5 +611,3 @@
                     
 #         _insert(self.root, val)
         
-#     def search(self, val):
-#         def _search(node, val):
