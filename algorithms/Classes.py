@@ -592,5 +592,3 @@
 #     def __init__(self):
 #         self.root = None
         
-#     def insert(self, val):
-#         if not self.root:
