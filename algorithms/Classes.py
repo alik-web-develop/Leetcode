@@ -594,5 +594,3 @@
         
 #     def insert(self, val):
 #         if not self.root:
-#             self.root = TreeNode(val)
-#             return
