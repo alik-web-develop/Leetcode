@@ -582,5 +582,3 @@
 #         return self.quickSort(left) + middle + self.quickSort(right)
 
 # # Решение Binary Search Tree
-# class TreeNode:
-#     def __init__(self, val=0):
