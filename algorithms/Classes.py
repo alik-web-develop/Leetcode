@@ -578,5 +578,3 @@
 #         left = [x for x in arr if x < pivot]
 #         middle = [x for x in arr if x == pivot]
 #         right = [x for x in arr if x > pivot]
-        
-#         return self.quickSort(left) + middle + self.quickSort(right)
