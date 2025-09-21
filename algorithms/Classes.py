@@ -584,5 +584,3 @@
 # # Решение Binary Search Tree
 # class TreeNode:
 #     def __init__(self, val=0):
-#         self.val = val
-#         self.left = None
