@@ -564,5 +564,3 @@
 # #         for r in range(rows):
 # #             for c in range(cols):
 # #                 if grid[r][c] == 1:
-# #                     max_area = max(max_area, dfs(r, c))
-                    
