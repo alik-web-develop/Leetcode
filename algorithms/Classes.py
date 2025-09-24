@@ -566,5 +566,3 @@
 # #                 if grid[r][c] == 1:
 # #                     max_area = max(max_area, dfs(r, c))
                     
-# #         return max_area
-# class QuickSort:
