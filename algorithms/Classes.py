@@ -567,6 +567,4 @@
 # #                     max_area = max(max_area, dfs(r, c))
                     
 # #         return max_area
-
-# # Решение QuickSort
 # class QuickSort:
