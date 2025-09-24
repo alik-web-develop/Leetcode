@@ -556,5 +556,3 @@
 # #             # Проверяем все 4 направления
 # #             area += dfs(r + 1, c)
 # #             area += dfs(r - 1, c)
-# #             area += dfs(r, c + 1)
-# #             area += dfs(r, c - 1)
