@@ -538,6 +538,3 @@
 # # # Решение Max Area of Island
 # # class MaxAreaOfIsland:
 # #     def maxAreaOfIsland(self, grid):
-# #         if not grid:
-# #             return 0
-            
