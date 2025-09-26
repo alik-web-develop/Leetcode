@@ -522,5 +522,3 @@
 # #     def permute(self, nums):
 # #         result = []
         
-# #         def backtrack(start):
-# #             if start == len(nums):
