@@ -524,6 +524,3 @@
         
 # #         def backtrack(start):
 # #             if start == len(nums):
-# #                 result.append(nums[:])
-# #                 return
-                
