@@ -541,6 +541,3 @@
 # #         if not grid:
 # #             return 0
             
-# #         max_area = 0
-# #         rows, cols = len(grid), len(grid[0])
-        
