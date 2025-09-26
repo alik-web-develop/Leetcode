@@ -515,4 +515,3 @@
 # #             elif maxLeftX > minRightY:
 # #                 high = partitionX - 1
 # #             else:
-# #                 low = partitionX + 1
