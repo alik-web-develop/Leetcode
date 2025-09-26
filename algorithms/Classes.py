@@ -534,5 +534,3 @@
                 
 # #         backtrack(0)
 # #         return result
-
-# # # Решение Max Area of Island
