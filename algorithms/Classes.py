@@ -516,7 +516,3 @@
 # #                 high = partitionX - 1
 # #             else:
 # #                 low = partitionX + 1
-
-# # # Решение Permutations
-# # class Permutations:
-# #     def permute(self, nums):
