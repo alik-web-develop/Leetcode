@@ -532,5 +532,3 @@
 # #                 backtrack(start + 1)
 # #                 nums[start], nums[i] = nums[i], nums[start]
                 
-# #         backtrack(0)
-# #         return result
