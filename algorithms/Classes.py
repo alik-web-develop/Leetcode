@@ -482,5 +482,3 @@
                 
 # #             if node.val <= low or node.val >= high:
 # #                 return False
-                
-# #             return (validate(node.left, low, node.val) and 
