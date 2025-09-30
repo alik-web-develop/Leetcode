@@ -505,6 +505,3 @@
 # #             minRightX = float('inf') if partitionX == x else nums1[partitionX]
             
 # #             maxLeftY = float('-inf') if partitionY == 0 else nums2[partitionY - 1]
-# #             minRightY = float('inf') if partitionY == y else nums2[partitionY]
-            
-# #             if maxLeftX <= minRightY and maxLeftY <= minRightX:
