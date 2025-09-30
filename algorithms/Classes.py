@@ -492,6 +492,3 @@
 # # class MedianOfSortedArrays:
 # #     def findMedianSortedArrays(self, nums1, nums2):
 # #         if len(nums1) > len(nums2):
-# #             nums1, nums2 = nums2, nums1
-            
-# #         while low <= high:
