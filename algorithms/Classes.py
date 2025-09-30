@@ -486,6 +486,3 @@
 # #             return (validate(node.left, low, node.val) and 
 # #                     validate(node.right, node.val, high))
                     
-# #         return validate(root)
-
-# # # Решение Median of Two Sorted Arrays
