@@ -513,5 +513,3 @@
 # #                 else:
 # #                     return max(maxLeftX, maxLeftY)
 # #             elif maxLeftX > minRightY:
-# #                 high = partitionX - 1
-# #             else:
