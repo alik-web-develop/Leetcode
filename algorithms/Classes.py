@@ -508,8 +508,3 @@
 # #             minRightY = float('inf') if partitionY == y else nums2[partitionY]
             
 # #             if maxLeftX <= minRightY and maxLeftY <= minRightX:
-# #                 if (x + y) % 2 == 0:
-# #                     return (max(maxLeftX, maxLeftY) + min(minRightX, minRightY)) / 2
-# #                 else:
-# #                     return max(maxLeftX, maxLeftY)
-# #             elif maxLeftX > minRightY:
