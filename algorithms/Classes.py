@@ -498,7 +498,3 @@
 # #         low, high = 0, x
         
 # #         while low <= high:
-# #             partitionX = (low + high) // 2
-# #             partitionY = (x + y + 1) // 2 - partitionX
-            
-# #             maxLeftX = float('-inf') if partitionX == 0 else nums1[partitionX - 1]
