@@ -480,5 +480,3 @@
 # #             if not node:
 # #                 return True
                 
-# #             if node.val <= low or node.val >= high:
-# #                 return False
