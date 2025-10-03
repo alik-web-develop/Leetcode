@@ -471,10 +471,3 @@
 # #                 combo.pop()
                 
 # #         backtrack(target, [], 0)
-# #         return result
-
-# # # Решение Validate Binary Search Tree
-# # class ValidateBST:
-# #     def isValidBST(self, root):
-# #         def validate(node, low=float('-inf'), high=float('inf')):
-# #             if not node:
