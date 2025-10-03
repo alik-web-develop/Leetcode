@@ -455,5 +455,3 @@
 
 # # # Решение Combination Sum
 # # class CombinationSum:
-# #     def combinationSum(self, candidates, target):
-# #         result = []
