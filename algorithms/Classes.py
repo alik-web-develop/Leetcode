@@ -447,8 +447,3 @@
 # # #             return root
             
 # # #         left = self.lowestCommonAncestor(root.left, p, q)
-# # #         right = self.lowestCommonAncestor(root.right, p, q)
-        
-
-# # # Решение Combination Sum
-# # class CombinationSum:
