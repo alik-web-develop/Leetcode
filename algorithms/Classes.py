@@ -427,5 +427,3 @@
 # # #             chars[write] = current_char
 # # #             write += 1
             
-# # #             if count > 1:
-# # #                 for digit in str(count):
