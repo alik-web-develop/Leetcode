@@ -440,6 +440,3 @@
 # # #         self.val = x
 # # #         self.left = None
 # # #         self.right = None
-
-# # # class LowestCommonAncestor:
-# # #     def lowestCommonAncestor(self, root, p, q):
