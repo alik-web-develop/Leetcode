@@ -435,5 +435,3 @@
 # # #         return write
 
 # # # # Решение Lowest Common Ancestor in Binary Tree
-# # # class TreeNode:
-# # #     def __init__(self, x):
