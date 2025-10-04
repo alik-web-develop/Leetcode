@@ -429,5 +429,3 @@
             
 # # #             if count > 1:
 # # #                 for digit in str(count):
-# # #                     chars[write] = digit
-# # #                     write += 1
