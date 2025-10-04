@@ -422,4 +422,3 @@
             
 # # #             while read < len(chars) and chars[read] == current_char:
 # # #                 read += 1
-# # #                 count += 1
