@@ -437,5 +437,3 @@
 # # # # Решение Lowest Common Ancestor in Binary Tree
 # # # class TreeNode:
 # # #     def __init__(self, x):
-# # #         self.val = x
-# # #         self.left = None
