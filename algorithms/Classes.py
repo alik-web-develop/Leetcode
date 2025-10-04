@@ -433,5 +433,3 @@
 # # #                     write += 1
                     
 # # #         return write
-
-# # # # Решение Lowest Common Ancestor in Binary Tree
