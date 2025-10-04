@@ -425,5 +425,3 @@
 # # #                 count += 1
                 
 # # #             chars[write] = current_char
-# # #             write += 1
-            
