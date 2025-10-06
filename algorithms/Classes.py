@@ -379,5 +379,3 @@
 
 # # # # Решение Maze Path Finder
 # # # class MazePathFinder:
-# # #     def findPath(self, maze, start, end):
-# # #         if not maze or not maze[0]:
