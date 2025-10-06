@@ -408,9 +408,3 @@
 # # #         return []
 
 # # # # Решение String Compression
-# # # class StringCompression:
-# # #     def compress(self, chars):
-# # #         if not chars:
-# # #             return 0
-            
-# # #         write = 0
