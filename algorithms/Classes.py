@@ -384,5 +384,3 @@
 # # #             return []
             
 # # #         rows, cols = len(maze), len(maze[0])
-# # #         visited = set()
-# # #         path = []
