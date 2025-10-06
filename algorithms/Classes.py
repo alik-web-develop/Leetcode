@@ -393,10 +393,3 @@
                 
 # # #             if (0 <= x < rows and 0 <= y < cols and 
 # # #                 maze[x][y] == 0 and (x, y) not in visited):
-# # #                 visited.add((x, y))
-# # #                 path.append((x, y))
-                
-# # #                 for dx, dy in [(0, 1), (1, 0), (0, -1), (-1, 0)]:
-# # #                     if dfs(x + dx, y + dy):
-# # #                         return True
-                        
