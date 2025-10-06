@@ -419,6 +419,3 @@
 # # #         while read < len(chars):
 # # #             current_char = chars[read]
 # # #             count = 0
-            
-# # #             while read < len(chars) and chars[read] == current_char:
-# # #                 read += 1
