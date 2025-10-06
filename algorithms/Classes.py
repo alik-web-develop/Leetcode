@@ -416,6 +416,4 @@
 # # #         write = 0
 # # #         read = 0
         
-# # #         while read < len(chars):
-# # #             current_char = chars[read]
 # # #             count = 0
