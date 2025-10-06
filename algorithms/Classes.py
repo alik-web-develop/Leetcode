@@ -400,5 +400,3 @@
 # # #                     if dfs(x + dx, y + dy):
 # # #                         return True
                         
-# # #                 path.pop()
-# # #                 return False
