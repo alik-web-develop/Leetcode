@@ -390,6 +390,3 @@
 # # #         def dfs(x, y):
 # # #             if (x, y) == end:
 # # #                 return True
-                
-# # #             if (0 <= x < rows and 0 <= y < cols and 
-# # #                 maze[x][y] == 0 and (x, y) not in visited):
