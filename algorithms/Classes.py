@@ -376,6 +376,3 @@
 # # #                 boxes[box_idx].add(num)
                 
 # # #         return True
-
-# # # # Решение Maze Path Finder
-# # # class MazePathFinder:
