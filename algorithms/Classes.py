@@ -372,5 +372,3 @@
 # # #                     return False
                     
 # # #                 rows[i].add(num)
-# # #                 cols[j].add(num)
-# # #                 boxes[box_idx].add(num)
