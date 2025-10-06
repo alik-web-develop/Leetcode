@@ -404,5 +404,3 @@
 # # #                 return False
                 
 # # #         if dfs(start[0], start[1]):
-# # #             return path
-# # #         return []
