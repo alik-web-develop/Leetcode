@@ -370,3 +370,16 @@
 # # #                     num in cols[j] or 
 # # #                     num in boxes[box_idx]):
 # # #                     return False
+
+
+
+numbers = [4,6,2,6,8,9,1,1,12]
+def target_num(nums,target):
+    result = []
+    for i in nums:
+        for y in nums[1:-1]:
+            print(i,y)
+            if i + y == target and i not in result and y not in result:
+                return [nums.index(i),nums.index(y)]
+    return list(set(result))
+print(target_num(numbers,13))
