@@ -383,3 +383,4 @@ def target_num(nums,target):
                 return [nums.index(i),nums.index(y)]
     return list(set(result))
 print(target_num(numbers,13))
+# 
