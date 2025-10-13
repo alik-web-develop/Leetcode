@@ -343,8 +343,6 @@
             
 # # #         # Скользящее окно
 # # #         for i in range(len(p), len(s)):
-# # #             s_count[ord(s[i]) - ord('a')] += 1
-# # #             s_count[ord(s[i - len(p)]) - ord('a')] -= 1
 
 # # # # Решение Valid Sudoku
 # # # class ValidSudoku:
