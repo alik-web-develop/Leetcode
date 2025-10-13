@@ -342,9 +342,6 @@
 # # #             result.append(0)
             
 # # #         # Скользящее окно
-# # #         for i in range(len(p), len(s)):
-
-# # # # Решение Valid Sudoku
 # # # class ValidSudoku:
 # # #     def isValidSudoku(self, board):
 # # #         rows = [set() for _ in range(9)]
