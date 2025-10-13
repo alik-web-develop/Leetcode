@@ -334,7 +334,6 @@
 # # #         result = []
         
 # # #         # Заполняем начальные счетчики
-# # #         for i in range(len(p)):
 # # #             p_count[ord(p[i]) - ord('a')] += 1
 # # #             s_count[ord(s[i]) - ord('a')] += 1
             
