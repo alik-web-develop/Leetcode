@@ -341,8 +341,6 @@
 # # #         if p_count == s_count:
 # # #             result.append(0)
             
-# # #         # Скользящее окно
-# # # class ValidSudoku:
 # # #     def isValidSudoku(self, board):
 # # #         rows = [set() for _ in range(9)]
 # # #         cols = [set() for _ in range(9)]
