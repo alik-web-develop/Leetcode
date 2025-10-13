@@ -369,8 +369,6 @@
 # # #                 if (num in rows[i] or 
 # # #                     num in cols[j] or 
 # # #                     num in boxes[box_idx]):
-# # #                     return False
-
 # numbers = [4,6,2,6,8,9,1,1,12]
 # def target_num(nums,target):
 #     result = []
