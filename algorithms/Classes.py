@@ -338,8 +338,6 @@
 # # #             p_count[ord(p[i]) - ord('a')] += 1
 # # #             s_count[ord(s[i]) - ord('a')] += 1
             
-# # #         if p_count == s_count:
-# # #             result.append(0)
             
 # # #     def isValidSudoku(self, board):
 # # #         rows = [set() for _ in range(9)]
