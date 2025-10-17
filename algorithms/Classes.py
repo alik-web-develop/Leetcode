@@ -341,9 +341,6 @@
 # # #     def isValidSudoku(self, board):
 # # #         rows = [set() for _ in range(9)]
 # # #         cols = [set() for _ in range(9)]
-# # #         boxes = [set() for _ in range(9)]
-        
-# # #         for i in range(9):
 # # #             for j in range(9):
 # # #                 num = board[i][j]
 # # #                 if num == '.':
