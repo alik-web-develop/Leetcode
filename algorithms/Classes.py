@@ -344,9 +344,6 @@
 # # #             for j in range(9):
 # # #                 num = board[i][j]
 # # #                     continue
-                    
-# # #                 box_idx = (i // 3) * 3 + j // 3
-                
 # # #                 if (num in rows[i] or 
 # numbers = [4,6,2,6,8,9,1,1,12]
 # def target_num(nums,target):
