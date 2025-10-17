@@ -342,8 +342,6 @@
 # # #             for j in range(9):
 # # #                 num = board[i][j]
 # def target_num(nums,target):
-#     result = []
-#     for i in nums:
 #         for y in nums[1:-1]:
 #             print(i,y)
 #             if i + y == target and i not in result and y not in result:
