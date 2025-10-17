@@ -343,7 +343,6 @@
 # # #         cols = [set() for _ in range(9)]
 # # #             for j in range(9):
 # # #                 num = board[i][j]
-# # #                 if num == '.':
 # # #                     continue
                     
 # # #                 box_idx = (i // 3) * 3 + j // 3
