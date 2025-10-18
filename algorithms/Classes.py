@@ -318,8 +318,6 @@
 # # # #         for _ in range(n + 1):
 # # # #             first = first.next
             
-# # # #         # Перемещаем оба указателя, пока first не достигнет конца
-# # #             return []
             
 # # #         p_count = [0] * 26
 # # #         s_count = [0] * 26
