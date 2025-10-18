@@ -315,8 +315,6 @@
 # # # #         second = dummy
         
 # # # #         # Перемещаем first на n узлов вперед
-# # # #         for _ in range(n + 1):
-# # # #             first = first.next
             
             
 # # #         p_count = [0] * 26
