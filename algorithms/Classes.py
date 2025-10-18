@@ -304,8 +304,6 @@
 # # # #         return result
 
 # # # # # Решение Remove Nth Node From End of List
-# # # # class RemoveNthNodeFromEnd:
-# # # #         dummy = ListNode(0)
 # # # #         dummy.next = head
         
 # # # #         # Используем два указателя
