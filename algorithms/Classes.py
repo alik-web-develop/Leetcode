@@ -300,8 +300,6 @@
 # # # #                     left += 1
 # # # #                 else:
 # # # #                     right -= 1
-                    
-# # # #         return result
 
 # # # # # Решение Remove Nth Node From End of List
 # # # #         dummy.next = head
