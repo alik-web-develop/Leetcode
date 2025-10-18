@@ -335,9 +335,6 @@
         
 # # #         # Заполняем начальные счетчики
 # # #             p_count[ord(p[i]) - ord('a')] += 1
-# # #             s_count[ord(s[i]) - ord('a')] += 1
-            
-#             print(i,y)
 #             if i + y == target and i not in result and y not in result:
 from decimal import Decimal
 num2 = "1"
