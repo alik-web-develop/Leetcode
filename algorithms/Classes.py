@@ -337,9 +337,6 @@
 # # #             p_count[ord(p[i]) - ord('a')] += 1
 # # #             s_count[ord(s[i]) - ord('a')] += 1
             
-            
-# # #     def isValidSudoku(self, board):
-# # #             for j in range(9):
 #             print(i,y)
 #             if i + y == target and i not in result and y not in result:
 from decimal import Decimal
