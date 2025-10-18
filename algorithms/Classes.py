@@ -297,8 +297,6 @@
 # # # #                     left += 1
 # # # #                     right -= 1
 # # # #                 elif current_sum < 0:
-# # # #                     left += 1
-# # # #                 else:
 # # # #                     right -= 1
 
 # # # # # Решение Remove Nth Node From End of List
