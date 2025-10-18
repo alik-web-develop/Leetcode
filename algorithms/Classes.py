@@ -305,8 +305,6 @@
 
 # # # # # Решение Remove Nth Node From End of List
 # # # # class RemoveNthNodeFromEnd:
-# # # #     def removeNthFromEnd(self, head, n):
-# # # #         # Создаем фиктивный узел для обработки случая удаления первого элемента
 # # # #         dummy = ListNode(0)
 # # # #         dummy.next = head
         
