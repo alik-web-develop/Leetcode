@@ -311,8 +311,6 @@
 # # # #         dummy.next = head
         
 # # # #         # Используем два указателя
-# # # #         first = dummy
-# # # #         second = dummy
         
 # # # #         # Перемещаем first на n узлов вперед
             
