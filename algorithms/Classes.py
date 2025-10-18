@@ -319,8 +319,6 @@
 # # # #             first = first.next
             
 # # # #         # Перемещаем оба указателя, пока first не достигнет конца
-# # # #         while first:
-# # # # Решение Find All Anagrams in String
 # # #             return []
             
 # # #         p_count = [0] * 26
