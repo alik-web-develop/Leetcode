@@ -321,9 +321,6 @@
 # # # #         # Перемещаем оба указателя, пока first не достигнет конца
 # # # #         while first:
 # # # # Решение Find All Anagrams in String
-# # # class FindAllAnagrams:
-# # #     def findAnagrams(self, s, p):
-# # #         if len(s) < len(p):
 # # #             return []
             
 # # #         p_count = [0] * 26
