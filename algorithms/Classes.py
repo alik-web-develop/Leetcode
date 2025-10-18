@@ -342,9 +342,6 @@
 # # #             for j in range(9):
 #             print(i,y)
 #             if i + y == target and i not in result and y not in result:
-#                 return [nums.index(i),nums.index(y)]
-#     return list(set(result))
-# print(target_num(numbers,13))
 from decimal import Decimal
 num2 = "1"
 print(str(int(num1) + int(num2)))
