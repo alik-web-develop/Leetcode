@@ -299,8 +299,6 @@
 # # # #                 elif current_sum < 0:
 # # # #                     right -= 1
 
-# # # # # Решение Remove Nth Node From End of List
-# # # #         dummy.next = head
         
 # # # #         # Используем два указателя
         
