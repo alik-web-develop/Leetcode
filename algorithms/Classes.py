@@ -298,6 +298,4 @@
 # # #         p_count = [0] * 26
 # # #         s_count = [0] * 26
 #             if i + y == target and i not in result and y not in result:
-from decimal import Decimal
-num2 = "1"
 print(str(int(num1) + int(num2)))
