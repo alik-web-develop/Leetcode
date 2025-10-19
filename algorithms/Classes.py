@@ -294,6 +294,3 @@
 # # # #                         left += 1
             
 # # #         p_count = [0] * 26
-# # #         s_count = [0] * 26
-#             if i + y == target and i not in result and y not in result:
-print(str(int(num1) + int(num2)))
