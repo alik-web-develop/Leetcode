@@ -301,8 +301,6 @@
             
 # # #         p_count = [0] * 26
 # # #         s_count = [0] * 26
-# # #         # Заполняем начальные счетчики
-# # #             p_count[ord(p[i]) - ord('a')] += 1
 #             if i + y == target and i not in result and y not in result:
 from decimal import Decimal
 num2 = "1"
