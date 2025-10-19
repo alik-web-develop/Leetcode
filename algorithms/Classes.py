@@ -290,5 +290,3 @@
 # # # #                 if current_sum == 0:
 # # # #                     result.append([nums[i], nums[left], nums[right]])
 # # # #                     # Пропускаем дубликаты
-# # # #                     while left < right and nums[left] == nums[left + 1]:
-# # # #                         left += 1
