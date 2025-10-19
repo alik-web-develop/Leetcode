@@ -292,8 +292,6 @@
 # # # #                     # Пропускаем дубликаты
 # # # #                     while left < right and nums[left] == nums[left + 1]:
 # # # #                         left += 1
-# # # #                     left += 1
-# # # #                     right -= 1
             
 # # #         p_count = [0] * 26
 # # #         s_count = [0] * 26
