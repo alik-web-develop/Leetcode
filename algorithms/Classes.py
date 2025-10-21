@@ -286,4 +286,3 @@
             
 # # # #             while left < right:
 # # # #                 current_sum = nums[i] + nums[left] + nums[right]
-# # # #                     # Пропускаем дубликаты

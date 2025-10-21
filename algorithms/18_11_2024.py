@@ -213,9 +213,6 @@
 #                 non_zero_index += 1
         
 #         # Заполняем оставшиеся позиции нулями
-#         for i in range(non_zero_index, len(nums)):
-#             nums[i] = 0
-        
 #         return nums
 
 # # Пример использования:
