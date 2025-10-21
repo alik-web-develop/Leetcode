@@ -286,7 +286,4 @@
             
 # # # #             while left < right:
 # # # #                 current_sum = nums[i] + nums[left] + nums[right]
-                
-# # # #                 if current_sum == 0:
-# # # #                     result.append([nums[i], nums[left], nums[right]])
 # # # #                     # Пропускаем дубликаты
