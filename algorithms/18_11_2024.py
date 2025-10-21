@@ -212,8 +212,6 @@
 #                 nums[non_zero_index] = nums[i]
 #                 non_zero_index += 1
         
-#         # Заполняем оставшиеся позиции нулями
-#         return nums
 
 # # Пример использования:
 # # move_zeros = MoveZeroes()
