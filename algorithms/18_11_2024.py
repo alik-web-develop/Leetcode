@@ -194,8 +194,6 @@
 #     def moveZeroes(self, nums):
 #         non_zero_index = 0
         
-#             if nums[i] != 0:
-#                 nums[non_zero_index] = nums[i]
 #                 non_zero_index += 1
         
 
