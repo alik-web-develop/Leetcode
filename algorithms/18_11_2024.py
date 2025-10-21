@@ -191,9 +191,6 @@
 #             if s[left] != s[right]:
 #                 return is_palindrome(left + 1, right) or is_palindrome(left, right - 1)
 # class MoveZeroes:
-#     def moveZeroes(self, nums):
-#         non_zero_index = 0
-        
 #                 non_zero_index += 1
         
 
