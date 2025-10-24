@@ -187,8 +187,6 @@
         
 #         left, right = 0, len(s) - 1
         
-# class MoveZeroes:
-#                 non_zero_index += 1
         
 
 # # Пример использования:
