@@ -172,10 +172,6 @@
 # # profit = BestTimeToBuySell()
 # # print(profit.maxProfit([7,1,5,3,6,4]))  # 5
 
-# # ===============================================
-# # 4. Valid Palindrome II
-# # Given a string s, return true if the s can be palindrome after deleting at most one character from it.
-# class ValidPalindromeII:
 #     def validPalindrome(self, s):
 #         def is_palindrome(left, right):
 #             while left < right:
