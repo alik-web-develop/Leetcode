@@ -174,6 +174,3 @@
 
 #     def validPalindrome(self, s):
 #         def is_palindrome(left, right):
-#             while left < right:
-#                 left += 1
-        
