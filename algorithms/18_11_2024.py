@@ -169,5 +169,3 @@
 #         return max_profit
 
 # # Пример использования:
-# # profit = BestTimeToBuySell()
-# # print(profit.maxProfit([7,1,5,3,6,4]))  # 5
