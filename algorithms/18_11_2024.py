@@ -158,6 +158,3 @@
 #     def maxProfit(self, prices):
 #         if not prices:
 #             return 0
-        
-#         min_price = prices[0]
-#         max_profit = 0
