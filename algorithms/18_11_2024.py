@@ -189,8 +189,6 @@
         
         
 
-# # Пример использования:
-# # move_zeros = MoveZeroes()
 # # print(nums)  # [1,3,12,0,0]
 
 
