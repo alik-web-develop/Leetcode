@@ -187,9 +187,6 @@
         
 #         left, right = 0, len(s) - 1
         
-#         while left < right:
-#             if s[left] != s[right]:
-#                 return is_palindrome(left + 1, right) or is_palindrome(left, right - 1)
 # class MoveZeroes:
 #                 non_zero_index += 1
         
