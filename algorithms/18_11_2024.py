@@ -171,6 +171,3 @@
 # # Пример использования:
 # # profit = BestTimeToBuySell()
 # # print(profit.maxProfit([7,1,5,3,6,4]))  # 5
-
-#     def validPalindrome(self, s):
-#         def is_palindrome(left, right):
