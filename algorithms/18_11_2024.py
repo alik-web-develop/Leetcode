@@ -185,13 +185,3 @@
 #                 right -= 1
 #             return True
         
-#         left, right = 0, len(s) - 1
-        
-        
-
-# # print(nums)  # [1,3,12,0,0]
-
-
-
-
-
