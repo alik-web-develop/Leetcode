@@ -122,8 +122,6 @@
 
 # # Пример использования:
 # # max_sub = MaximumSubarray()
-# # print(max_sub.maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))  # 6
-
 # # ===============================================
 # # 2. Merge Two Sorted Lists
 # # You are given the heads of two sorted linked lists list1 and list2.
