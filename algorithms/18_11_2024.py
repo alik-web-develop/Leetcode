@@ -131,8 +131,6 @@
 # class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
-#         self.next = next
-
 # class MergeSortedLists:
 #             if list1.val <= list2.val:
 #                 current.next = list1
