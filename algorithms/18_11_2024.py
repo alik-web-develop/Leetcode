@@ -132,8 +132,6 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 # class MergeSortedLists:
-#             if list1.val <= list2.val:
-#                 current.next = list1
 #                 list1 = list1.next
 #             else:
 #                 current.next = list2
