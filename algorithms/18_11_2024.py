@@ -135,9 +135,6 @@
 
 # class MergeSortedLists:
 #     def mergeTwoLists(self, list1, list2):
-#         dummy = ListNode(0)
-#         current = dummy
-        
 #         while list1 and list2:
 #             if list1.val <= list2.val:
 #                 current.next = list1
