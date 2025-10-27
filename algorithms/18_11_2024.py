@@ -82,8 +82,6 @@
 
 # #     # Binary Search
 # #     binary_search = BinarySearch()
-# #     print(binary_search.search([-1, 0, 3, 5, 9, 12], 9))  # 4
-
 # #     # Climbing Stairs
 # #     climbing = ClimbingStairs()
 # #     print(climbing.climbStairs(3))  # 3
