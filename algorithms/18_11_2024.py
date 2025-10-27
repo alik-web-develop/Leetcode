@@ -75,8 +75,6 @@
 # #     # Two Sum
 # #     two_sum = TwoSum()
 # #     print(two_sum.twoSum([2, 7, 11, 15], 9))  # [0, 1]
-
-# #     # Valid Parentheses
 # #     valid_parens = ValidParentheses()
 # #     print(valid_parens.isValid("()[]{}"))  # True
 
