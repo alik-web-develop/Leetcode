@@ -120,7 +120,5 @@
         
 # # Пример использования:
 # # max_sub = MaximumSubarray()
-#             current = current.next
-        
 #         current.next = list1 if list1 else list2
 # # ===============================================
