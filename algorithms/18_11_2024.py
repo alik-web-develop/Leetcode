@@ -115,9 +115,6 @@
 #         max_sum = current_sum = nums[0]
         
 #         for num in nums[1:]:
-#             current_sum = max(num, current_sum + num)
-#             max_sum = max(max_sum, current_sum)
-        
 # # Пример использования:
 # # max_sub = MaximumSubarray()
 #         current.next = list1 if list1 else list2
