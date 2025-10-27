@@ -95,9 +95,6 @@
 # #     # Longest Common Prefix
 # #     prefix = LongestCommonPrefix()
 # #     print(prefix.longestCommonPrefix(["flower", "flow", "flight"]))  # "fl"
-
-# #     # Valid Anagram
-# #     anagram = ValidAnagram()
 # #     # First Unique Character
 # #     unique = FirstUniqueCharacter()
 # #     print(unique.firstUniqChar("leetcode"))  # 0
