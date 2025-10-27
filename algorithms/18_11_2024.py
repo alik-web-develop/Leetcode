@@ -126,11 +126,6 @@
 # # 2. Merge Two Sorted Lists
 # # You are given the heads of two sorted linked lists list1 and list2.
 # # Merge the two lists into one sorted list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-# class MergeSortedLists:
-#                 list1 = list1.next
 #             else:
 #                 current.next = list2
 #                 list2 = list2.next
