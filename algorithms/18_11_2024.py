@@ -122,8 +122,6 @@
 
 # # Пример использования:
 # # max_sub = MaximumSubarray()
-# # You are given the heads of two sorted linked lists list1 and list2.
-# # Merge the two lists into one sorted list.
 #             current = current.next
         
 #         current.next = list1 if list1 else list2
