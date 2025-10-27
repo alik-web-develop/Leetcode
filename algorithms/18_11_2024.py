@@ -98,8 +98,6 @@
 
 # #     # Valid Anagram
 # #     anagram = ValidAnagram()
-# #     print(anagram.isAnagram("anagram", "nagaram"))  # True
-
 # #     # First Unique Character
 # #     unique = FirstUniqueCharacter()
 # #     print(unique.firstUniqChar("leetcode"))  # 0
