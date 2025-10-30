@@ -80,8 +80,6 @@
 
 # #     # Binary Search
 # #     print(climbing.climbStairs(3))  # 3
-
-# #     # Valid Palindrome
 # #     palindrome = ValidPalindrome()
 # #     print(palindrome.isPalindrome("A man, a plan, a canal: Panama"))  # True
 
