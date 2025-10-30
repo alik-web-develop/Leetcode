@@ -73,8 +73,6 @@
 # # # Примеры использования:
 # # if __name__ == "__main__":
 # #     print(two_sum.twoSum([2, 7, 11, 15], 9))  # [0, 1]
-# #     # Longest Common Prefix
-# #     # First Unique Character
 # #     unique = FirstUniqueCharacter()
 # #     print(unique.firstUniqChar("leetcode"))  # 0
 
