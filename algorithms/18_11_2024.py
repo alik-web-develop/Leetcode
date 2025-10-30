@@ -75,8 +75,6 @@
 # #     # Two Sum
 # #     two_sum = TwoSum()
 # #     print(two_sum.twoSum([2, 7, 11, 15], 9))  # [0, 1]
-# #     print(climbing.climbStairs(3))  # 3
-# #     palindrome = ValidPalindrome()
 # #     print(palindrome.isPalindrome("A man, a plan, a canal: Panama"))  # True
 
 # #     # Longest Common Prefix
