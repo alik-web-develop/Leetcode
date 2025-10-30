@@ -76,7 +76,6 @@
 
 #             return 0
         
-#         for num in nums[1:]:
 # # Пример использования:
 # # max_sub = MaximumSubarray()
 #         current.next = list1 if list1 else list2
