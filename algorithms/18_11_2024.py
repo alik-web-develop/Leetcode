@@ -84,8 +84,6 @@
 # #     unique = FirstUniqueCharacter()
 # #     print(unique.firstUniqChar("leetcode"))  # 0
 
-# # ===============================================
-# # 1. Maximum Subarray (Kadane's Algorithm)
 # # Given an integer array nums, find the subarray with the largest sum, and return its sum.
 # class MaximumSubarray:
 #     def maxSubArray(self, nums):
