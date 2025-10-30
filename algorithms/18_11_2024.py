@@ -74,8 +74,6 @@
 # # if __name__ == "__main__":
 # #     print(two_sum.twoSum([2, 7, 11, 15], 9))  # [0, 1]
 
-# # Given an integer array nums, find the subarray with the largest sum, and return its sum.
-# class MaximumSubarray:
 #             return 0
         
 #         max_sum = current_sum = nums[0]
