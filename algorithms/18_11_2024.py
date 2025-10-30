@@ -84,8 +84,6 @@
 
 # # Given an integer array nums, find the subarray with the largest sum, and return its sum.
 # class MaximumSubarray:
-#     def maxSubArray(self, nums):
-#         if not nums:
 #             return 0
         
 #         max_sum = current_sum = nums[0]
