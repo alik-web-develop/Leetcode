@@ -80,8 +80,6 @@
 # #     print(palindrome.isPalindrome("A man, a plan, a canal: Panama"))  # True
 
 # #     # Longest Common Prefix
-# #     prefix = LongestCommonPrefix()
-# #     print(prefix.longestCommonPrefix(["flower", "flow", "flight"]))  # "fl"
 # #     # First Unique Character
 # #     unique = FirstUniqueCharacter()
 # #     print(unique.firstUniqChar("leetcode"))  # 0
