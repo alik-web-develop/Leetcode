@@ -79,9 +79,6 @@
 # #     print(valid_parens.isValid("()[]{}"))  # True
 
 # #     # Binary Search
-# #     binary_search = BinarySearch()
-# #     # Climbing Stairs
-# #     climbing = ClimbingStairs()
 # #     print(climbing.climbStairs(3))  # 3
 
 # #     # Valid Palindrome
