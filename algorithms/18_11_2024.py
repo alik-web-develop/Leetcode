@@ -63,7 +63,5 @@
 # # class RotateArray:
 # #     def rotate(self, nums, k):
 # #         k = k % len(nums)
-# #         nums[:] = nums[-k:] + nums[:-k]
-
 # #     def containsDuplicate(self, nums):
 # #         return len(nums) != len(set(nums))
