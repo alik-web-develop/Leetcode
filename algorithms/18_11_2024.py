@@ -57,7 +57,5 @@
 # #         for i, char in enumerate(s):
 # #             if count[char] == 1:
 # #                 return i
-# #         return -1
-
 # # # Решение Rotate Array
 # #         k = k % len(nums)
