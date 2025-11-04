@@ -65,8 +65,6 @@
 # #         k = k % len(nums)
 # #         nums[:] = nums[-k:] + nums[:-k]
 
-# # # Решение Contains Duplicate
-# # class ContainsDuplicate:
 # #     def containsDuplicate(self, nums):
 # #         return len(nums) != len(set(nums))
 
