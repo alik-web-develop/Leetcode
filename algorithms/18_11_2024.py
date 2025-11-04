@@ -70,7 +70,5 @@
 # #     def containsDuplicate(self, nums):
 # #         return len(nums) != len(set(nums))
 
-
-#             return 0
         
 # # Пример использования:
