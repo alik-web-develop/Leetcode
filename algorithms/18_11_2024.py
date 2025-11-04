@@ -70,9 +70,6 @@
 # #     def containsDuplicate(self, nums):
 # #         return len(nums) != len(set(nums))
 
-# # # Примеры использования:
-# # if __name__ == "__main__":
-# #     print(two_sum.twoSum([2, 7, 11, 15], 9))  # [0, 1]
 
 #             return 0
         
