@@ -60,6 +60,4 @@
 # #         return -1
 
 # # # Решение Rotate Array
-# # class RotateArray:
-# #     def rotate(self, nums, k):
 # #         k = k % len(nums)
