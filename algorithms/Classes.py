@@ -270,8 +270,6 @@
 # # # #                 right -= 1
                 
 # # # #         return max_area
-
-# # # # # Решение 3Sum
 # # # # class ThreeSum:
 # # # #     def threeSum(self, nums):
 # # # #         nums.sort()
