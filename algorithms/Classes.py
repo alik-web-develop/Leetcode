@@ -254,8 +254,6 @@
 
 # # # # # Решение Container With Most Water
 # # # # class ContainerWithMostWater:
-# # # #     def maxArea(self, height):
-# # # #         left, right = 0, len(height) - 1
 # # # #         max_area = 0
         
 # # # #         while left < right:
