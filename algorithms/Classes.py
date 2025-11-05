@@ -248,8 +248,6 @@
             
 # # # # #             # Добавляем максимум в результат
 # # # # #             if i >= k - 1:
-# # # # #                 result.append(nums[d[0]])
-
 # # # # # Решение Container With Most Water
 # # # # class ContainerWithMostWater:
 # # # #         max_area = 0
