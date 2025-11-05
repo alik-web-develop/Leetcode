@@ -260,8 +260,6 @@
         
 # # # #         while left < right:
 # # # #             # Вычисляем текущую площадь
-# # # #             current_area = min(height[left], height[right]) * (right - left)
-# # # #             max_area = max(max_area, current_area)
             
 # # # #             # Перемещаем указатель с меньшей высотой
 # # # #             else:
