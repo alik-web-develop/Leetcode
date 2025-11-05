@@ -279,8 +279,6 @@
         
 # # # #         for i in range(len(nums) - 2):
 # # # #             # Пропускаем дубликаты
-# # # #             if i > 0 and nums[i] == nums[i-1]:
-# # # #                 continue
                 
 # # # #                 current_sum = nums[i] + nums[left] + nums[right]
 
