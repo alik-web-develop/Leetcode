@@ -272,7 +272,5 @@
 # # # #     def threeSum(self, nums):
 # # # #         nums.sort()
 # # # #         for i in range(len(nums) - 2):
-# # # #             # Пропускаем дубликаты
-                
 # # # #                 current_sum = nums[i] + nums[left] + nums[right]
 
