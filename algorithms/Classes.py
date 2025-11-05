@@ -275,8 +275,6 @@
 # # # # class ThreeSum:
 # # # #     def threeSum(self, nums):
 # # # #         nums.sort()
-# # # #         result = []
-        
 # # # #         for i in range(len(nums) - 2):
 # # # #             # Пропускаем дубликаты
                 
