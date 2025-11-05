@@ -264,8 +264,6 @@
 # # # #             max_area = max(max_area, current_area)
             
 # # # #             # Перемещаем указатель с меньшей высотой
-# # # #             if height[left] < height[right]:
-# # # #                 left += 1
 # # # #             else:
 # # # #                 right -= 1
                 
