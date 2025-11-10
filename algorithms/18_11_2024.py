@@ -21,7 +21,3 @@
 # # class Solution:
 # #     def reverseBetween(self, head, left: int, right: int):
 # #         dummy = ListNode(0)
-# #         dummy.next = head
-# #         prev = dummy
-# #         current = prev.next
-        
