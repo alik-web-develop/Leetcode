@@ -1392,8 +1392,3 @@
 #         visited.add(u)
 #         tin[u] = low[u] = time[0]
 #         time[0] += 1
-#         children = 0
-#         for v in graph[u]:
-#             if v == parent:
-#                 continue
-#             if v in visited:
