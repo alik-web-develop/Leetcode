@@ -1387,8 +1387,3 @@
 #     time = [0]
 #     visited = set()
 #     tin = {}
-#     low = {}
-#     def dfs(u, parent=None):
-#         visited.add(u)
-#         tin[u] = low[u] = time[0]
-#         time[0] += 1
