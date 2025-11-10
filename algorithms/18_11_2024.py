@@ -31,14 +31,6 @@
 # #             temp.next = prev.next
 # #             prev.next = temp
         
-# #         return dummy.next
-# # print(Solution.reverseBetween())
-# # #todo================================================================
-
-
-# # # Решение Valid Anagram
-# # class ValidAnagram:
-# #     def isAnagram(self, s, t):
 # #         if len(s) != len(t):
 # #             return False
 # #         return sorted(s) == sorted(t)
