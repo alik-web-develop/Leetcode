@@ -1402,8 +1402,3 @@
 #                 dfs(v, u)
 #                 low[u] = min(low[u], low[v])
 #                 if parent is not None and low[v] >= tin[u]:
-#                     points.add(u)
-#                 children += 1
-#         if parent is None and children > 1:
-#             points.add(u)
-#     for u in graph:
