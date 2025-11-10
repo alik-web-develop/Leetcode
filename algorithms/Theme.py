@@ -1419,13 +1419,3 @@
 
 # # 4. Edmonds-Karp (максимальный поток)
 # from collections import deque, defaultdict
-
-# def edmonds_karp(capacity, source, sink):
-#     """Поиск максимального потока в графе (Edmonds-Karp)"""
-#     n = len(capacity)
-#     flow = 0
-#     parent = {}
-#     def bfs():
-#         visited = set()
-#         queue = deque([source])
-#         visited.add(source)
