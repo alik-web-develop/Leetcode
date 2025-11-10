@@ -272,7 +272,3 @@ nums2 = [1,2,2]
 # def merge_sorted(nums1, m: int, nums2, n: int) -> None:
 #     filter
 # merge_sorted(q,w,e,r)
-nums1[:] = sorted(list(filter(lambda x: x != 0, nums1)) + nums2)
-
-print(nums1)
-
