@@ -25,11 +25,3 @@
 # #         prev = dummy
 # #         current = prev.next
         
-# #         for _ in range(right - left):
-# #             temp = current.next
-# #             current.next = temp.next
-# #             temp.next = prev.next
-# #             prev.next = temp
-        
-# #         if len(s) != len(t):
-# #             return False
