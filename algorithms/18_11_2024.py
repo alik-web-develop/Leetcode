@@ -33,9 +33,3 @@
         
 # #         if len(s) != len(t):
 # #             return False
-# #         return sorted(s) == sorted(t)
-
-# # # Решение First Unique Character
-# # class FirstUniqueCharacter:
-# #     def firstUniqChar(self, s):
-# #         count = {}
