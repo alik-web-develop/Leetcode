@@ -1397,8 +1397,3 @@
 #             if v == parent:
 #                 continue
 #             if v in visited:
-#                 low[u] = min(low[u], tin[v])
-#             else:
-#                 dfs(v, u)
-#                 low[u] = min(low[u], low[v])
-#                 if parent is not None and low[v] >= tin[u]:
