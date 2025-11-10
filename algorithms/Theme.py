@@ -1382,8 +1382,3 @@
 
 # # 3. Поиск точек сочленения (articulation points)
 # def find_articulation_points(graph):
-#     """Поиск точек сочленения в неориентированном графе"""
-#     points = set()
-#     time = [0]
-#     visited = set()
-#     tin = {}
