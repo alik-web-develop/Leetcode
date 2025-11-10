@@ -248,10 +248,3 @@
             
 # # # # #             # Добавляем максимум в результат
 # # # # #             if i >= k - 1:
-# # # # # Решение Container With Most Water
-# # # # class ContainerWithMostWater:
-# # # #         max_area = 0
-        
-# # # #         while left < right:
-# # # #             # Вычисляем текущую площадь
-            
