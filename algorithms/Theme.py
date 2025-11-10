@@ -1364,11 +1364,3 @@
 #                 continue
 #             if v in visited:
 #                 low[u] = min(low[u], tin[v])
-#             else:
-#                 dfs(v, u)
-#                 low[u] = min(low[u], low[v])
-#                 if low[v] > tin[u]:
-#                     bridges.append((u, v))
-#     for u in graph:
-#         if u not in visited:
-#             dfs(u, None)
