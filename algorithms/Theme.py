@@ -1372,7 +1372,3 @@
 #     for u in graph:
 #         if u not in visited:
 #             dfs(u, None)
-#     return bridges
-
-# # Пример использования:
-# # graph = {0: [1, 2], 1: [0, 2], 2: [0, 1, 3], 3: [2, 4], 4: [3]}
