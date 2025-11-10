@@ -1414,8 +1414,3 @@
 # # Пример использования:
 # # graph = {0: [1, 2], 1: [0, 2], 2: [0, 1, 3], 3: [2, 4], 4: [3]}
 # # print(find_articulation_points(graph)) # {2, 3}
-
-# # =================
-
-# # 4. Edmonds-Karp (максимальный поток)
-# from collections import deque, defaultdict
