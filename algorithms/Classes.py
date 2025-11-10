@@ -255,20 +255,3 @@
 # # # #         while left < right:
 # # # #             # Вычисляем текущую площадь
             
-# # # #             # Перемещаем указатель с меньшей высотой
-# # # #             else:
-# # # #                 right -= 1
-                
-# # # #         return max_area
-# # # # class ThreeSum:
-# # # #     def threeSum(self, nums):
-# # # #         nums.sort()
-# # # #         for i in range(len(nums) - 2):
-# # # #                 current_sum = nums[i] + nums[left] + nums[right]
-nums1 = [-1,0,0,3,3,3,0,0,0]
-# w = 3
-nums2 = [1,2,2]
-# r = 3
-# def merge_sorted(nums1, m: int, nums2, n: int) -> None:
-#     filter
-# merge_sorted(q,w,e,r)
