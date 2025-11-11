@@ -1321,5 +1321,3 @@
 #         dist, u = heapq.heappop(queue)
 #         if dist > distances[u]:
 #             continue
-#         for v, weight in graph[u].items():
-#             if distances[v] > distances[u] + weight:
