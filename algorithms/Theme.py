@@ -1334,6 +1334,3 @@
 #     while end is not None:
 #         path.append(end)
 #         end = previous[end]
-#     path.reverse()
-#     if path and path[0] == start:
-#         return path
