@@ -1343,8 +1343,3 @@
 # # graph = {'A': {'B': 1, 'C': 4}, 'B': {'A': 1, 'C': 2, 'D': 5}, 'C': {'A': 4, 'B': 2, 'D': 1}, 'D': {'B': 5, 'C': 1}}
 # # dist, prev = dijkstra_with_path(graph, 'A')
 # # print(dist)
-# # print(restore_path(prev, 'A', 'D'))
-
-# # =================
-
-# # 2. Поиск мостов (Tarjan's Bridge Algorithm)
