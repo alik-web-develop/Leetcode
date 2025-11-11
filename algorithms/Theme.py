@@ -1327,7 +1327,3 @@
 #                 previous[v] = u
 #                 heapq.heappush(queue, (distances[v], v))
 #     return distances, previous
-
-# def restore_path(previous, start, end):
-#     """Восстановление пути из previous"""
-#     path = []
