@@ -1331,6 +1331,3 @@
 # def restore_path(previous, start, end):
 #     """Восстановление пути из previous"""
 #     path = []
-#     while end is not None:
-#         path.append(end)
-#         end = previous[end]
