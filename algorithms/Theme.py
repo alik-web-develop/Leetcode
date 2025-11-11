@@ -1348,7 +1348,3 @@
 # # =================
 
 # # 2. Поиск мостов (Tarjan's Bridge Algorithm)
-# def find_bridges(graph):
-#     """Поиск мостов в неориентированном графе"""
-#     bridges = []
-#     time = [0]
