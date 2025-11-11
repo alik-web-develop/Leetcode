@@ -1359,8 +1359,3 @@
 #         visited.add(u)
 #         tin[u] = low[u] = time[0]
 #         time[0] += 1
-#         for v in graph[u]:
-#             if v == parent:
-#                 continue
-#             if v in visited:
-#                 low[u] = min(low[u], tin[v])
