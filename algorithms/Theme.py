@@ -1323,7 +1323,3 @@
 #             continue
 #         for v, weight in graph[u].items():
 #             if distances[v] > distances[u] + weight:
-#                 distances[v] = distances[u] + weight
-#                 previous[v] = u
-#                 heapq.heappush(queue, (distances[v], v))
-#     return distances, previous
