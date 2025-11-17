@@ -1289,15 +1289,4 @@
 # #         """Проверка, находятся ли элементы в одном множестве"""
 # #         return self.find(x) == self.find(y)
     
-# #     def get_size(self, x):
-# #         """Получение размера множества, содержащего элемент x"""
-# #         root = self.find(x)
-# #         return self.size[root]
-    
-# #     def get_count(self):
-# #         """Получение количества множеств"""
-# #         return self.count
-    
-# #     def get_components(self):
-# #         """Получение всех компонент"""
-# 
+
