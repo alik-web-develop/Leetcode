@@ -1305,19 +1305,3 @@
 # #             root = self.find(i)
 # #             if root not in components:
 # #                 components[root] = []
-
-# # =================
-
-# # 1. Дейкстра с восстановлением пути
-# import heapq
-
-# def dijkstra_with_path(graph, start):
-#     """Дейкстра с восстановлением кратчайших путей"""
-#     distances = {node: float('inf') for node in graph}
-#     previous = {node: None for node in graph}
-#     distances[start] = 0
-#     queue = [(0, start)]
-#     while queue:
-#         dist, u = heapq.heappop(queue)
-#         if dist > distances[u]:
-#             continue
