@@ -1281,12 +1281,3 @@
         
 # #         if self.rank[root_x] == self.rank[root_y]:
 # #             self.rank[root_x] += 1
-        
-# #         self.count -= 1
-# #         return True
-    
-# #     def connected(self, x, y):
-# #         """Проверка, находятся ли элементы в одном множестве"""
-# #         return self.find(x) == self.find(y)
-    
-
