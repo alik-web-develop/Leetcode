@@ -1276,8 +1276,3 @@
 # #         if self.rank[root_x] < self.rank[root_y]:
 # #             root_x, root_y = root_y, root_x
         
-# #         self.parent[root_y] = root_x
-# #         self.size[root_x] += self.size[root_y]
-        
-# #         if self.rank[root_x] == self.rank[root_y]:
-# #             self.rank[root_x] += 1
