@@ -1218,16 +1218,4 @@
 # #         """Получение всех слов с заданным префиксом"""
 # #         node = self._get_node(prefix)
 # #         if not node:
-# #             return []
-        
-# #         words = []
-# #         self._dfs_collect_words(node, prefix, words)
-# #         return words
-    
-# #     def _dfs_collect_words(self, node, current_word, words):
-# #         """DFS для сбора всех слов из поддерева"""
-# #         if node.is_end_of_word:
-# #             words.append(current_word)
-        
-# #         for char, child in node.children.items():
-# #             se
+# 
