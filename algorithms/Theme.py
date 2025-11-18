@@ -1230,12 +1230,4 @@
 # #             words.append(current_word)
         
 # #         for char, child in node.children.items():
-# #             self._dfs_collect_words(child, current_word + char, words)
-
-# # # Пример использования:
-# # # trie = Trie()
-# # # words = ["apple", "app", "application", "banana", "band"]
-# # # for word in words:
-# # #     trie.insert(word)
-# # # 
-# # 
+# #             se
