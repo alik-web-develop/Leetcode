@@ -1238,9 +1238,4 @@
 # # # for word in words:
 # # #     trie.insert(word)
 # # # 
-# # # print(trie.search("apple"))  # True
-# # # print(trie.search("appl"))   # False
-# # # print(trie.starts_with("app"))  # True
-# # # print(trie.count_words_with_prefix("app"))  # 3
-# # # print(trie.get_all_words_with_prefix("app"))  # ['app', 'apple', 'application']
-
+# # 
