@@ -1252,27 +1252,3 @@
 # #     """Структура данных Union-Find с оптимизациями"""
     
 # #     def __init__(self, n):
-# #         """Инициализация с n элементами"""
-# #         self.parent = list(range(n))
-# #         self.rank = [0] * n
-# #         self.size = [1] * n  # Размер каждого множества
-# #         self.count = n       # Количество множеств
-    
-# #     def find(self, x):
-# #         """Поиск корня элемента с сжатием путей"""
-# #         if self.parent[x] != x:
-# #             self.parent[x] = self.find(self.parent[x])
-# #         return self.parent[x]
-    
-# #     def union(self, x, y):
-# #         """Объединение множеств с ранжированием"""
-# #         root_x = self.find(x)
-# #         root_y = self.find(y)
-        
-# #         if root_x == root_y:
-# #             return False  # Уже в одном множестве
-        
-# #         # Объединяем по рангу
-# #         if self.rank[root_x] < self.rank[root_y]:
-# #             root_x, root_y = root_y, root_x
-        
