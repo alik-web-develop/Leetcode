@@ -1244,11 +1244,3 @@
 # # # print(trie.count_words_with_prefix("app"))  # 3
 # # # print(trie.get_all_words_with_prefix("app"))  # ['app', 'apple', 'application']
 
-
-# # # =================
-
-# # # Union-Find (Disjoint Set Union) с ранжированием и сжатием путей
-# # class UnionFind:
-# #     """Структура данных Union-Find с оптимизациями"""
-    
-# #     def __init__(self, n):
