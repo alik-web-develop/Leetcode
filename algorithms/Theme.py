@@ -1204,8 +1204,4 @@
 # #         """Получение узла для заданного слова"""
 # #         node = self.root
 # #         for char in word:
-# #             if char not in node.children:
-# #                 return None
-# #             node = node.children[char]
-# #         return node
-    
+# #     
