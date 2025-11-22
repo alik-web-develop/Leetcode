@@ -1200,8 +1200,3 @@
 # #         """Проверка, есть ли слова с данным префиксом"""
 # #         return self._get_node(prefix) is not None
     
-# #     def _get_node(self, word):
-# #         """Получение узла для заданного слова"""
-# #         node = self.root
-# #         for char in word:
-# #     
