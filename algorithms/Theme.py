@@ -1209,8 +1209,3 @@
 # #             node = node.children[char]
 # #         return node
     
-# #     def count_words_with_prefix(self, prefix):
-# #         """Подсчет слов с заданным префиксом"""
-# #         node = self._get_node(prefix)
-# #         return node.word_count if node else 0
-  
