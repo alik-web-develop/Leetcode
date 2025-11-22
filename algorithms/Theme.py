@@ -1213,9 +1213,4 @@
 # #         """Подсчет слов с заданным префиксом"""
 # #         node = self._get_node(prefix)
 # #         return node.word_count if node else 0
-    
-# #     def get_all_words_with_prefix(self, prefix):
-# #         """Получение всех слов с заданным префиксом"""
-# #         node = self._get_node(prefix)
-# #         if not node:
-# 
+  
