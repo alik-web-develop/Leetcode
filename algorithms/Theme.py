@@ -1195,8 +1195,3 @@
 # #         """Поиск точного совпадения слова"""
 # #         node = self._get_node(word)
 # #         return node is not None and node.is_end_of_word
-    
-# #     def starts_with(self, prefix):
-# #         """Проверка, есть ли слова с данным префиксом"""
-# #         return self._get_node(prefix) is not None
-    
