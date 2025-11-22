@@ -1185,8 +1185,3 @@
 # #         """Вставка слова в дерево"""
 # #         node = self.root
 # #         for char in word:
-# #             if char not in node.children:
-# #                 node.children[char] = TrieNode()
-# #             node = node.children[char]
-# #             node.word_count += 1
-# #         node.is_end_of_word = True
