@@ -1190,8 +1190,3 @@
 # #             node = node.children[char]
 # #             node.word_count += 1
 # #         node.is_end_of_word = True
-    
-# #     def search(self, word):
-# #         """Поиск точного совпадения слова"""
-# #         node = self._get_node(word)
-# #         return node is not None and node.is_end_of_word
