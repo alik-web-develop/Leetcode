@@ -1168,9 +1168,3 @@
 # # # =================
 
 # # # Trie (Префиксное дерево) для эффективного поиска строк
-# # class TrieNode:
-# #     """Узел префиксного дерева"""
-# #     def __init__(self):
-# #         self.children = {}
-# #         self.is_end_of_word = False
-# #         self.word_count = 0
