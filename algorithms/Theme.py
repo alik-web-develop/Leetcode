@@ -1174,7 +1174,3 @@
 # #         self.children = {}
 # #         self.is_end_of_word = False
 # #         self.word_count = 0
-
-# # class Trie:
-# #     """Префиксное дерево для эффективного поиска строк"""
-    
