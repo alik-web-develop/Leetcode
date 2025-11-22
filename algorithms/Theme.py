@@ -1181,7 +1181,3 @@
 # #     def __init__(self):
 # #         self.root = TrieNode()
     
-# #     def insert(self, word):
-# #         """Вставка слова в дерево"""
-# #         node = self.root
-# #         for char in word:
