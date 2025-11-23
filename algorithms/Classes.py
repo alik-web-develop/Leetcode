@@ -233,12 +233,3 @@
 # # # # #         if not nums:
 # # # # #             return []
             
-# # # # #         from collections import deque
-# # # # #         d = deque()
-# # # # #         result = []
-        
-# # # # #         for i, num in enumerate(nums):
-# # # # #             # Удаляем элементы, которые вышли за пределы окна
-# # # # #             while d and d[0] <= i - k:
-# # # # #                 d.popleft()
-                
