@@ -1142,9 +1142,3 @@
 # #         index += 1  # Индексация с 1
 # #         while index <= self.n:
 # #             self.tree[index] += value
-# #             index += self._get_lsb(index)
-    
-# #     def query(self, index):
-# #         """Запрос суммы от 0 до index (включительно)"""
-# #         index += 1  # Индексация с 1
-# #      
