@@ -227,9 +227,3 @@
 # # # # #         return True
 
 
-# # # # # # Решение Sliding Window Maximum
-# # # # # class SlidingWindowMaximum:
-# # # # #     def maxSlidingWindow(self, nums, k):
-# # # # #         if not nums:
-# # # # #             return []
-            
