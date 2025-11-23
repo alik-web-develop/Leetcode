@@ -211,12 +211,3 @@
 # # # # #             if visited[course] == 2:  # Уже посещен
 # # # # #                 return False
                 
-# # # # #             visited[course] = 1  # Помечаем как "в процессе"
-            
-# # # # #             for prereq in graph[course]:
-# # # # #                 if hasCycle(prereq):
-# # # # #                     return True
-                    
-# # # # #             visited[course] = 2  # Помечаем как "посещен"
-# # # # #             return False
-            
