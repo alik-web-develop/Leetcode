@@ -1153,11 +1153,3 @@
 # #             index -= self._get_lsb(index)
 # #         return result
     
-# #     def range_query(self, left, right):
-# #         """Запрос суммы в диапазоне [left, right]"""
-# #         return self.query(right) - self.query(left - 1)
-
-# # # Пример использования:
-# # # arr = [1, 3, 5, 7, 9, 11]
-# # # ft = FenwickTree(arr)
-# # # 
