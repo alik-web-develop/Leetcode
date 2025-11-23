@@ -220,10 +220,3 @@
 # # # # #             visited[course] = 2  # Помечаем как "посещен"
 # # # # #             return False
             
-# # # # #         # Проверяем каждый курс на наличие циклов
-# # # # #         for course in range(numCourses):
-# # # # #             if hasCycle(course):
-# # # # #                 return False
-# # # # #         return True
-
-
