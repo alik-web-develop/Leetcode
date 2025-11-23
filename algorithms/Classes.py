@@ -204,10 +204,4 @@
 # # # # #         # Строим граф
 # # # # #         for course, prereq in prerequisites:
 # # # # #             graph[course].append(prereq)
-            
-# # # # #         def hasCycle(course):
-# # # # #             if visited[course] == 1:  # Обнаружен цикл
-# # # # #                 return True
-# # # # #             if visited[course] == 2:  # Уже посещен
-# # # # #                 return False
-                
+       
