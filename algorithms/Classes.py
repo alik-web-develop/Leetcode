@@ -196,12 +196,4 @@
 # # # # # #                 nums1[p] = nums1[p1]
 # # # # # # Решение Course Schedule (Проверка возможности прохождения курсов)
 # # # # # class CourseSchedule:
-# # # # #     def canFinish(self, numCourses, prerequisites):
-# # # # #         # Создаем граф
-# # # # #         graph = [[] for _ in range(numCourses)]
-# # # # #         visited = [0] * numCourses  # 0: не посещен, 1: в процессе, 2: посещен
-        
-# # # # #         # Строим граф
-# # # # #         for course, prereq in prerequisites:
-# # # # #             graph[course].append(prereq)
-       
+# # # # 
