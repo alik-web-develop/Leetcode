@@ -142,6 +142,3 @@
 # # # # # # # #         wordList = set(wordList)
 # # # # # # # #         queue = [(beginWord, 1)]
 # # # # # # # #         visited = {beginWord}
-        
-# # # # # # # #         while queue:
-# # # # # # # #             word, length = queue.pop(0)
