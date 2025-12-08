@@ -175,9 +175,3 @@
 # # # # # # #                 right_max = max(right_max, height[right])
 # # # # # # #                 water += max(0, right_max - height[right])
 # # # # # # #         return water
-
-# # # # # # Решение Longest Increasing Subsequence
-# # # # # # class LongestIncreasingSubsequence:
-# # # # # #     def lengthOfLIS(self, nums):
-# # # # # #         if not nums:
-# # # # # #             return 0
