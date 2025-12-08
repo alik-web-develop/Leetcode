@@ -153,6 +153,3 @@
 # # # # # # # #                     next_word = word[:i] + c + word[i+1:]
 # # # # # # # #                     if next_word in wordList and next_word not in visited:
 # # # # # # # #                         queue.append((next_word, length + 1))
-# # # # # # # #                         visited.add(next_word)
-                        
-# # # # # # # #         return 0
