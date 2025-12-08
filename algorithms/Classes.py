@@ -156,8 +156,3 @@
 # # # # # # # #                         visited.add(next_word)
                         
 # # # # # # # #         return 0
-
-# # # # # # # Решение Trapping Rain Water
-# # # # # # # class TrappingRainWater:
-# # # # # # #     def trap(self, height):
-# # # # # # #         if not height:
