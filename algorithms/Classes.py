@@ -161,7 +161,3 @@
 # # # # # # # class TrappingRainWater:
 # # # # # # #     def trap(self, height):
 # # # # # # #         if not height:
-# # # # # # #             return 0
-# # # # # # #         left, right = 0, len(height) - 1
-# # # # # # #         left_max, right_max = height[left], height[right]
-# # # # # # #         water = 0
