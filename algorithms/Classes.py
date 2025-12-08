@@ -138,7 +138,3 @@
 # # # # # # # #     def ladderLength(self, beginWord, endWord, wordList):
 # # # # # # # #         if endWord not in wordList:
 # # # # # # # #             return 0
-            
-# # # # # # # #         wordList = set(wordList)
-# # # # # # # #         queue = [(beginWord, 1)]
-# # # # # # # #         visited = {beginWord}
