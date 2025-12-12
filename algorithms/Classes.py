@@ -98,9 +98,3 @@
 # # # # # # # #                     start = left
 # # # # # # # #                     max_length = right - left + 1
 # # # # # # # #                 left -= 1
-# # # # # # # #                 right += 1
-        
-# # # # # # # #         for i in range(len(s)):
-# # # # # # # #             expand_around_center(i, i)  # для нечетной длины
-# # # # # # # #             expand_around_center(i, i + 1)  # для четной длины
-            
