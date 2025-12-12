@@ -123,7 +123,3 @@
 # # # # # # # #         dummy = ListNode(0)
 # # # # # # # #         current = dummy
         
-# # # # # # # #         while heap:
-# # # # # # # #             val, i, node = heapq.heappop(heap)
-# # # # # # # #             current.next = node
-# # # # # # # #             current = current.next
