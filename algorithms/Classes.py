@@ -132,9 +132,3 @@
 # # # # # # # #                 heapq.heappush(heap, (node.next.val, i, node.next))
                 
 # # # # # # # #         return dummy.next
-
-# # # # # # # # Решение Word Ladder
-# # # # # # # # class WordLadder:
-# # # # # # # #     def ladderLength(self, beginWord, endWord, wordList):
-# # # # # # # #         if endWord not in wordList:
-# # # # # # # #             return 0
