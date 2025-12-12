@@ -107,9 +107,3 @@
 # # # # # # # #         return s[start:start + max_length]
 
 # # # # # # # # Решение Merge K Sorted Lists
-# # # # # # # # class MergeKSortedLists:
-# # # # # # # #     def mergeKLists(self, lists):
-# # # # # # # #         if not lists:
-# # # # # # # #             return None
-            
-# # # # # # # #         import heapq
