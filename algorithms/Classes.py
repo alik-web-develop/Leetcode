@@ -119,7 +119,3 @@
 # # # # # # # #         for i, l in enumerate(lists):
 # # # # # # # #             if l:
 # # # # # # # #                 heapq.heappush(heap, (l.val, i, l))
-                
-# # # # # # # #         dummy = ListNode(0)
-# # # # # # # #         current = dummy
-        
