@@ -127,8 +127,3 @@
 # # # # # # # #             val, i, node = heapq.heappop(heap)
 # # # # # # # #             current.next = node
 # # # # # # # #             current = current.next
-            
-# # # # # # # #             if node.next:
-# # # # # # # #                 heapq.heappush(heap, (node.next.val, i, node.next))
-                
-# # # # # # # #         return dummy.next
