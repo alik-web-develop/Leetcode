@@ -104,6 +104,3 @@
 # # # # # # # #             expand_around_center(i, i)  # для нечетной длины
 # # # # # # # #             expand_around_center(i, i + 1)  # для четной длины
             
-# # # # # # # #         return s[start:start + max_length]
-
-# # # # # # # # Решение Merge K Sorted Lists
