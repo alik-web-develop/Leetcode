@@ -113,9 +113,3 @@
 # # # # # # # #             return None
             
 # # # # # # # #         import heapq
-        
-# # # # # # # #         # Создаем минимальную кучу
-# # # # # # # #         heap = []
-# # # # # # # #         for i, l in enumerate(lists):
-# # # # # # # #             if l:
-# # # # # # # #                 heapq.heappush(heap, (l.val, i, l))
