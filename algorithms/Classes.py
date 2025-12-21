@@ -69,5 +69,3 @@
 # # # # # # # #             if nums[i] != 0:
 # # # # # # # #                 nums[non_zero], nums[i] = nums[i], nums[non_zero]
 # # # # # # # #                 non_zero += 1
-
-# # # # # # # # Решение Longest Common Prefix
