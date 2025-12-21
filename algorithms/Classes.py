@@ -80,5 +80,4 @@
 # # # # # # # #             for other in strs:
 # # # # # # # #                 if other[i] != char:
 # # # # # # # #                     return shortest[:i]
-# # # # # # # #         return shortest
-
+# # # # # # # #         return shorte
