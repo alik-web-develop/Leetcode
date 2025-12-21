@@ -73,5 +73,3 @@
 # # # # # # # # Решение Longest Common Prefix
 # # # # # # # # class LongestCommonPrefix:
 # # # # # # # #     def longestCommonPrefix(self, strs):
-# # # # # # # #         if not strs:
-# # # # # # # #             return ""
