@@ -88,6 +88,3 @@
 # # # # # # # #         if not s:
 # # # # # # # #             return ""
         
-# # # # # # # #         start = 0
-# # # # # # # #         max_length = 1
-        
