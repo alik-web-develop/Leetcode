@@ -82,9 +82,3 @@
 # # # # # # # #                     return shortest[:i]
 # # # # # # # #         return shortest
 
-# # # # # # # # Решение Longest Palindromic Substring
-# # # # # # # # class LongestPalindromicSubstring:
-# # # # # # # #     def longestPalindrome(self, s):
-# # # # # # # #         if not s:
-# # # # # # # #             return ""
-        
