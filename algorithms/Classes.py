@@ -64,6 +64,3 @@
 # # # # # # # # Решение Move Zeroes
 # # # # # # # # class MoveZeroes:
 # # # # # # # #     def moveZeroes(self, nums):
-# # # # # # # #         non_zero = 0
-# # # # # # # #         for i in range(len(nums)):
-# # # # # # # #             if nums[i] != 0:
