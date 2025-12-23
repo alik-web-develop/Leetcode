@@ -62,5 +62,3 @@
 # # # # # # # #         return result
 
 # # # # # # # # Решение Move Zeroes
-# # # # # # # # class MoveZeroes:
-# # # # # # # #     def moveZeroes(self, nums):
