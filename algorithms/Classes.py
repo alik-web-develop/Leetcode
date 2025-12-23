@@ -45,5 +45,5 @@
 # # # # # # # #         return s == s[::-1]
 
 # # # # # # # # Решение Maximum Subarray
-# # # # # # # # class 
+# # # # # # # #
 # # # # # # # #         max_sum = current_sum = nums[0]
