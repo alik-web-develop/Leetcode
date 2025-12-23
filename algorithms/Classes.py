@@ -55,5 +55,3 @@
 
 # # # # # # # # Решение Single Number
 # # # # # # # # class SingleNumber:
-# # # # # # # #     def singleNumber(self, nums):
-# # # # # # # #         result = 0
