@@ -45,6 +45,5 @@
 # # # # # # # #         return s == s[::-1]
 
 # # # # # # # # Решение Maximum Subarray
-# # # # # # # # class MaximumSubarray:
-# # # # # # # #     def maxSubArray(self, nums):
+# # # # # # # # class 
 # # # # # # # #         max_sum = current_sum = nums[0]
