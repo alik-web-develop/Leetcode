@@ -37,9 +37,3 @@
 # # # # # # # #         for i in range(3, n + 1):
 # # # # # # # #             dp[i] = dp[i-1] + dp[i-2]
 # # # # # # # #         return dp[n]
-
-# # # # # # # # Решение Valid Palindrome
-# # # # # # # # class ValidPalindrome:
-# # # # # # # #     def isPalindrome(self, s):
-# # # # # # # #         s = ''.join(c.lower() for c in s if c.isalnum())
-# # # # # # # #         return s == s[::-1]
