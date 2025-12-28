@@ -25,7 +25,6 @@
 # # # # # # # #         return dummy.next
 
 # # # # # # # #             if nums[mid] == target:
-# # # # # # # #                 right = mid - 1
-
+# # # # # # # #                 right =
 # # # # # # # # Решение Climbing Stairs
 # # # # # # # # class Cl``
