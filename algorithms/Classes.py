@@ -24,6 +24,6 @@
 # # # # # # # #         current.next = l1 if l1 else l2
 # # # # # # # #         return dummy.next
 
-# # # # # # # #             if nums[mid] == targe
+# # # # # # # #             if nu
 # # # # # # # # Решение Climbing Stairs
 # # # # # # # # class Cl``
