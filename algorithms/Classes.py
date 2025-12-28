@@ -29,4 +29,4 @@
 
 # # # # # # # # Решение Climbing Stairs
 # # # # # # # # class ClimbingStairs:
-# # # # # # # #        
+# # # # #
