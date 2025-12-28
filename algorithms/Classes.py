@@ -28,4 +28,4 @@
 # # # # # # # #                 right = mid - 1
 
 # # # # # # # # Решение Climbing Stairs
-# # # # # # # # class ClimbingStair
+# # # # # # # # class Cl``
