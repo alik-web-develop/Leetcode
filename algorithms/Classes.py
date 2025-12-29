@@ -21,4 +21,4 @@
 # # # # # # # # Решение Merge Two Sorted Lists
 # # # # # # # #         current = dummy
 # # # # # # # #             current = current.next
-# # # # # # # #         current.next = l1 
+# # # # # # # #         current.ne
