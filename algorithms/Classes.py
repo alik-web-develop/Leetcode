@@ -19,5 +19,4 @@
 # # # # # # # #         return prev
 
 # # # # # # # # Решение Merge Two Sorted Lists
-# # # # # # # #         current = dummy
-# # # # # # # #             c
+# # # # # # # #         current = dumm
