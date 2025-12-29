@@ -19,4 +19,3 @@
 # # # # # # # #         return prev
 
 # # # # # # # # Решение Merge Two Sorted Lists
-# # # # # # # #         current = dumm
