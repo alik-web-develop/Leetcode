@@ -18,4 +18,4 @@
 # # # # # # # #             current = next_temp
 # # # # # # # #         return prev
 
-# # # # # # # # Решение
+# # # # # # # #
