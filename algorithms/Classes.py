@@ -15,4 +15,3 @@
 # # # # # # # #             next_temp = current.next
 # # # # # # # #             current.next = prev
 # # # # # # # #             prev = current
-# # # # # # #
