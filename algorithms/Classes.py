@@ -14,4 +14,3 @@
 # # # # # # # #     def isValid(self, s):
 # # # # # # # #             next_temp = current.next
 # # # # # # # #             current.next = prev
-# # # # # # # #  
