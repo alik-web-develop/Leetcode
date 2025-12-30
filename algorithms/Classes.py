@@ -13,4 +13,3 @@
 # # # # # # # # class ValidParentheses:
 # # # # # # # #     def isValid(self, s):
 # # # # # # # #             next_temp = current.next
-# # # # # # # #             cu
