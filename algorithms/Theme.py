@@ -1140,5 +1140,3 @@
 # #     def update(self, index, value):
 # #         """Обновление элемента по индексу"""
 # #         index += 1  # Индексация с 1
-# #         while index <= self.n:
-# #             self.tree[index] += value
