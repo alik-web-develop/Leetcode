@@ -8,6 +8,3 @@
 # # # # # # # #                 return [hash_map[complement], i]
 # # # # # # # #             hash_map[num] = i
 # # # # # # # #         return []
-
-# # # # # # # # Решение Valid Parentheses
-# # # # # # # # class ValidParentheses:
