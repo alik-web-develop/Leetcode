@@ -1130,4 +1130,4 @@
     
 # #     def _build(self, arr):
 # #         """Построение дерева Фенвика"""
-# #         for i in range(self.n):
+# #         for i in range(s
