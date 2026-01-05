@@ -1126,6 +1126,4 @@
 # #     def __init__(self, arr):
 # #         self.n = len(arr)
 # #         self.tree = [0] * (self.n + 1)
-# #         self._build(arr)
-    
-# #     def _build(self, arr):
+# #         self._build(arr
