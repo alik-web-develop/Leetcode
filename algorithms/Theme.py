@@ -1131,5 +1131,4 @@
 # #     def _build(self, arr):
 # #         """Построение дерева Фенвика"""
 # #         for i in range(self.n):
-# #             self.update(i, arr[i])
-    
+# #             self.update(i, ar
