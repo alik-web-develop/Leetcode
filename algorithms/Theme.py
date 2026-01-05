@@ -1133,5 +1133,3 @@
 # #         for i in range(self.n):
 # #             self.update(i, arr[i])
     
-# #     def _get_lsb(self, x):
-# #         """Получение
