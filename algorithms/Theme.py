@@ -1121,4 +1121,3 @@
 
 # # # Fenwick Tree (Binary Indexed Tree) для запросов суммы диапазона
 # # class FenwickTree:
-# #     """Дерево Фенвика
