@@ -1117,6 +1117,4 @@
 # # # print(rabin_karp_search(text, pattern)) # Выведет: [0, 9, 12]
 
 
-# # # =================
-
-# # # Fenwick Tree (
+# # # ===============
