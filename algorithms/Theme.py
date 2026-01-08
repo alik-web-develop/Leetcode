@@ -1119,4 +1119,4 @@
 
 # # # =================
 
-# # # Fenwick Tree (Binary Indexed Tree) для запросов суммы диапазона
+# # # Fenwick Tree (Binary Indexed Tree) для запросов 
