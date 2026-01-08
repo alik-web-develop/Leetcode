@@ -1114,7 +1114,4 @@
 # # # Пример использования:
 # # # text = "AABAACAADAABAABA"
 # # # pattern = "AABA"
-# # # print(rabin_karp_search(text, pattern)) # Выведет: [0, 9, 12]
-
-
-# # # ===============
+# # # print(rabin_karp_search(text, pattern)) # Выведет: [0, 9, 12
