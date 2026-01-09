@@ -1109,4 +1109,4 @@
 # #             if text_hash < 0:
 # #                 text_hash += prime
     
-# #     return occurrences
+# #     retur
