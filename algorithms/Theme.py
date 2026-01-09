@@ -1110,8 +1110,3 @@
 # #                 text_hash += prime
     
 # #     return occurrences
-
-# # # Пример использования:
-# # # text = "AABAACAADAABAABA"
-# # # pattern = "AABA"
-# # # print(rabin_karp_search(text, pattern)) #
