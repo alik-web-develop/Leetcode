@@ -1106,5 +1106,4 @@
 # #         if i < n - m:
 # #             # Вычисляем хеш для следующего окна
 # #             text_hash = (256 * (text_hash - ord(text[i]) * h) + ord(text[i + m])) % prime
-# #             if text_hash < 0:
-# #                 text_h
+# #            
