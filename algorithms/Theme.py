@@ -1103,5 +1103,3 @@
 # #             if text[i:i+m] == pattern:
 # #                 occurrences.append(i)
         
-# #         if i < n - m:
-# #             # Вычисляем хеш для следующего окна
