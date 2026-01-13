@@ -1099,5 +1099,4 @@
 # #     # Скользим окно по тексту
 # #     for i in range(n - m + 1):
 # #         if pattern_hash == text_hash:
-# #             ``        if text[i:i+m] == pattern:
-# #                 occurrences.a
+# #             ``        if text[i:i+m] == pattern
