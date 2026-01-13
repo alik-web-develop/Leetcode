@@ -1099,7 +1099,6 @@
 # #     # Скользим окно по тексту
 # #     for i in range(n - m + 1):
 # #         if pattern_hash == text_hash:
-# #             # Проверяем символы, если хеши совпадают
-        if text[i:i+m] == pattern:
+# #             # Проверяем символы, если хе        if text[i:i+m] == pattern:
 # #                 occurrences.append(i)
         
