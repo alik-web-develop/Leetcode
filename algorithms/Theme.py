@@ -1097,4 +1097,4 @@
 # #         text_hash = (256 * text_hash + ord(text[i])) % prime
     
 # #     # Скользим окно по тексту
-# #     for i in range(n - m + 1):
+# #     for i in range(n -
