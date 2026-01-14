@@ -1098,4 +1098,3 @@
     
 # #     # Скользим окно по тексту
 # #     for i in range(n - m + 1):
-# #         if pattern_ha
