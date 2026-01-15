@@ -1093,4 +1093,4 @@
     
 # #     # Вычисляем хеш для паттерна и первого окна текста
 # #     for i in range(m):
-# #         pattern_hash = (256 * pattern_hash + ord(p
+# #         pattern_hash = (256 * pattern_h
