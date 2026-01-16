@@ -1084,5 +1084,4 @@
     
 # #     # Вычисляем хеш паттерна
 # #     pattern_hash = 0
-# #     text_hash = 0
-# #     h = 1
+# #     text_hash =
