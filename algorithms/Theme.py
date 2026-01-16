@@ -1080,6 +1080,5 @@
 # #         return []
     
 # #     n, m = len(text), len(pattern)
-# #     occurrences = []
-    
+# #     occurre
 # #     # Вычисляем хеш паттерна
