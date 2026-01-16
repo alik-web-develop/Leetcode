@@ -1083,5 +1083,3 @@
 # #     occurrences = []
     
 # #     # Вычисляем хеш паттерна
-# #     pattern_hash = 0
-# #     text_hash =
