@@ -1089,4 +1089,4 @@
     
 # #     # Вычисляем h = pow(prime, m-1) % prime
 # #     for i in range(m - 1):
-# #         h = (h * 256) % p
+# #         h = (h *``
