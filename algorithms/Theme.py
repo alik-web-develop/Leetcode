@@ -1086,7 +1086,6 @@
 # #     pattern_hash = 0
 # #     text_hash = 0
 # #     h = 1
-    
-# #     # Вычи = pow(prime, m-1) % prime
+ = pow(prime, m-1) % prime
 # #     for i in range(m - 1):
 # #         h = (h *``
