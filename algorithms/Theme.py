@@ -1079,5 +1079,3 @@
 # #     if not pattern or not text:
 # #         return []
     
-# #     n, m = len(text), len(pattern)
-# #     # Вычисляем хеш паттерна
