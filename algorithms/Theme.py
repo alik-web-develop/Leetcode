@@ -1075,7 +1075,3 @@
 
 # # # Rabin-Karp Algorithm (Алгоритм Рабина-Карпа для поиска подстроки)
 # # def rabin_karp_search(text, pattern, prime=101):
-# #     """Поиск подстроки с помощью алгоритма Рабина-Карпа"""
-# #     if not pattern or not text:
-# #         return []
-    
