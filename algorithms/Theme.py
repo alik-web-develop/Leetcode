@@ -1073,4 +1073,4 @@
 
 # # # =================
 
-# # # Rabin-Karp Algorith
+# # # Rabin-Karp
