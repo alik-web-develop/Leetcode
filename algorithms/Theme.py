@@ -1038,21 +1038,3 @@
 
 # # def boyer_moore_search(text, pattern):
 # #     """Поиск подстроки с помощью алгоритма Бойера-Мура"""
-# #     if not pattern or not text:
-# #         return []
-    
-# #     n, m = len(text), len(pattern)
-# #     bad_char_table = build_bad_char_table(pattern)
-# #     occurrences = []
-    
-# #     i = m - 1  # Индекс в тексте
-# #     while i < n:
-# #         j = m - 1  # Индекс в паттерне
-# #         k = i      # Позиция в тексте для сравнения
-        
-# #         # Сравниваем паттерн справа налево
-# #         while j >= 0 and text[k] == pattern[j]:
-# #             k -= 1
-# #             j -= 1
-        
-# #         if j == -1:  # Найден паттерн
