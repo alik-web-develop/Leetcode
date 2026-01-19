@@ -1069,8 +1069,3 @@
 # # # text = "AABAACAADAABAABA"
 # # # pattern = "AABA"
 # # # print(boyer_moore_search(text, pattern)) # Выведет: [0, 9, 12]
-
-
-# # # =================
-
-# # # Rabin-Karp
