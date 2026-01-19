@@ -1024,17 +1024,3 @@
 # # # # Пример использования:
 # # # # arr = [12, 11, 13, 5, 6, 7]
 # # # # print(heap_sort(arr)) # Выведет: [5, 6, 7, 11, 12, 13]
-
-
-# # # =================
-
-# # # Boyer-Moore Algorithm (Алгоритм Бойера-Мура для поиска подстроки)
-# # def build_bad_char_table(pattern):
-# #     """Строит таблицу плохих символов для алгоритма Бойера-Мура"""
-# #     table = {}
-# #     for i in range(len(pattern) - 1):
-# #         table[pattern[i]] = len(pattern) - 1 - i
-# #     return table
-
-# # def boyer_moore_search(text, pattern):
-# #     """Поиск подстроки с помощью алгоритма Бойера-Мура"""
