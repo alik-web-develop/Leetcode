@@ -1058,7 +1058,4 @@
 # #         if j == -1:  # Найден паттерн
 # #             occurrences.append(k + 1)
 # #             i += 1
-# #         else:
-# #             # Сдвиг на основе таблицы плохих символов
-# #             bad_char_shift = bad_char_table.get(text[k], m)
-# #             i += max(1, bad_char_shift - (m - 1 - j))
+# #         else:``
