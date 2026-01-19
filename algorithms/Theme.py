@@ -1062,10 +1062,3 @@
 # #             # Сдвиг на основе таблицы плохих символов
 # #             bad_char_shift = bad_char_table.get(text[k], m)
 # #             i += max(1, bad_char_shift - (m - 1 - j))
-    
-# #     return occurrences
-
-# # # Пример использования:
-# # # text = "AABAACAADAABAABA"
-# # # pattern = "AABA"
-# # # print(boyer_moore_search(text, pattern)) # Выведет: [0, 9, 12]
