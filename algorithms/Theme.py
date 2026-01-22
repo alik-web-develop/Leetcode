@@ -959,5 +959,3 @@
 # # #     count = [0] * 10 # Для цифр от 0 до 9
 
 # # #     for i in range(n):
-# # #         index = arr[i] // exp
-# # #         count[index % 
