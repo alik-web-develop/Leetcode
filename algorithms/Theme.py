@@ -963,4 +963,4 @@
 # # #         count[index % 10] += 1
 
 # # #     for i in range(1, 10):
-# # #         count[i] += count[i - 1]
+# # #         count[i] += cou
