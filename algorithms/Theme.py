@@ -972,4 +972,3 @@
 # # #         count[index % 10] -= 1
 # # #         i -= 1
     
-# # #     for i in ra
