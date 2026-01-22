@@ -962,5 +962,4 @@
 # # #         index = arr[i] // exp
 # # #         count[index % 10] += 1
 
-# # #     for i in range(1, 10):
-# # #         count[i] += cou
+# # #     for i in range(1, 
