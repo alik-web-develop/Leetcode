@@ -960,6 +960,4 @@
 
 # # #     for i in range(n):
 # # #         index = arr[i] // exp
-# # #         count[index % 10] += 1
-
-# # #     for i in range(1, 
+# # #         count[index % 
