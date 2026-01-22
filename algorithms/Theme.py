@@ -951,8 +951,3 @@
 # # # # print(counting_sort(arr)) # Выведет: [1, 2, 2, 3, 3, 4, 8]
 
 # # # # =================
-
-# # # # Radix Sort (Поразрядная сортировка)
-# # # def counting_sort_for_radix(arr, exp):
-# # #     n = len(arr)
-# # #     output = [0] * n
