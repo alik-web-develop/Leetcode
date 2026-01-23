@@ -932,12 +932,3 @@
 
 # # # # Counting Sort (Сортировка подсчётом)
 # # # def counting_sort(arr):
-# # #     if not arr:
-# # #         return []
-
-# # #     max_val = max(arr)
-# # #     count = [0] * (max_val + 1)
-    
-# # #     for num in arr:
-# # #         count[num] += 1
-    
