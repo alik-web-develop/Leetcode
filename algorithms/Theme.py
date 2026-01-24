@@ -906,6 +906,3 @@
 # # #                 min_idx = j
 # # #         arr[i], arr[min_idx] = arr[min_idx], arr[i]
 # # #     return arr
-
-# # # # Пример использования:
-# # # # arr = [64, 25, 12, 22, 11]
