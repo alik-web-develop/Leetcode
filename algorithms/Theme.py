@@ -895,8 +895,6 @@
 
 
 # # # # =================
-
-# # # # Selection Sort (Сор
 # # #     for i in range(n):
 # # #         min_idx = i
 # # #         for j in range(i + 1, n):
