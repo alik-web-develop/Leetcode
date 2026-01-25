@@ -885,7 +885,4 @@
 # # #             while j >= gap and arr[j - gap] > temp:
 # # #                 arr[j] = arr[j - gap]
 # # #                 j -= gap
-# # #             arr[j] = temp
-# # #         gap //= 2
-# # #     return
-# # #     for i in range(n):
+# # #             arr[j] = t
