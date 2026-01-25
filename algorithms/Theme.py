@@ -836,13 +836,4 @@
 # # #     m = len(pattern)
 
 # # #     lps = compute_lps_array(pattern)
-
-# # #     i = 0 # индекс для text
-# # #     j = 0 # индекс для pattern
-# # #     occurrences = []
-
-# # #     while i < n:
-# # #         if pattern[j] == text[i]:
-# # #             i += 1
-# # #             j += 1
         
