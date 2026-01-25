@@ -873,7 +873,4 @@
 # # # # print(gcd_euclidean(101, 103)) # Выведет: 1
 
 
-# # # # Shell Sort (Сортировка Шелла)
-# # # def shell_sort(arr):
-# # #     n = len(arr)
-# # #     gap = n // 2
+# # # # Shell Sort (Со
