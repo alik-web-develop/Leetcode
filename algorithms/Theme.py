@@ -870,7 +870,4 @@
 
 # # # # Пример использования:
 # # # # print(gcd_euclidean(48, 18)) # Выведет: 6
-# # # # print(gcd_euclidean(101, 103)) # Выведет: 1
-
-
-# # # # Shell Sort (Со
+# # # # print(gcd_eucl
