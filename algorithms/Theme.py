@@ -861,7 +861,3 @@
 # # # # pattern = "ABABCABAB"
 # # # # print(kmp_search(text, pattern)) # Выведет: [10]
 
-
-# # # # Euclidean Algorithm (Алгоритм Евклида для нахождения НОД)
-# # # def gcd_euclidean(a, b):
-# # #     while b:
