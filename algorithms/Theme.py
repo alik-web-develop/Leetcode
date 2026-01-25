@@ -850,10 +850,3 @@
 # # #             occurrences.append(i - j) # Найден шаблон
 # # #             j = lps[j - 1]
 # # #         elif i < n and pattern[j] != text[i]:
-# # #             if j != 0:
-# # #                 j = lps[j - 1]
-# # #             else:
-# # #                 i += 1
-# # #     return occurrences
-
-# # # # Пример использования:
