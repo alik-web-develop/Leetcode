@@ -846,7 +846,3 @@
 # # #             i += 1
 # # #             j += 1
         
-# # #         if j == m:
-# # #             occurrences.append(i - j) # Найден шаблон
-# # #             j = lps[j - 1]
-# # #         elif i < n and pattern[j] != text[i]:
