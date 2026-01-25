@@ -857,7 +857,3 @@
 # # #     return occurrences
 
 # # # # Пример использования:
-# # # # text = "ABABDABACDABABCABAB"
-# # # # pattern = "ABABCABAB"
-# # # # print(kmp_search(text, pattern)) # Выведет: [10]
-
