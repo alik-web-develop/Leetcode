@@ -791,10 +791,3 @@
 # # #             elif self.on_stack[v]:
 # # #                 self.low_link[u] = min(self.low_link[u], self.ids[v])
         
-# # #         if self.ids[u] == self.low_link[u]:
-# # #             current_scc = []
-# # #             while True:
-# # #                 node = self.stack.pop()
-# # #                 self.on_stack[node] = False
-# # #                 current_scc.append(node)
-# # #                 if node == u:
