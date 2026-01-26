@@ -780,8 +780,3 @@
 # # #     def _dfs(self, u):
 # # #         self.ids[u] = self.index
 # # #         self.low_link[u] = self.index
-# # #         self.index += 1
-# # #         self.stack.append(u)
-# # #         self.on_stack[u] = True
-
-# # #         for v in self.graph[u]:
