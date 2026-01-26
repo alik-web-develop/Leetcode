@@ -798,7 +798,3 @@
 # # #                 self.on_stack[node] = False
 # # #                 current_scc.append(node)
 # # #                 if node == u:
-# # #                     break
-# # #             self.sccs.append(current_scc)
-
-# # # # Пример использования:
