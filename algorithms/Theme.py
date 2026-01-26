@@ -830,5 +830,3 @@
 # # #                 lps[i] = 0
 # # #                 i += 1
 # # #     return lps
-
-# # # def kmp_search(text, pattern):
