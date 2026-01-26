@@ -822,5 +822,3 @@
 # # #         if pattern[i] == pattern[length]:
 # # #             length += 1
 # # #             lps[i] = length
-# # #             i += 1
-# # #         else:
