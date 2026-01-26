@@ -832,5 +832,3 @@
 # # #     return lps
 
 # # # def kmp_search(text, pattern):
-# # #     n = len(text)
-# # #     m = len(pattern)
