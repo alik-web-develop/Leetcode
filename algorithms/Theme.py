@@ -785,9 +785,3 @@
 # # #         self.on_stack[u] = True
 
 # # #         for v in self.graph[u]:
-# # #             if self.ids[v] == -1:
-# # #                 self._dfs(v)
-# # #                 self.low_link[u] = min(self.low_link[u], self.low_link[v])
-# # #             elif self.on_stack[v]:
-# # #                 self.low_link[u] = min(self.low_link[u], self.ids[v])
-        
