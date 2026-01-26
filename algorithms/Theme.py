@@ -820,5 +820,3 @@
 # # #     i = 1
 # # #     while i < len(pattern):
 # # #         if pattern[i] == pattern[length]:
-# # #             length += 1
-# # #             lps[i] = length
