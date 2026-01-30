@@ -713,11 +713,3 @@
 # # # # # print(st.query(1, 4)) # Выведет: 24 (3 + 5 + 7 + 9)
 # # # # # st.update(2, 10)
 # # # # # print(st.query(1, 4)) # Выведет: 29 (3 + 10 + 7 + 9)
-
-
-# # # # Kuhn's Algorithm (для нахождения максимального паросочетания в двудольном графе)
-# # # # (Простая реализация с использованием DFS)
-# # # def find_matching(graph, u, visited, match_r):
-# # #     for v in graph[u]:
-# # #         if not visited[v]:
-# # #             visited[v] = True
