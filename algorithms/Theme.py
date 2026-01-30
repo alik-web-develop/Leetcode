@@ -695,14 +695,3 @@
 
 # # # #     def update(self, index, new_value):
 # # # #         self._update(0, 0, self.n - 1, index, new_value)
-
-# # # #     def _update(self, tree_index, lo, hi, index, new_value):
-# # # #         if lo == hi:
-# # # #             self.tree[tree_index] = new_value
-# # # #             return
-# # # #         mid = (lo + hi) // 2
-# # # #         if lo <= index <= mid:
-# # # #             self._update(2 * tree_index + 1, lo, mid, index, new_value)
-# # # #         else:
-# # # #             self._update(2 * tree_index + 2, mid + 1, hi, index, new_value)
-# # # #         self.tree[tree_index] = self.tree[2 * tree_index + 1] + self.tree[2 * tree_index + 2]
