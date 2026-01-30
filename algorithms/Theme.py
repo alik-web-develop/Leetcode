@@ -659,10 +659,3 @@
 # # # # # print(suffix_arr) # Выведет: [5, 3, 1, 0, 4, 2] (индексы: a, ana, anana, banana, na, nana)
 
 
-# # # # # Segment Tree (Дерево отрезков) для запросов суммы диапазона
-# # # # class SegmentTree:
-# # # #     def __init__(self, arr):
-# # # #         self.n = len(arr)
-# # # #         self.tree = [0] * (4 * self.n) # Примерный размер дерева: 4*N
-# # # #         self._build(arr, 0, 0, self.n - 1)
-
