@@ -673,16 +673,3 @@
 # # # #         mid = (lo + hi) // 2
 # # # #         self._build(arr, 2 * tree_index + 1, lo, mid)
 # # # #         self._build(arr, 2 * tree_index + 2, mid + 1, hi)
-# # # #         self.tree[tree_index] = self.tree[2 * tree_index + 1] + self.tree[2 * tree_index + 2]
-
-# # # #     def query(self, query_lo, query_hi):
-# # # #         return self._query(0, 0, self.n - 1, query_lo, query_hi)
-
-# # # #     def _query(self, tree_index, lo, hi, query_lo, query_hi):
-# # # #         # Полное перекрытие
-# # # #         if query_lo <= lo and hi <= query_hi:
-# # # #             return self.tree[tree_index]
-        
-# # # #         # Нет перекрытия
-# # # #         if hi < query_lo or lo > query_hi:
-# # # #             return 0
