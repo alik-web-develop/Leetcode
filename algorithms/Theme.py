@@ -721,29 +721,3 @@
 # # #     for v in graph[u]:
 # # #         if not visited[v]:
 # # #             visited[v] = True
-# # #             if match_r[v] == -1 or find_matching(graph, match_r[v], visited, match_r):
-# # #                 match_r[v] = u
-# # #                 return True
-# # #     return False
-
-# # # def max_bipartite_matching(graph):
-# # #     num_left_vertices = len(graph)
-# # #     # Предполагаем, что правые вершины нумеруются от 0 до max_v_index
-# # #     # Найдем максимальный индекс правой вершины
-# # #     max_v_index = -1
-# # #     for u in graph:
-# # #         for v in graph[u]:
-# # #             max_v_index = max(max_v_index, v)
-    
-# # #     num_right_vertices = max_v_index + 1
-# # #     match_r = [-1] * num_right_vertices # match_r[v] хранит вершину u, с которой v сопоставлена
-# # #     result = 0
-
-# # #     for u in range(num_left_vertices):
-# # #         visited = [False] * num_right_vertices
-# # #         if find_matching(graph, u, visited, match_r):
-# # #             result += 1
-# # #     return result
-
-# # # # Пример использования:
-# # # # grap
