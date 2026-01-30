@@ -652,10 +652,3 @@
 
 # # # #     suffix_array = [s[1] for s in suffixes]
 # # # #     return suffix_array
-
-# # # # # Пример использования:
-# # # # # text = "banana"
-# # # # # suffix_arr = build_suffix_array(text)
-# # # # # print(suffix_arr) # Выведет: [5, 3, 1, 0, 4, 2] (индексы: a, ana, anana, banana, na, nana)
-
-
