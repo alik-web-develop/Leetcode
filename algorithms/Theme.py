@@ -706,10 +706,3 @@
 # # # #         else:
 # # # #             self._update(2 * tree_index + 2, mid + 1, hi, index, new_value)
 # # # #         self.tree[tree_index] = self.tree[2 * tree_index + 1] + self.tree[2 * tree_index + 2]
-
-# # # # # Пример использования:
-# # # # # arr = [1, 3, 5, 7, 9, 11]
-# # # # # st = SegmentTree(arr)
-# # # # # print(st.query(1, 4)) # Выведет: 24 (3 + 5 + 7 + 9)
-# # # # # st.update(2, 10)
-# # # # # print(st.query(1, 4)) # Выведет: 29 (3 + 10 + 7 + 9)
