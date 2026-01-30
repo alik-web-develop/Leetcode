@@ -647,8 +647,3 @@
 # # # #     suffixes = []
 # # # #     for i in range(n):
 # # # #         suffixes.append((text[i:], i))
-    
-# # # #     suffixes.sort() # Сортируем суффиксы лексикографически
-
-# # # #     suffix_array = [s[1] for s in suffixes]
-# # # #     return suffix_array
