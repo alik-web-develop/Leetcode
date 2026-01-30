@@ -666,10 +666,3 @@
 # # # #         self.tree = [0] * (4 * self.n) # Примерный размер дерева: 4*N
 # # # #         self._build(arr, 0, 0, self.n - 1)
 
-# # # #     def _build(self, arr, tree_index, lo, hi):
-# # # #         if lo == hi:
-# # # #             self.tree[tree_index] = arr[lo]
-# # # #             return
-# # # #         mid = (lo + hi) // 2
-# # # #         self._build(arr, 2 * tree_index + 1, lo, mid)
-# # # #         self._build(arr, 2 * tree_index + 2, mid + 1, hi)
