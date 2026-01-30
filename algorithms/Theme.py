@@ -686,12 +686,3 @@
 # # # #         # Нет перекрытия
 # # # #         if hi < query_lo or lo > query_hi:
 # # # #             return 0
-        
-# # # #         # Частичное перекрытие
-# # # #         mid = (lo + hi) // 2
-# # # #         left_sum = self._query(2 * tree_index + 1, lo, mid, query_lo, query_hi)
-# # # #         right_sum = self._query(2 * tree_index + 2, mid + 1, hi, query_lo, query_hi)
-# # # #         return left_sum + right_sum
-
-# # # #     def update(self, index, new_value):
-# # # #         self._update(0, 0, self.n - 1, index, new_value)
