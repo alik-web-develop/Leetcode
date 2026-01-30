@@ -771,6 +771,3 @@
 # # #             if self.ids[node] == -1:
 # # #                 self._dfs(node)
 
-# # #     def _dfs(self, u):
-# # #         self.ids[u] = self.index
-# # #         self.low_link[u] = self.index
