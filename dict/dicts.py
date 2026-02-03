@@ -36,9 +36,6 @@
 
 # # ............task6
 # # def dict_range(number):
-# #     result = {}
-# #     for i in range(1,number+1):
-# #         result[i] = i*i
 # #     return result
 # # print(dict_range(5))
 # # ............task7
