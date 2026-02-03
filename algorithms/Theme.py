@@ -640,10 +640,3 @@
 # # # # # print(manacher("babad")) # Выведет: "bab" или "aba"
 # # # # # print(manacher("cbbd"))  # Выведет: "bb"
 
-
-# # # # # Suffix Array (для эффективного поиска подстрок)
-# # # # def build_suffix_array(text):
-# # # #     n = len(text)
-# # # #     suffixes = []
-# # # #     for i in range(n):
-# # # #         suffixes.append((text[i:], i))

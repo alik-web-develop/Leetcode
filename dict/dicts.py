@@ -6,10 +6,6 @@
 # # }
 
 
-# # def sort_of_values(obj):
-# #     arr = list(obj.items())
-# #     for n in range(len(arr) - 1, 0, -1):
-# #         for i in range(n):
 # #             if arr[i][1] > arr[i + 1][1]:
 # #                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
 # #     return arr
