@@ -51,10 +51,6 @@
 # # dic2 = {
 # #     6: "sixth",
 # # }
-# # def merge(obj1,obj2):
-# #     result = {**obj1,**obj2}
-# #     return result
-# # print(merge(dic1,dic2))
 # # ............task9
 # # dic1 = {
 # #     1: 10,
