@@ -36,18 +36,7 @@
 
 # # def all_multiplication_dictionary(obj):
 # #     result = 1
-# #     for i in obj.values():
-# #         result = i*result
-# #     return result
-
-# # print(all_multiplication_dictionary(dic1))
-
-# # ............task12
-
-# # dic1 = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50}
-# # def del_key(obj):
-# #     first = next(iter(obj.keys()))
-# #     del obj[first]
+# #     for i in obj.values(
 # #     return obj
 # # print(del_key(dic1))
 # # ............task13
