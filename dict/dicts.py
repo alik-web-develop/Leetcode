@@ -50,10 +50,6 @@
 # # }
 # # dic2 = {
 # #     6: "sixth",
-# #     7: "seventh",
-# #     8: "eighth",
-# #     9: "ninth",
-# #     10: "tenth"
 # # }
 # # def merge(obj1,obj2):
 # #     result = {**obj1,**obj2}
