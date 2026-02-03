@@ -15,20 +15,7 @@
 # # def continue_dict(obj):
 # #     max_key = max(obj.keys())
 # #     obj[max_key + 1] = (max_key * 10) + 10
-# #     return obj
-# # print(continue_dict(x))
-# # ............task3
-# # dic1={1:10, 2:20}
-# # dic3={5:50,6:60}
-# # dic4={7:70,8:80}
-# # def merge(*args):
-# #     result = {}
-# #     for i in args:
-# #         result.update(i)
-# #     result = obj.pop(ex_key, False)
-# #     return f"this item was found this is its meaning: {result}" if result else "no such element was found"
-# # print(does_key_exist(x,0))
-# # ............task5
+# #     re
 # # x = {0: 10, 1: 20, 2: 30, 3: 40}
 # # def make_dict(obj):
 # #     return {key*key for key, val in obj.items()}
