@@ -25,12 +25,6 @@
 # #     result = {}
 # #     for i in args:
 # #         result.update(i)
-# #     return result
-# # print(merge(dic1,dic2,dic3,dic4))
-# # ............task4
-
-# # x = {0: 10, 1: 20}
-# # def does_key_exist(obj,ex_key):
 # #     result = obj.pop(ex_key, False)
 # #     return f"this item was found this is its meaning: {result}" if result else "no such element was found"
 # # print(does_key_exist(x,0))
