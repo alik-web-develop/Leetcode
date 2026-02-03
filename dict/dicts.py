@@ -26,23 +26,7 @@
 # #     return result
 # # print(dict_range(5))
 # # ............task7
-# # Алишер ака тут 6 и 7 задание одинаковые можете сами посмотреть я не стал просто число менять
-# # ............task8
-# # dic1 = {
-# # print(all_sum_of_dict(dic1))
-
-# # ............task11
-# # dic1 = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50}
-
-# # def all_multiplication_dictionary(obj):
-# #     result = 1
-# #     for i in obj.values(
-# #     return obj
-# # print(del_key(dic1))
-# # ............task13
-# # dic1 = {
-# #         1: 10,
-# #         4: 40,
+# # Алишер ака тут 6 и 7 задание одинаковые 
 # #         5: 50,
 # #         2: 20,
 # #         3: 30,
