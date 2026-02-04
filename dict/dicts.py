@@ -25,9 +25,7 @@
 # # def two_val_sum(obj1,obj2):
 # #     result = list(zip(obj1.values(),obj2.values()))
 # #     main = []
-# #     [main.append(sum(list(i))) for i in result]
-# #     return dict(zip(obj1.keys(),main))
-# # print(two_val_sum(x,y))
+# #     [main.append(sum(li
 # # ладно это было сложно признаю но я сделал :) и я лучше самого себя вчерашнего, поетому смог
 
 # # ............task24
