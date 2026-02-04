@@ -12,27 +12,7 @@
 # # print(sort_of_values(x))
 # # ............task2
 # # x = {0: 10, 1: 20}
-# # def continue_dict(obj):
-# #     max_key = max(obj.keys())
-# #     obj[max_key + 1] = (max_key * 10) + 10
-
-# # Алишер ака тут 6 и 7 задание одинаковые 
-# #         5: 50,
-# #         2: 20,
-# #         3: 30,
-# #         }
-# # def smllst_bggst_val(obj):
-# #     biggest = 0
-# #     smallest = next(iter(obj.values()))
-# #     for _, val in obj.items():
-# #         if val > biggest:
-# #             biggest = val
-# #         if smallest > val:
-# #             smallest = val
-# #     return f"this is smallest num: {smallest} \n and this is bigsest :{biggest}"
-# # print(smllst_bggst_val(dic1))
-
-# # ............task14
+# # def 
 # # x = ["first","second","third"]
 # # y = [1,2,3]
 # # def merge(obj1,obj2):
