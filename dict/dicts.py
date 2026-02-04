@@ -15,15 +15,7 @@
 # # print(merge(x,y))
 # # ............task15
 # # def no_repeats(arr):
-# #     result = []
-# #     for i in arr:
-# #         if i not in result:
-# #             result.append(i)
-# #     return result
-# # z = {'first': 1, 'second': 2, 'third': 3,"third":3}
-# # def no_repetitions_dict(obj):
-# #     x = no_repeats(list(obj.values()))
-# #     y = no_repeats(list(obj.keys()))
+# #     result(obj.keys()))
 # #     return dict(zip(y,x))
 # # print(no_repetitions_dict(z))
 # # Алишер ака я тут мог сделать всё в одной функции но внутри функции было бы не очень акуратно так я побоялся сделать в одной функции потаму что вы сказали бы Clean Coding
