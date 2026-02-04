@@ -18,17 +18,7 @@
 # # x = "w3resource"
 # # def search_letter(word:str,letter:str):
 # #     return sum([len(i) for i in word if i == letter])
-# # def number_characters_in_value(word:str):
-# #     result = {}
-# #     for i in word:
-# #         result[i] = search_letter(word,i)
-# #     return result
-# # print(number_characters_in_value(x)) # {'w': 1, '3': 1, 'r': 2, 'e': 2, 's': 1, 'o': 1, 'u': 1, 'c': 1}
-# # ............task22
-# # ............task22
-# # x = {'a':123,'b':5678,'c':765,'d':908,'e':89,'f':898,'g':1098,'s':9000}
-# # def highest_three_value(obj):
-# #     result = []
+# # def number_character
 # #     for i in obj.items():
 # #         result.append(i[1])
 # #     return sorted(result)[-3:len(result)]
