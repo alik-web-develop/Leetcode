@@ -11,12 +11,7 @@
 # #     return arr
 # # print(sort_of_values(x))
 # # ............task2
-# # x = {0: 10, 1: 20}
-# # def 
-# # x = ["first","second","third"]
-# # y = [1,2,3]
-# # def merge(obj1,obj2):
-# #     return dict(zip(obj1,obj2))
+# # x = {0: 10,bj2))
 # # print(merge(x,y))
 # # ............task15
 # # def no_repeats(arr):
