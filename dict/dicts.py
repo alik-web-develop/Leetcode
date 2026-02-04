@@ -15,9 +15,7 @@
 # # print(merge(x,yзнаю но я сделал :) и я лучше самого себя вчерашнего, поетому смог
 
 # # ............task24
-# # x = "w3resource"
-# # def search_letter(word:str,letter:str):
-# #     return sum([len(i) for i in word if i == letter])
+# # x = "w3resource" for i in word if i == letter])
 # # def number_character
 # #     for i in obj.items():
 # #         result.append(i[1])
