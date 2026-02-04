@@ -15,11 +15,6 @@
 # # def continue_dict(obj):
 # #     max_key = max(obj.keys())
 # #     obj[max_key + 1] = (max_key * 10) + 10
-# #     re
-# # x = {0: 10, 1: 20, 2: 30, 3: 40}
-# # def make_dict(obj):
-# #     return {key*key for key, val in obj.items()}
-# # print(make_dict(x))
 
 # # ............task6
 # # def dict_range(number):
