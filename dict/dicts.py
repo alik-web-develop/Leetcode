@@ -16,11 +16,6 @@
 # #     max_key = max(obj.keys())
 # #     obj[max_key + 1] = (max_key * 10) + 10
 
-# # ............task6
-# # def dict_range(number):
-# #     return result
-# # print(dict_range(5))
-# # ............task7
 # # Алишер ака тут 6 и 7 задание одинаковые 
 # #         5: 50,
 # #         2: 20,
