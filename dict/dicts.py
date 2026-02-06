@@ -20,12 +20,7 @@
 # #     for i in obj.items():
 # #         result.append(i[1])
 # #     return sorted(result)[-3:len(result)]
-# # print(highest_three_value(x))
-# # ............task30
-# #     result = {}
-
-# # print(search_identical_objects
-# # ......
+# # p
 # #     return result
 
 # # print(combine_information_by_details(x, y, z))
