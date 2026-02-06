@@ -25,11 +25,7 @@
 # #     result = {}
 
 # # print(search_identical_objects
-# # ............task43
-# # x = ['S001', 'S002', 'S003', 'S004']
-# #     for key, val in dict(zip(names, ratings)).items():
-# #         result[tags[counter]] = {key: val}
-# #         counter += 1
+# # ......
 # #     return result
 
 # # print(combine_information_by_details(x, y, z))
