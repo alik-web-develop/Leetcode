@@ -22,12 +22,6 @@
 # #     return sorted(result)[-3:len(result)]
 # # print(highest_three_value(x))
 # # ............task30
-
-# # x = {'item1': 45.50, 'item2':35, 'item3': 41.30, 'item4':55, 'item5': 24}
-
-
-# # def sort_of_values(obj):
-# #     arr = list(obj.items())
 # #     for n in range(len(arr) - 1, 0, -1):
 # #         for i in range(n):
 # #             if arr[i][1] > arr[i + 1][1]:
