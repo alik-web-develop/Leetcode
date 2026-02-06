@@ -22,12 +22,6 @@
 # #     return sorted(result)[-3:len(result)]
 # # print(highest_three_value(x))
 # # ............task30
-# #     for n in range(len(arr) - 1, 0, -1):
-# #         for i in range(n):
-# #             if arr[i][1] > arr[i + 1][1]:
-# #                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
-# #     return arr[-3:len(arr)]
-
 
 # # print(sort_of_values(x))
 # # ............task38
