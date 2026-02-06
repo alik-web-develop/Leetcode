@@ -29,16 +29,7 @@
 
 # # ............task41
 # #         if val and key:
-# #             result[key] = val
-# #     return result
-# # print(del_falses_in_dict(x))
-
-# # ............task42
-# # x = {'Cierra Vega': 175, 'Alden Cantrell': 180, 'Kierra Gentry': 165, 'Pierre Cox': 190}
-
-
-# # def allow_from_rating(obj, number):
-# #     result = {key: val for key, val in obj.items() if val >= number}
+# #             result[key] = val val >= number}
 # #     return result
 
 
