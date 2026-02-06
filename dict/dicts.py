@@ -22,21 +22,7 @@
 # #     return sorted(result)[-3:len(result)]
 # # print(highest_three_value(x))
 # # ............task30
-
-# # print(sort_of_values(x))
-# # ............task38
-# # x = {'key1': 1, 'key2': 3, 'key3': 2, 'key9': 9}
-# # y = {'key1': 1, 'key2': 2, 'key9': 9}
-
-
-# # def search_identical_objects(obj1, obj2):
 # #     result = {}
-# #     for key1, val1 in obj1.items():
-# #         for key2, val2 in obj2.items():
-# #             if key1 == key2 and val1 == val2:
-# #                 result[key1] = val1
-# #     return result
-
 
 # # print(search_identical_objects(x, y))
 
