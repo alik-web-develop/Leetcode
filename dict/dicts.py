@@ -24,17 +24,7 @@
 # # ............task30
 # #     result = {}
 
-# # print(search_identical_objects(x, y))
-
-
-# # ............task41
-# #         if val and key:
-# #             result[key] = val val >= number}
-# #     return result
-
-
-# # print(allow_from_rating(x, 170))
-
+# # print(search_identical_objects
 # # ............task43
 # # x = ['S001', 'S002', 'S003', 'S004']
 # # y = ['Adina Park', 'Leyton Marsh', 'Duncan Boyle', 'Saim Richards']
