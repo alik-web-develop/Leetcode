@@ -27,13 +27,6 @@
 # # print(search_identical_objects
 # # ............task43
 # # x = ['S001', 'S002', 'S003', 'S004']
-# # y = ['Adina Park', 'Leyton Marsh', 'Duncan Boyle', 'Saim Richards']
-# # z = [85, 98, 89, 92]
-
-
-# # def combine_information_by_details(tags, names, ratings):
-# #     result = {}
-# #     counter = 0
 # #     for key, val in dict(zip(names, ratings)).items():
 # #         result[tags[counter]] = {key: val}
 # #         counter += 1
