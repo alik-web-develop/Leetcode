@@ -28,10 +28,6 @@
 
 
 # # ............task41
-# # x = {'c1': 'Red', 'c2': 'Green', 'c3': None}
-# # def del_falses_in_dict(obj):
-# #     result = {}
-# #     for key,val in obj.items():
 # #         if val and key:
 # #             result[key] = val
 # #     return result
