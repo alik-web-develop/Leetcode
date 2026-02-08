@@ -18,14 +18,7 @@
 # #     return result
 # # print(filtration_for_physique(x,6,70))
 # # ............task45
-# # x = {'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12}
-# # def all_value_same(obj):
-# #     return len(set([val for key,val in obj.items()])) == 1
-# # print(all_value_same(x))
-# # ............task46
-# # x = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1),('red', 7)]
-# # def group_identical_elements(dic):
-# #     obj = {i[0]: []    for i in dic}
+# # x = {'Cier[]    for i in dic}
 # #     for i in x:
 # #         for key,val in obj.items():
 # #             if key == i[0]:
