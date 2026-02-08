@@ -17,10 +17,6 @@
 # # print(str_to_int_in_dict(x))
 
 # # ............task50
-# # x = {'C1': [10, 20, 30], 'C2': [20, 30, 40], 'C3': [12, 34]}
-# # def clear_values(obj):
-# #     return {key:[] for key,_ in obj.items()}
-# # print(clear_values(x))
 # # ............task51
 # # x = {'Math': [88, 89, 90], 'Physics': [92, 94, 89], 'Chemistry': [90, 87, 93],'hello World': [943,3,123]}
 # # x.update({'Math': [89, 90, 91], 
