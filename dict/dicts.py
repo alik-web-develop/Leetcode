@@ -13,17 +13,7 @@
 # # def filtration_for_physique(students,height,weight):
 # #     result = {}
 # #     for key,val in students.items():
-# #         if val[0] >= height and val[1] >= weight:
-# #           ation_for
-# #         if i['id'] != element:
-# #             result.append(i)
-# #     return result
-# # print(del_element_in_dict(x,
-# #             except ValueError:
-# #                 y[key] = float(val)
-# #     return obj
-
-
+# #         if val[0] >= height and 
 # # print(str_to_int_in_dict(x))
 
 # # ............task50
