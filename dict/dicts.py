@@ -24,13 +24,7 @@
 # #             if key == i[0]:
 # #                 val.append(i[1])
 # #     return obj
-# # print(group_identical_elements(x))
-# # ............task47
-# # x = {'Science': [88, 89, 62, 95], 'Language': [77, 78, 84, 80]}
-# # def split_dict(obj):
-# #     obj_keys = [i for i in obj.keys()]
-# #     obj_vals = [i for i in obj.values()]
-# #     result = []
+# # print(group_identical_elem
 # #     for i in range(len(obj_vals[1])):
 # #         result.append({obj_keys[0]:obj_vals[0][i],obj_keys[1]:obj_vals[1][i]})
 # #     return result
