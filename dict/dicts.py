@@ -21,14 +21,7 @@
 # # x = {'Cier[]    for i in dic}
 # #     for i in x:
 # #         for key,val in obj.items():
-# #             if key == i[0]:
-# #                 val.append(i[1])
-# #     return obj
-# # print(group_identical_elem
-# #     for i in range(len(obj_vals[1])):
-# #         result.append({obj_keys[0]:obj_vals[0][i],obj_keys[1]:obj_vals[1][i]})
-# #     return result
-# # print(split_dict(x))
+# #             if \
 # # ............task48
 # # x = [{'id': '#FF0000', 'color': 'Red'}, {'id': '#800000', 'color': 'Maroon'}, {'id': '#FFFF00', 'color': 'Yellow'}, {'id': '#808000', 'color': 'Olive'}]
 # # def del_element_in_dict(obj,element):
