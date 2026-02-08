@@ -16,17 +16,7 @@
 # #         if val[0] >= height and val[1] >= weight:
 # #             result[key] = val
 # #     return result
-# # print(filtration_for_physique(x,6,70))
-# # ............task45
-# # x = {'Cier[]    for i in dic}
-# #     for i in x:
-# #         for key,val in obj.items():
-# #             if \
-# # ............task48
-# # x = [{'id': '#FF0000', 'color': 'Red'}, {'id': '#800000', 'color': 'Maroon'}, {'id': '#FFFF00', 'color': 'Yellow'}, {'id': '#808000', 'color': 'Olive'}]
-# # def del_element_in_dict(obj,element):
-# #     result = []
-# #     for i in x:
+# # print(filtration_for
 # #         if i['id'] != element:
 # #             result.append(i)
 # #     return result
