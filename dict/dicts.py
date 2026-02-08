@@ -14,20 +14,11 @@
 # #     result = {}
 # #     for key,val in students.items():
 # #         if val[0] >= height and val[1] >= weight:
-# #             result[key] = val
-# #     return result
-# # print(filtration_for
+# #           ation_for
 # #         if i['id'] != element:
 # #             result.append(i)
 # #     return result
-# # print(del_element_in_dict(x,'#800000'))
-# # ............task49
-# # x = [{'x': '10.12', 'y': '20.23', 'z': '30'}, {'p': '40.00', 'q': '50.19', 'r': '60.99','l':'50'}]
-# # def str_to_int_in_dict(obj):
-# #     for y in x:
-# #         for key, val in y.items():
-# #             try:
-# #                 y[key] = int(val)
+# # print(del_element_in_dict(x,
 # #             except ValueError:
 # #                 y[key] = float(val)
 # #     return obj
