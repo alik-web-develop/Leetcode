@@ -23,11 +23,7 @@
 # # print(clear_values(x))
 # # ............task51
 # # x = {'Math': [88, 89, 90], 'Physics': [92, 94, 89], 'Chemistry': [90, 87, 93],'hello World': [943,3,123]}
-# # x.update({'Math': [89, 90, 91], 'Physics': [90, 92, 87], 'Chemistry': [90, 87, 93]})
-# # print(x)
-# # ............task52
-# # x = [{'Math': 90, 'Science': 92}, {'Math': 89, 'Science': 94}, {'Math': 92, 'Science': 88}]
-# # def find_value_by_keys(obj,find_key):
+# # x.update({'Math': [89, 90, 91], 
 # #     result = []
 # #     {result.append(i) for i in obj}
 # #     return result
