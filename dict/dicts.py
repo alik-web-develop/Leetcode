@@ -14,19 +14,7 @@
 # # x = {0: 10,bj2))
 # # print(merge(x,yзнаю но я сделал :) и я лучше самого себя вчерашнего, поетому смог
 
-# # ............task24
-# # x = "w3resource" for i in word if i == letter])
-# # def number_character
-# #     for i in obj.items():
-# #         result.append(i[1])
-# #     return sorted(result)[-3:len(result)]
-# # p
-# #     return result
-
-# # print(combine_information_by_details(x, y, z))
-
-# # ............task44
-# # x = {'Cierra Vega': (6.2, 70), 'Alden Cantrell': (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)}
+# # ............task24~ (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)}
 # # def filtration_for_physique(students,height,weight):
 # #     result = {}
 # #     for key,val in students.items():
