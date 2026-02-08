@@ -9,12 +9,7 @@
 # #             if arr[i][1] > arr[i + 1][1]:
 # #                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
 # #     return arr
-# # print(sort_of_values(x))
-# # ............task2
-# # x = {0: 10,bj2))
-# # print(merge(x,yзнаю но я сделал :) и я лучше самого себя вчерашнего, поетому смог
-
-# # ............task24~ (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)}
+# # print(sort_of_value65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)}
 # # def filtration_for_physique(students,height,weight):
 # #     result = {}
 # #     for key,val in students.items():
