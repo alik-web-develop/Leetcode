@@ -18,14 +18,7 @@ end(find_all_paths(value, current_path))
 #     return result
 
 # # Задача: Объединить словари с учетом вложенности
-# def deep_merge_dicts(dict1, dict2):
-#     result = dict1.copy()
-#     for key, value in dict2.items():
-#         if key in result and isinstance(result[key], dict) and isinstance(value, dict):
-#             result[key] = deep_merge_dicts(result[key], value)
-#         else:
-#             result[key] = value
-#     return result
+# def deep_merge_dicts(
 # # ............task63
 # def find_dict_intersections(dict1, dict2):
 #     """
