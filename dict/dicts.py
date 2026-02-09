@@ -16,10 +16,6 @@
 # #         if val[0] >= height and 
 # # print(str_to_int_in_dict(x))
 
-# # ............task50
-# # ............task51
-# # x = {'Math': [88, 89, 90], 'Physics': [92, 94, 89], 'Chemistry': [90, 87, 93],'hello World': [943,3,123]}
-# # x.update({'Math': [89, 90, 91], 
 # #     result = []
 # #     {result.append(i) for i in obj}
 # #     return result
