@@ -16,20 +16,7 @@
 # #         if val[0] >= height and 
 # # print(str_to_int_in_dict(x))
 
-# #     result = []
-# #     {result.append(i) 
-# # ............task57s():
-# #         result[key] 
-#     for k1, v1 in dict1.items():
-#         for k2, v2 in dict2.items():
-#             result.append({k1: v1, k2: v2})
-#     return result
-
-# # Задача: Создать вложенный словарь из плоского
-# def create_nested_dict(flat_dict, separator='_'):
-#     result = {}
-#     for key, value in flat_dict.items():
-#         parts = key.split(separator)
+# #     result = []arator)
 #         current = result
 #         for part in parts[:-1]:
 #             if part not in current:
