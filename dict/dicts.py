@@ -23,9 +23,6 @@
 # #      'f': 100, 'g': 57, 'h': 8, 'i': 100}
 
 
-# # def sort_of_values(obj, number):]
-
-
 # # print(sort_of_values(x, 5))
 
 # # ............task60
