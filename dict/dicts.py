@@ -12,13 +12,7 @@
 # # print(sort_of_value65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)}
 # # def filtration_for_physique(students,
 # # print(str_to_int_in_dict(x))
-
-# #     result  []
-#     result = []
-#     for key, value in dict_obj.items():
-#         current_path = path + [key]
-#         if isinstance(value, dict):
-#             result.extend(find_all_paths(value, current_path))
+end(find_all_paths(value, current_path))
 #         else:
 #             result.append(current_path)
 #     return result
