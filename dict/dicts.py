@@ -19,12 +19,7 @@
 # #     result = []
 # #     {result.append(i) 
 # # ............task57s():
-# #         result[key] = [i for : 35, 'e': 24,
-# #      'f': 100, 'g': 57, 'h': 8, 'i': 100}
-
-# # Задача: Найти все возможные комбинации ключей и значений
-# def find_key_value_combinations(dict1, dict2):
-#     result = []
+# #         result[key] 
 #     for k1, v1 in dict1.items():
 #         for k2, v2 in dict2.items():
 #             result.append({k1: v1, k2: v2})
