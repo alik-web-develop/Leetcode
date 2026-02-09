@@ -18,11 +18,7 @@
 
 # #     result = []
 # #     {result.append(i) 
-# # ............task57
-# # x = {'V': [1, 4, 6, 10], 'VI': [1, 4, 12], 'VII': [1, 3, 8]}
-# # def even_values_in_dict(obj):
-# #     result = {}
-# #     for key,val in obj.items():
+# # ............task57s():
 # #         result[key] = [i for i in val if i % 2 == 0]
 # #     return result
 # # print(even_values_in_dict(x))
