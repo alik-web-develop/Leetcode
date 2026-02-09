@@ -17,16 +17,7 @@
 # # print(str_to_int_in_dict(x))
 
 # #     result = []
-# #     {result.append(i) for i in obj}
-# #     return result
-# # print(find_value_by_keys(x,'Science'))
-# # ............task53
-# # my_dict = {1: 'red', 2: 'green', 3: 'black', 4: 'white', 5: 'black'}
-# # def value_len(obj):
-# #     return {val:len(val) for key,val in obj.items()}
-# # print(value_len(my_dict))
-# # ............task56
-# # x = {1: 'red', 2: 'green', 3: 'black', 4: 'white', 5: 'black'}
+# #     {result.append(i) fo3: 'black', 4: 'white', 5: 'black'}
 # # def dict_to_list(obj):
 # #     return [[key,val] for key,val in obj.items()]
 # # print(dict_to_list(x))
