@@ -10,10 +10,7 @@
 # #                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
 # #     return arr
 # # print(sort_of_value65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)}
-# # def filtration_for_physique(students,height,weight):
-# #     result = {}
-# #     for key,val in students.items():
-# #         if val[0] >= height and 
+# # def filtration_for_physique(students,
 # # print(str_to_int_in_dict(x))
 
 # #     result  []
