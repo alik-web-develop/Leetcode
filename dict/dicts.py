@@ -17,10 +17,7 @@
 # # print(str_to_int_in_dict(x))
 
 # #     result = []
-# #     {result.append(i) fo3: 'black', 4: 'white', 5: 'black'}
-# # def dict_to_list(obj):
-# #     return [[key,val] for key,val in obj.items()]
-# # print(dict_to_list(x))
+# #     {result.append(i) 
 # # ............task57
 # # x = {'V': [1, 4, 6, 10], 'VI': [1, 4, 12], 'VII': [1, 3, 8]}
 # # def even_values_in_dict(obj):
