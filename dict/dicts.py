@@ -20,14 +20,7 @@
 #         current = result
 #         for part in parts[:-1]:
 #             if part not in current:
-#                 current[part] = {}
-#             current = current[part]
-#         current[parts[-1]] = value
-#     return result
-
-# # Задача: Найти все пути в словаре
-# def find_all_paths(dict_obj, path=None):
-#     if path is None:
+#              one:
 #         path = []
 #     result = []
 #     for key, value in dict_obj.items():
