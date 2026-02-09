@@ -22,11 +22,6 @@
 # #         result[key] = [i for : 35, 'e': 24,
 # #      'f': 100, 'g': 57, 'h': 8, 'i': 100}
 
-
-# # print(sort_of_values(x, 5))
-
-# # ............task60
-
 # # Задача: Найти все возможные комбинации ключей и значений
 # def find_key_value_combinations(dict1, dict2):
 #     result = []
