@@ -16,12 +16,7 @@
 # #         if val[0] >= height and 
 # # print(str_to_int_in_dict(x))
 
-# #     result = []arator)
-#         current = result
-#         for part in parts[:-1]:
-#             if part not in current:
-#              one:
-#         path = []
+# #     result  []
 #     result = []
 #     for key, value in dict_obj.items():
 #         current_path = path + [key]
