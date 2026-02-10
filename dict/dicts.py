@@ -25,18 +25,4 @@
         
 #     Returns:es
 #     test_dict = {
-#         'a': 1,
-#         'b': 2,
-#         'c': 1,
-#         'd': 3,plicates))
-
-#     # Пример для find_dict_intersections
-#     dict1 = {
-#         'a': 1,
-#         'b': 2,
-#         'c': 3,
-#         'd': 4,
-#         'e':5
-#     }
-#     print("\nПересечения между словарями:")
-#     print(find_dict_intersections(dict1, dict2))
+#         'a': 1,\
