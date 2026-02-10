@@ -43,13 +43,7 @@
 #     print("Комбинации ключей и значений:")
 #     print(find_key_value_combinations(dict1, dict2))
     
-#     # Пример для create_nest
-#     print(find_all_paths(nested_dict))
-    
-#     # Пример для deep_merge_dicts
-#     dict1 = {'a': 1, 'b': {'c': 2, 'd': 3}}
-#     dict2 = {'b': {'e': 4}, 'f': 5}
-#     print("\nОбъединение словарей:")
+#     # Пример для cre\варей:")
 #     print(deep_merge_dicts(dict1, dict2))
 
 #     # Пример для find_most_common_values
