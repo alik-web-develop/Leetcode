@@ -36,15 +36,6 @@
 #     common_values = list(set(dict1.values()) & set(dict2.values()))
     
 #     # Находим пары ключ-значение, которые совпадают в обоих словарях
-#     common_pairs = [(key, dict1[key]) for key in common_keys if dict1[key] == dict2[key]]
-    
-#     return {
-#         'common_keys': common_keys,
-#         'common_values': common_values,
-#         'common_key_value_pairs': common_pairs
-#     }
-
-# # Примеры использования:
 # if __name__ == "__main__":
 #     # Пример для find_key_value_combinations
 #     dict1 = {'a': 1, 'b': 2}
