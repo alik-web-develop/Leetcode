@@ -43,14 +43,7 @@
 #     print("Комбинации ключей и значений:")
 #     print(find_key_value_combinations(dict1, dict2))
     
-#     # Пример для create_nested_dict
-#     flat_dict = {'a_b_c': 1, 'a_b_d': 2, 'x_y': 3}
-#     print("\nВложенный словарь:")
-#     print(create_nested_dict(flat_dict))
-    
-#     # Пример для find_all_paths
-#     nested_dict = {'a': {'b': {'c': 1}, 'd': 2}, 'x': {'y': 3}}
-#     print("\nВсе пути в словаре:")
+#     # Пример для create_nest
 #     print(find_all_paths(nested_dict))
     
 #     # Пример для deep_merge_dicts
