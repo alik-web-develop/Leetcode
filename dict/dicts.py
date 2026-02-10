@@ -28,24 +28,7 @@
 #         'a': 1,
 #         'b': 2,
 #         'c': 1,
-#         'd': 3,
-#         'e': 2,
-#     }
-#     print("\nНаиболее часто встречающиеся значения:")
-#     print(find_most_common_values(test_dict))
-
-#     # Пример для find_duplicate_values
-#     test_dict_duplicates = {
-#         'a': 1,
-#         'b': 2,
-#         'c': 1,
-#         'd': 3,
-#         'e': 2,
-#         'f': 1,
-#         'g': 4
-#     }
-#     print("\nДубликаты значений и их ключи:")
-#     print(find_duplicate_values(test_dict_duplicates))
+#         'd': 3,plicates))
 
 #     # Пример для find_dict_intersections
 #     dict1 = {
