@@ -30,20 +30,7 @@
 #             - common_key_value_pairs: список пар (ключ, значение), которые совпадают в обоих словарях
 #     """
 #     # Находим общие ключи
-#     common_keys = list(set(dict1.keys()) & set(dict2.keys()))
-    
-#     # Находим общие значения
-#     common_values = list(set(dict1.values()) & set(dict2.values()))
-    
-#     # Находим пары ключ-значение, которые совпадают в обоих словарях
-# if __name__ == "__main__":
-#     # Пример для find_key_value_combinations
-#     dict1 = {'a': 1, 'b': 2}
-#     dict2 = {'x': 10, 'y': 20}
-#     print("Комбинации ключей и значений:")
-#     print(find_key_value_combinations(dict1, dict2))
-    
-#     # Пример для cre\варей:")
+#     common_keys = list(s
 #     print(deep_merge_dicts(dict1, dict2))
 
 #     # Пример для find_most_common_values
