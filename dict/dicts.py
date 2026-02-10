@@ -23,17 +23,7 @@
 #         dict1 (dict): Первый словарь
 #         dict2 (dict): Второй словарь
         
-#     Returns:
-#         dict: Словарь с результатами пересечений, содержащий:
-#             - common_keys: список общих ключей
-#             - common_values: список общих значений
-#             - common_key_value_pairs: список пар (ключ, значение), которые совпадают в обоих словарях
-#     """
-#     # Находим общие ключи
-#     common_keys = list(s
-#     print(deep_merge_dicts(dict1, dict2))
-
-#     # Пример для find_most_common_values
+#     Returns:es
 #     test_dict = {
 #         'a': 1,
 #         'b': 2,
