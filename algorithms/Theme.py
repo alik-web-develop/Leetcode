@@ -632,11 +632,3 @@
 # # # #             max_len = P[i]
 # # # #             center_index = i
     
-# # # #     # Восстанавливаем самую длинную палиндромную подстроку
-# # # #     start_index = (center_index - max_len) // 2
-# # # #     return text[start_index : start_index + max_len]
-
-# # # # # Пример использования:
-# # # # # print(manacher("babad")) # Выведет: "bab" или "aba"
-# # # # # print(manacher("cbbd"))  # Выведет: "bb"
-
