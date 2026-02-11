@@ -625,10 +625,4 @@
 # # # #             R = i + P[i]
     
 # # # #     # Находим максимальный радиус и его центр
-# # # #     max_len = 0
-# # # #     center_index = 0
-# # # #     for i in range(n):
-# # # #         if P[i] > max_len:
-# # # #             max_len = P[i]
-# # # #             center_index = i
-    
+# # # #     max_len = 
