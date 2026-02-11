@@ -12,10 +12,6 @@
 #h)
 #     return resultду двумя словарями по ключам и значениям.
     
-#     Args:
-#         dict1 (dict): Первый словарь
-#         dict2 (dict): Второй словарь
-        
 #     Returns:es
 #     test_dict = {
 #         'a': 1,\
