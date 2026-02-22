@@ -558,9 +558,4 @@
 
 # # # #             for pattern in node['__output__']:
 # # # #                 results.append((i - len(pattern) + 1, pattern))
-# # # #         return results
-
-# # # # # Пример использования:
-# # # # # patterns = ["he", "she", "his", "hers"]
-# # # # # text = "ahishers"
-# # # # # a
+# # # #     
