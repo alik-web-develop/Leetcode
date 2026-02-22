@@ -563,12 +563,4 @@
 # # # # # Пример использования:
 # # # # # patterns = ["he", "she", "his", "hers"]
 # # # # # text = "ahishers"
-# # # # # ac_automaton = AhoCorasick(patterns)
-# # # # # print(ac_automaton.search(text)) # Выведет: [(1, 'his'), (3, 'he'), (4, 'she'), (4, 'hers')]
-
-
-# # # # # Z-Algorithm (для поиска всех вхождений шаблона в текст)
-# # # # def z_algorithm(s):
-# # # #     n = len(s)
-# # # #     z = [0] * n
-# # # #   
+# # # # # a
