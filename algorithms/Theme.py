@@ -592,10 +592,3 @@
 # # # # #         occurrences.append(i - (len(pattern) + 1))
 # # # # # print(occurrences) # Выведет: [0, 4, 11]
 
-
-# # # # # Manacher's Algorithm (для нахождения самой длинной палиндромной подстроки)
-# # # # def manacher(text):
-# # # #     # Преобразуем строку для обработки четных и нечетных палиндромов
-# # # #     # Например, "aba" -> "#a#b#a#", "abba" -> "#a#b#b#a#"
-# # # #     processed_text = '#' + '#'.join(text) + '#'
-# # # #  
