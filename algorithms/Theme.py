@@ -577,11 +577,4 @@
 # # # #             z[i] = min(r - i + 1, z[i - l])
 # # # #         while i + z[i] < n and s[z[i]] == s[i + z[i]]:
 # # # #             z[i] += 1
-# # # #         if i + z[i] - 1 > r:
-# # # #             l, r = i, i + z[i] - 1
-# # # #     return z
-
-# # # # # Пример использования:
-# # # # # text = "aabxaabxcaabxaabx"
-# # # # # pattern = "aabx"
-# # # #
+# # # #         if i + z[``
