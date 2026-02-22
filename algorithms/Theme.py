@@ -584,11 +584,4 @@
 # # # # # Пример использования:
 # # # # # text = "aabxaabxcaabxaabx"
 # # # # # pattern = "aabx"
-# # # # # combined = pattern + "$" + text # Используем уникальный разделитель
-# # # # # z_values = z_algorithm(combined)
-# # # # # occurrences = []
-# # # # # for i in range(len(pattern) + 1, len(combined)):
-# # # # #     if z_values[i] == len(pattern):
-# # # # #         occurrences.append(i - (len(pattern) + 1))
-# # # # # print(occurrences) # Выведет: [0, 4, 11]
-
+# # # #
