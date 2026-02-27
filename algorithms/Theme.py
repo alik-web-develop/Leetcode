@@ -538,8 +538,4 @@
 # # # #                 if failure_node and char in failure_node['__children__']:
 # # # #                     next_node['__fail__'] = failure_node['__children__'][char]
 # # # #                 else:
-# # # #                     next_node['__fail__'] = self.trie # Если нет совпадения, то на корень
-
-# # # #                 # Добавляем output из failure link
-# # # #                 next_node['__output__'].extend(next_node['__fail__']['__output__'])
-# # # #                 queue.
+# # # #                     ne
