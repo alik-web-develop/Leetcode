@@ -529,13 +529,3 @@
 # # # #             queue.append(child)
 
 # # # #         while queue:
-# # # #             current_node = queue.popleft()
-# # # #             for char, next_node in current_node['__children__'].items():
-# # # #                 failure_node = current_node['__fail__']
-# # # #                 while failure_node and char not in failure_node['__children__']:
-# # # #                     failure_node = failure_node['__fail__']
-                
-# # # #                 if failure_node and char in failure_node['__children__']:
-# # # #                     next_node['__fail__'] = failure_node['__children__'][char]
-# # # #                 else:
-# # # #                     ne
