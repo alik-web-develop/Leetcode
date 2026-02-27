@@ -551,11 +551,4 @@
 # # # #             while node and char not in node['__children__']:
 # # # #                 node = node['__fail__']
             
-# # # #             if node and char in node['__children__']:
-# # # #                 node = node['__children__'][char]
-# # # #             else:
-# # # #                 node = self.trie # Если нет совпадения, то на корень
-
-# # # #             for pattern in node['__output__']:
-# # # #                 results.append((i - len(pattern) + 1, pattern))
 # # # #     
