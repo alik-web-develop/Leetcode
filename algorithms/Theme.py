@@ -542,13 +542,4 @@
 
 # # # #                 # Добавляем output из failure link
 # # # #                 next_node['__output__'].extend(next_node['__fail__']['__output__'])
-# # # #                 queue.append(next_node)
-
-# # # #     def search(self, text):
-# # # #         results = []
-# # # #         node = self.trie
-# # # #         for i, char in enumerate(text):
-# # # #             while node and char not in node['__children__']:
-# # # #                 node = node['__fail__']
-            
-# # # #     
+# # # #                 queue.
