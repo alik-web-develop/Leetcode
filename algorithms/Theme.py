@@ -508,16 +508,4 @@
 # # # # class AhoCorasick:
 # # # #     def __init__(self, patterns):
 # # # #         self.trie = {'__children__': {}, '__output__': [], '__fail__': None}
-# # # #         self._build_trie(patterns)
-# # # #         self._build_failure_links()
-
-# # # #     def _build_trie(self, patterns):
-# # # #         for pattern in patterns:
-# # # #             node = self.trie
-# # # #             for char in pattern:
-# # # #                 if char not in node['__children__']:
-# # # #                     node['__children__'][char] = {'__children__': {}, '__output__': [], '__fail__': None}
-# # # #                 node = node['__children__'][char]
-# # # #             node['__output__'].append(pattern)
-
-# # # #     def _build_failu
+# # # #         self._build_
