@@ -520,12 +520,4 @@
 # # # #                 node = node['__children__'][char]
 # # # #             node['__output__'].append(pattern)
 
-# # # #     def _build_failure_links(self):
-# # # #         queue = deque()
-# # # #         # Корень имеет failure link на себя, но для удобства установим на None
-# # # #         # Его потомки имеют failure link на корень
-# # # #         for char, child in self.trie['__children__'].items():
-# # # #             child['__fail__'] = self.trie
-# # # #             queue.append(child)
-
-# # # #         while queue:
+# # # #     def _build_failu
