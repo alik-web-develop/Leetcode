@@ -501,11 +501,3 @@
 # # # # # # capacity = 50
 # # # # # # print(knapsack(values, weights, capacity)) # Выведет: 220 (взяты предметы со стоимостью 100 и 120)
 
-
-# # # # # Aho-Corasick Algorithm (для поиска множества шаблонов в тексте)
-# # # # from collections import deque
-
-# # # # class AhoCorasick:
-# # # #     def __init__(self, patterns):
-# # # #         self.trie = {'__children__': {}, '__output__': [], '__fail__': None}
-# # # #         self._build_
