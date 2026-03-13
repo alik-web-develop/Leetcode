@@ -468,7 +468,4 @@
 # # # # #         j = len(tails)
 # # # # #         while i < j:
 # # # # #             m = (i + j) // 2
-# # # # #             if tails[m] < num:
-# # # # #                 i = m + 1
-# # # # #             else:
-# # 
+#
