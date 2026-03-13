@@ -481,8 +481,3 @@
 # # # # # # Пример использования:
 # # # # # # print(longest_increasing_subsequence([10, 9, 2, 5, 3, 7, 101, 18])) # Выведет: 4 (например, [2, 3, 7, 18] или [2, 5, 7, 18])
 
-
-# # # # # # Knapsack Problem (0/1 Knapsack) (решение задачи о рюкзаке)
-# # # # # def knapsack(values, weights, capacity):
-# # # # #     n = len(values)
-# # # # #  
