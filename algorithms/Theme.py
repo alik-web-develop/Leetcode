@@ -464,8 +464,4 @@
 
 # # # # #     tails = []
 # # # # #     for num in arr:
-# # # # #         i = 0
-# # # # #         j = len(tails)
-# # # # #         while i < j:
-# # # # #             m = (i + j) // 2
-#
+# # # # 
