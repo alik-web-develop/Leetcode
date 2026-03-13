@@ -438,9 +438,4 @@
 # # # # #             if distances[u] != float('inf') and distances[u] + weight < distances[v]:
 # # # # #                 distances[v] = distances[u] + weight
 
-# # # # #     # Проверка на отрицательные циклы
-# # # # #     for u, v, weight in edges:
-# # # # #         if distances[u] != float('inf') and distances[u] + weight < distances[v]:
-# # # # #             return {} # Обнаружен отрицательный цикл
-
-# # # # # 
+# # # 
