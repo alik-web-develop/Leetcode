@@ -457,7 +457,4 @@
 # # # # # # print(bellman_ford(edges, num_vertices, start_node)) # Выведет: {0: 0, 1: -1, 2: 2, 3: -2, 4: 1}
 
 
-# # # # # # Longest Increasing Subsequence (LIS) (для нахождения самой длинной возрастающей подпоследовательности)
-# # # # # def longest_increasing_subsequence(arr):
-# # # # #     if not arr:
-# #
+# # # # #
