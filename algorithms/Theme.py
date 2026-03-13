@@ -453,8 +453,4 @@
 # # # # # #     (4, 3, -3)
 # # # # # # ]
 # # # # # # num_vertices = 5
-# # # # # # start_node = 0
-# # # # # # print(bellman_ford(edges, num_vertices, start_node)) # Выведет: {0: 0, 1: -1, 2: 2, 3: -2, 4: 1}
-
-
-# # # # #
+# # # # # # start
