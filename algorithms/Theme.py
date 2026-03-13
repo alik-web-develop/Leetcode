@@ -427,7 +427,4 @@
 # # # # # # }
 # # # # # # print(prim(graph, 'A')) # Выведет: [('A', 'B', 1), ('B', 'C', 2), ('C', 'D', 1)]
 
-
-# # # # # # Bellman-Ford Algorithm (для поиска кратчайшего пути с отрицательными весами)
-# # # # # def bellman_ford(edges, num_vertices, start_node):
-# # # # #    
+#    
