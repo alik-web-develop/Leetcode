@@ -434,8 +434,4 @@
 # # # # #     distances[start_node] = 0
 
 # # # # #     for _ in range(num_vertices - 1):
-# # # # #         for u, v, weight in edges:
-# # # # #             if distances[u] != float('inf') and distances[u] + weight < distances[v]:
-# # # # #                 distances[v] = distances[u] + weight
-
-# # # 
+# # # # #    
