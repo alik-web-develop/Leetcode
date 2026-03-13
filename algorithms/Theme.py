@@ -430,8 +430,4 @@
 
 # # # # # # Bellman-Ford Algorithm (для поиска кратчайшего пути с отрицательными весами)
 # # # # # def bellman_ford(edges, num_vertices, start_node):
-# # # # #     distances = {i: float('inf') for i in range(num_vertices)}
-# # # # #     distances[start_node] = 0
-
-# # # # #     for _ in range(num_vertices - 1):
 # # # # #    
