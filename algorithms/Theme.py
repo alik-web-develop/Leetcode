@@ -460,8 +460,4 @@
 # # # # # # Longest Increasing Subsequence (LIS) (для нахождения самой длинной возрастающей подпоследовательности)
 # # # # # def longest_increasing_subsequence(arr):
 # # # # #     if not arr:
-# # # # #         return 0
-
-# # # # #     tails = []
-# # # # #     for num in arr:
-# # # # 
+# #
