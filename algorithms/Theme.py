@@ -471,9 +471,4 @@
 # # # # #             if tails[m] < num:
 # # # # #                 i = m + 1
 # # # # #             else:
-# # # # #                 j = m
-# # # # #         if i == len(tails):
-# # # # #             tails.append(num)
-# # # # #         else:
-# # # # #             tails[i] = num
-# # # # #     return len(tails)
+# # 
