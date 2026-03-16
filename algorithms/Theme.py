@@ -403,10 +403,4 @@
 # # # # #     priority_queue = [(0, start_node, None)]
 
 # # # # #     while priority_queue:
-# # # # #         weight, current_node, from_node = heapq.heappop(priority_queue)
-
-# # # # #         if current_node in visited:
-# # # # #             continue
-
-# # # # #         visited.add(current_node)
-# 
+# # # #
