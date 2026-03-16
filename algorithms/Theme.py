@@ -379,10 +379,4 @@
 # # # # #     ds = DisjointSet(vertices)
 
 # # # # #     for weight, u, v in edges:
-# # # # #         if ds.union(u, v):
-# # # # #             minimum_spanning_tree.append((u, v, weight))
-# # # # #     return minimum_spanning_tree
-
-# # # # # # Пример использования:
-# # # # # # graph = {
-# ## #
+# # # #
