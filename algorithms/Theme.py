@@ -396,11 +396,4 @@
 # # # # # # Prim's Algorithm (для нахождения минимального остовного дерева)
 # # # # # import heapq
 
-# # # # # def prim(graph, start_node):
-# # # # #     min_spanning_tree = []
-# # # # #     visited = set()
-# # # # #     # (weight, from_node, to_node)
-# # # # #     priority_queue = [(0, start_node, None)]
-
-# # # # #     while priority_queue:
-# # # #
+#
