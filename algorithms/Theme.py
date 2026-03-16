@@ -415,16 +415,3 @@
 # # # # #         for neighbor, edge_weight in graph[current_node].items():
 # # # # #             if neighbor not in visited:
 # # # # #                 heapq.heappush(priority_queue, (edge_weight, neighbor, current_node))
-
-# # # # #     return min_spanning_tree
-
-# # # # # # Пример использования:
-# # # # # # graph = {
-# # # # # #     'A': {'B': 1, 'C': 4},
-# # # # # #     'B': {'A': 1, 'C': 2, 'D': 5},
-# # # # # #     'C': {'A': 4, 'B': 2, 'D': 1},
-# # # # # #     'D': {'B': 5, 'C': 1}
-# # # # # # }
-# # # # # # print(prim(graph, 'A')) # Выведет: [('A', 'B', 1), ('B', 'C', 2), ('C', 'D', 1)]
-
-#    
