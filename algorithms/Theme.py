@@ -409,9 +409,4 @@
 # # # # #             continue
 
 # # # # #         visited.add(current_node)
-# # # # #         if from_node is not None:
-# # # # #             min_spanning_tree.append((from_node, current_node, weight))
-
-# # # # #         for neighbor, edge_weight in graph[current_node].items():
-# # # # #             if neighbor not in visited:
-# # # # #                 heapq.heappush(priority_queue, (edge_weight, neighbor, current_node))
+# 
