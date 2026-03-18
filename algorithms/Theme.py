@@ -370,13 +370,4 @@
 # # # # # def kruskal(graph):
 # # # # #     minimum_spanning_tree = []
 # # # # #     edges = []
-# # # # #     for u in graph:
-# # # # #         for v, weight in graph[u].items():
-# # # # #             edges.append((weight, u, v))
-# # # # #     edges.sort()
-
-# # # # #     vertices = list(graph.keys())
-# # # # #     ds = DisjointSet(vertices)
-
-# # # # #     for weight, u, v in edges:
-# # # #
+# #
