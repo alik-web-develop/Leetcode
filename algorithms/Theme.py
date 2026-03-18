@@ -364,10 +364,4 @@
 # # # # #             else:
 # # # # #                 self.parent[root2] = root1
 # # # # #                 self.rank[root1] += 1
-# # # # #             return True
-# # # # #         return False
-
-# # # # # def kruskal(graph):
-# # # # #     minimum_spanning_tree = []
-# # # # #     edges = []
-# #
+# # # # # 
