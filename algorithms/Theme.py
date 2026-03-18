@@ -352,8 +352,3 @@
 # # # # #             return item
 # # # # #         self.parent[item] = self.find(self.parent[item])
 # # # # #         return self.parent[item]
-
-# # # # #     def union(self, set1, set2):
-# # # # #         root1 = self.find(set1)
-# # # # #         root2 = self.find(set2)
-# # # # #         if root1 != root2:
