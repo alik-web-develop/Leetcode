@@ -316,6 +316,3 @@
 # # # # # # # print(lcs(X, Y)) # Выведет: 4 (GTAB)
 
 # # # # # # # Floyd-Warshall Algorithm (для нахождения кратчайших путей между всеми парами вершин в взвешенном ориентированном графе)
-# # # # # # def floyd_warshall(graph):
-# # # # # #     num_vertices = len(graph)
-# # # # # #     dist = list(map(lambda i: list(map(lambda j: j, i)), graph))
