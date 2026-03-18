@@ -341,10 +341,3 @@
 # # # # # # # #  [5, 3, 2, 0]]
 
 # # # # # # # Kruskal's Algorithm (для нахождения минимального остовного дерева)
-
-# # # # # class DisjointSet:
-# # # # #     def __init__(self, vertices):
-# # # # #         self.parent = {v: v for v in vertices}
-# # # # #         self.rank = {v: 0 for v in vertices}
-
-# # # # #     def find(self, item):
