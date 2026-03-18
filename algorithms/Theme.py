@@ -348,7 +348,3 @@
 # # # # #         self.rank = {v: 0 for v in vertices}
 
 # # # # #     def find(self, item):
-# # # # #         if self.parent[item] == item:
-# # # # #             return item
-# # # # #         self.parent[item] = self.find(self.parent[item])
-# # # # #         return self.parent[item]
