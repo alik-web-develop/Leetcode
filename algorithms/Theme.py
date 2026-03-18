@@ -357,9 +357,3 @@
 # # # # #         root1 = self.find(set1)
 # # # # #         root2 = self.find(set2)
 # # # # #         if root1 != root2:
-# # # # #             if self.rank[root1] < self.rank[root2]:
-# # # # #                 self.parent[root1] = root2
-# # # # #             elif self.rank[root1] > self.rank[root2]:
-# # # # #                 self.parent[root2] = root1
-# # # # #             else:
-# \
