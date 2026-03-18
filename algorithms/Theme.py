@@ -362,6 +362,4 @@
 # # # # #             elif self.rank[root1] > self.rank[root2]:
 # # # # #                 self.parent[root2] = root1
 # # # # #             else:
-# # # # #                 self.parent[root2] = root1
-# # # # #                 self.rank[root1] += 1
-# # # # # 
+# \
