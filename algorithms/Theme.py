@@ -264,7 +264,3 @@
 # # # # # #     in_degree = defaultdict(int)
 # # # # # #     for u in graph:
 # # # # # #         for v in graph[u]:
-# # # # # #             in_degree[v] += 1
-# # # # # #     
-# # # # # #     queue = deque([u for u in graph if in_degree[u] == 0])
-# # # # # #     result = []
