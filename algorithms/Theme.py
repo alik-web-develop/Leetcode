@@ -291,14 +291,3 @@
 # # # # # # #     'D': ['E'],
 # # # # # # #     'E': []
 # # # # # # # }
-# # # # # # # print(topological_sort(graph)) # Выведет: ['A', 'B', 'C', 'D', 'E'] или ['B', 'A', 'C', 'D', 'E']
-
-# # # # # # # Longest Common Subsequence (LCS) (для нахождения самой длинной общей подпоследовательности)
-# # # # # # def lcs(X, Y):
-# # # # # #     m = len(X)
-# # # # # #     n = len(Y)
-
-# # # # # #     L = [[0 for _ in range(n + 1)] for _ in range(m + 1)]
-
-# # # # # #     for i in range(m + 1):
-# # #
