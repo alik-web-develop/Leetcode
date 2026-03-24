@@ -275,10 +275,4 @@
 # # # # # #         for v in graph[u]:
 # # # # # #             in_degree[v] -= 1
 # # # # # #             if in_degree[v] == 0:
-# # # # # #                 queue.append(v)
-# # # # # #     
-# # # # # #     # Проверяем на цикл (если не все вершины были включены)
-# # # # # #     if len(result) == len(graph):
-# # # # # #         return result
-# # # # # #     else:
-# # 
+#
