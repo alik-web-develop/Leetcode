@@ -184,8 +184,3 @@
 
 # # # # # # # # BFS (Breadth-First Search) for a graph (represented as an adjacency list)
 # # # # # # # from collections import deque
-
-# # # # # # # def bfs(graph, start_node):
-# # # # # # #     visited = set()
-# # # # # # #     queue = deque([start_node])
-# # # # # # #     visited.add(start_node)
