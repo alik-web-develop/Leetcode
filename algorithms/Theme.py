@@ -215,7 +215,3 @@
 
 # # # # # # def dijkstra(graph, start):
 # # # # # #     distances = {node: float('inf') for node in graph}
-# # # # # #     distances[start] = 0
-# # # # # #     priority_queue = [(0, start)] # (distance, node)
-
-# # # # # #     while priority_queue:
