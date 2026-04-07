@@ -1,3 +1,4 @@
+#     result = 0
 # # # # # # # # l = ["Hello", "abc","test","a","ab","world"]
 
 # # # # # # # # def bubble_sort(u_ns):
@@ -184,3 +185,54 @@
 
 # # # # # # # # BFS (Breadth-First Search) for a graph (represented as an adjacency list)
 # # # # # # # from collections import deque
+# nums = [1,2,3,4,5,6]
+# def all_sum(b):
+#     for i in b:
+#         result += i
+#     return result 
+# print(all_sum(nums))
+# =================
+# nums = [12,1,2,3,4,5,2,4,1,5]
+# def max_num(numbers):
+#     result = 0
+#     for i in numbers:
+#         if i > result:
+#             result = i
+#     return result
+# print(max_num(nums))
+# =================
+# word = "abb"
+# def check_palind(checker):
+#     if checker == checker[::-1]:
+#         return True
+#     else:
+#         return False
+# print(check_palind(word))
+# =================
+# s = "aba"
+# result = {char: 0 for char in s}
+# for i in s:
+#     if i in result:
+#         result[i] = result[i] + 1
+# print(s,"→",result)
+# =================
+# x = [1,2,3,4,5,6,7,8]
+# def deliable(nums):
+#     result = []
+#     for i in nums:
+#         if i % 2 == 0:
+#             result.append(i)
+#     return result
+# print(deliable(x))
+
+# =================
+# x = ["h","e,","l","l","o"]
+# def undouble(word):
+#     result = []
+#     for i in word:
+#         if i not in result:
+#             result.append(i)
+#     return result
+# print(undouble(x))
+# =================
+# next is sort words by bubble sort
