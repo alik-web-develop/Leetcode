@@ -252,9 +252,3 @@
 # # # # # #         current_max = max(arr[i], current_max + arr[i])
 # # # # # #         max_so_far = max(max_so_far, current_max)
 
-# # # # # #     return max_so_far
-
-# # # # # # # Пример использования:
-# # # # # # # print(kadane([-2, 1, -3, 4, -1, 2, 1, -5, 4]))  # Выведет: 6 (подмассив [4, -1, 2, 1])
-
-# # # # # # # Topological Sort (для ориентированных ациклических графов)
