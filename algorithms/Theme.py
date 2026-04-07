@@ -258,9 +258,3 @@
 # # # # # # # print(kadane([-2, 1, -3, 4, -1, 2, 1, -5, 4]))  # Выведет: 6 (подмассив [4, -1, 2, 1])
 
 # # # # # # # Topological Sort (для ориентированных ациклических графов)
-# # # # # # from collections import defaultdict, deque
-
-# # # # # # def topological_sort(graph):
-# # # # # #     in_degree = defaultdict(int)
-# # # # # #     for u in graph:
-# # # # # #         for v in graph[u]:
