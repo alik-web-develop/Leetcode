@@ -232,9 +232,4 @@
 # # # # # #             if distance < distances[neighbor]:
 # # # # # #                 distances[neighbor] = distance
 # # # # # #                 heapq.heappush(priority_queue, (distance, neighbor))
-# # # # # #     return distances
-
-# # # # # # # Пример использования:
-# # # # # # # graph = {
-# # # # # # #     'A': {'B': 1, 'C': 4},
-# #
+# # =
