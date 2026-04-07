@@ -200,12 +200,3 @@
 # # # # # # #                 queue.append(neighbor)
 # # # # # # #     return result
 
-# # # # # # # # DFS (Depth-First Search) for a graph (represented as an adjacency list)
-# # # # # # # def dfs(graph, start_node, visited=None, result=None):
-# # # # # # #     if visited is None:
-# # # # # # #         visited = set()
-# # # # # # #     if result is None:
-# # # # # # #         result = []
-
-# # # # # # #     visited.add(start_node)
-# # # # # # #     result.append(start_node)
