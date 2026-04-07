@@ -219,11 +219,3 @@
 # # # # # #     priority_queue = [(0, start)] # (distance, node)
 
 # # # # # #     while priority_queue:
-# # # # # #         current_distance, current_node = heapq.heappop(priority_queue)
-
-# # # # # #         # Если мы уже нашли более короткий путь
-# # # # # #         if current_distance > distances[current_node]:
-# # # # # #             continue
-
-# # # # # #         for neighbor, weight in graph[current_node].items():
-# # # # # #             distance = current_distance + weight
