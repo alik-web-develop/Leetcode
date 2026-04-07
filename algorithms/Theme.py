@@ -128,9 +128,6 @@
 # # # # # # # print(bank_balance)
 
 # # # # # # # bank_balance.invest(30000.00, account_id, pin)
-
-# # # # # # # Binary Search
-# # # # # # # def binary_search(arr, target):
 # # # # # # #     left, right = 0, len(arr) - 1
 # # # # # # #         if arr[mid] == target:
 # # # # # # #             return mid
