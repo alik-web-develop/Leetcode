@@ -138,8 +138,6 @@
 # # # # # # #             return mid
 # # # # # # #         elif arr[mid] < target:
 # # # # # # #             left = mid + 1
-# # # # # # #         else:
-# # # # # # #             right = mid - 1
 # # # # # # #     return -1
 
 # # # # # # # # Quick Sort
