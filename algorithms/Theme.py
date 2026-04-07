@@ -155,8 +155,6 @@
 # # # # # # # # Merge Sort
 # # # # # # # def merge_sort(arr):
 # # # # # # #     if len(arr) <= 1:
-# # # # # # #         return arr
-# # # # # # #     right_half = arr[mid:]
 
 # # # # # # #     left_half = merge_sort(left_half)
 # # # # # # #     right_half = merge_sort(right_half)
