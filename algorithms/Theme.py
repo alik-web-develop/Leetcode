@@ -227,9 +227,3 @@
 
 # # # # # #         for neighbor, weight in graph[current_node].items():
 # # # # # #             distance = current_distance + weight
-
-# # # # # #             # Если найден более короткий путь
-# # # # # #             if distance < distances[neighbor]:
-# # # # # #                 distances[neighbor] = distance
-# # # # # #                 heapq.heappush(priority_queue, (distance, neighbor))
-# # =
