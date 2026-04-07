@@ -189,8 +189,3 @@
 # # # # # # #     visited = set()
 # # # # # # #     queue = deque([start_node])
 # # # # # # #     visited.add(start_node)
-
-# # # # # # #     result = []
-# # # # # # #     while queue:
-# # # # # # #         node = queue.popleft()
-# # #
