@@ -218,3 +218,22 @@
 # print(undouble(x))
 # =================
 # next is sort words by bubble sort
+
+# x = [1,2,2,3,3,4,5]
+# def del_duble(cont):
+#     result = []
+#     for i in cont:
+#         if i not in result:
+#             result.append(i)
+#     return result
+# print(del_duble(x))
+# ========================
+# надо переделать по нормальному а не как конч
+# x = [1,4,6,5,8,0,9,7,10]
+# def bubble_sort(nums):
+#     for i in range(len(nums)-1):
+#         for y in range(len(nums)-1):
+#             if nums[y] > nums[y+1]:
+#                 nums[y],nums[y+1] = nums[y+1],nums[y]
+#     return nums[-2 ]
+# print(bubble_sort(x))
