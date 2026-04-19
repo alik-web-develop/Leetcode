@@ -237,3 +237,45 @@
 #                 nums[y],nums[y+1] = nums[y+1],nums[y]
 #     return nums[-2 ]
 # print(bubble_sort(x))
+
+# x = ["h","e","l","l","o"]
+# def turn_over(cont):
+#     result = []
+#     for i in range(len(cont)-1,-1,-1):
+#         result.append(cont[i])
+#     return result
+# print(turn_over(x))
+# =======================
+    # s = "xuyxuyxuyy" 
+    # def more_often(cont):
+    #     result = {char: 0 for char in cont}
+    #     for i in cont:
+    #         if i in result:
+    #             result[i] = result[i] + 1
+    #     return result   
+    # def find_max(cont):
+    #     result = {"s":0}
+    #     for i,y in cont.items():
+    #         n = int(str(list(result.values()))[1])
+    #         if n < y:
+    #             result = {f"{i}":y}
+    #     return result
+    # print(find_max(more_often(s)))
+# x = "aab"
+# y = "ab"
+# def more_often(cont):
+#     result = {char: 0 for char in cont}
+#     for i in cont:
+#         if i in result:
+#             result[i] = result[i] + 1
+#     return result 
+# def anagromma(word1,word2):
+#     if more_often(word1) == more_often(word2):
+#         return True
+#     else:
+#         return False
+# print(anagromma(x,y))
+# from collections import Counter
+# x = "xuy"
+# y = "yux"
+# print(type(Counter(x)))
