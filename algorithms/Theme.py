@@ -275,7 +275,7 @@
 #     else:
 #         return False
 # print(anagromma(x,y))
-# from collections import Counter
-# x = "xuy"
-# y = "yux"
-# print(type(Counter(x)))
+from collections import Counter
+x = "xuy"
+y = "yux"
+print(type(Counter(x)))
