@@ -274,8 +274,8 @@
 # #         return True
 # #     else:
 # #         return False
-# # print(anagromma(x,y))
-# from collections import Counter
-# x = "xuy"
-# y = "yux"
-# print(type(Counter(x)))
+# print(anagromma(x,y))
+from collections import Counter
+x = "xuy"
+y = "yux"
+print(type(Counter(x)))
