@@ -278,4 +278,4 @@
 # from collections import Counter
 # x = "xuy"
 # y = "yux"
-# print(type(Counter(x)))
+print(type(Counter(x)))
