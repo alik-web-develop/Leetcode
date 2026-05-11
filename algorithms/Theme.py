@@ -281,8 +281,6 @@
 # print(type(Counter(x)))
 
 
-
-
 # num1 = [5,4,3]
 # num2 = [5,6,4]
 # def two_num(l1,l2):
