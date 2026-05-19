@@ -287,16 +287,16 @@
 #     result = []
 #     duty = 0
 #     for i in range(len(l1)):
-        n = l1[i]+l2[i]+duty
-        if n >= 10:
-            duty = 0
-            duty += 1
-            n -= 10
-            result.append(n)
-        else:
-            result.append(n)
-            duty = 0
-        print(duty)
-        print(n)
-    return result
-print(two_num(num1,num2))
+#         n = l1[i]+l2[i]+duty
+#         if n >= 10:
+#             duty = 0
+#             duty += 1
+#             n -= 10
+#             result.append(n)
+#         else:
+#             result.append(n)
+#             duty = 0
+#         print(duty)
+#         print(n)
+#     return result
+# print(two_num(num1,num2))
