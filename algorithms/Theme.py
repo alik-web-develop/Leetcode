@@ -287,4 +287,4 @@
 #     result = []
 #     duty = 0
 #     for i in range(len(l1)):
-# c
+# cd
